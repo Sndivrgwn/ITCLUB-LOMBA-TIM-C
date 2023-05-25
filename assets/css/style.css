@@ -53,8 +53,8 @@ font-family: 'Raleway', sans-serif;
 
 .navbar button {
   height: 50px;
-  border: 1px solid #000;
   color: #fff;
+  border: none;
   background-color: #eaa51b;
 }
 

@@ -7,20 +7,28 @@
        padding-bottom: 2.5rem;
     }
 
+    footer .footer__1 h1 {
+        font-size: 32px;
+    }
+
     footer .footer__2 .subfooter___1 {
         position: relative;
-        width: 24%;
+        width: 28%;
     }
     
     footer .footer__2 .subfooter___1 h2 {
         font-size: 32px;
         font-weight: bold;
         position: absolute;
-        left: 20%;
+        left: 24%;
     }
 
     footer hr {
-        width: 92%;
+        width: 89%;
+    }
+
+    footer .footer__2 .subfooter___1 h2 {
+        bottom: -67px;
     }
 
     footer .footer__2 .subfooter___3 p {
