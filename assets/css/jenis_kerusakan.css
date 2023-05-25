@@ -106,15 +106,17 @@
 /* card jenis kerusakan start */
 
   .card_kerusakan_hutan {
-    display: flex;
-    justify-content: space-evenly;
-    padding: 3rem;
-    align-items: center;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 5rem;
+    justify-content: center;
+    gap: 3rem;
   }
 
   .card {
     border-radius: 20px !important;
     box-shadow: -1px 5px 10px #aaa !important;
+    margin-bottom: 1rem;
   }
 
   .card-img-top {
