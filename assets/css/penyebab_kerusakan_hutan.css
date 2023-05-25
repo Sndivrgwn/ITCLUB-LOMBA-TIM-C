@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;900&family=Raleway:ital,wght@0,300;0,500;0,700;1,300;1,500;1,700&display=swap");
+
+*,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  font-family: "Raleway", sans-serif;
+}
+
+.navbar .navbar-nav a {
+  color: #717d96 !important;
+  margin-left: 1rem;
+}
+
+.navbar .navbar-nav a.active {
+  color: #eaa51b !important   ;
+  font-weight: bold;
+}
+
+.background_pembabatan {
+  background-image: url(../img/img_penyebab_dampak/image\ 3\ \(1\).png);
+  height: 15rem;
+  background-size: cover;
+}
+
+.cont {
+  padding-left: 3rem !important;
+  padding-right: 3rem !important;
+}
+.conts {
+  margin-left: 5.7rem !important;
+  margin-right: 5.7rem !important;
+}
+
+.banner {
+  background: #25594699 60%;
+  height: 15rem;
+}
+
+.banner h1 {
+  color: #fff;
+  text-align: center;
+  padding-top: 3.5rem;
+  font-weight: 500;
+  font-size: 48px;
+}
+
+.artikel h1 {
+  font-size: 48px;
+  color: #255946;
+  font-weight: bold;
+  margin-top: 4rem;
+}
+
+.artikel div {
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.artikel div p span {
+  font-family: "Poppins";
+}
+
+.artikel div .p_subjudul {
+  font-size: 20px;
+  color: #255946;
+  margin-right: 2rem;
+}
+
+.artikel div hr {
+  transform: rotate(90deg);
+  width: 1.5%;
+  border: 1px solid black;
+  filter: brightness(100%);
+  opacity: 100%;
+  position: absolute;
+  top: 0.9rem;
+  left: 11.7%;
+}
+
+.artikel p {
+  font-size: 20px;
+  color: #1a202c;
+  text-align: justify;
+}
+
+.galeri {
+  display: grid;
+  justify-content: center;
+  gap: 1.8rem;
+  grid-template-columns: auto auto auto;
+  margin-top: 4rem;
+}
+
+.galeri .galeri_1 img {
+  border-radius: 10px;
+}
+
+footer {
+  color: white;
+  margin-top: 8rem;
+}
