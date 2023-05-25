@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;900&family=Raleway:ital,wght@0,300;0,500;0,700;1,300;1,500;1,700&display=swap');
+
+*, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif ;
+    font-family: 'Raleway', sans-serif ;
+}
+
+/* navbar start */
+
+.navbar {
+    margin: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  .navbar .navbar-nav a.active {
+    color: #eaa51b;
+    font-weight: bold;
+  }
+  .navbar .navbar-nav {
+    margin-right: 10%;
+  }
+  .navbar .navbar-nav a {
+    color:  #717D96;
+    margin-left: 1rem;
+  }
+  .navbar .navbar-nav a:hover {
+    color: #eaa51b !important;
+  }
+  
+  .navbar .navbar-nav a::after {
+    content: "";
+    display: block;
+    padding-bottom: 0.2rem;
+    border-bottom: 0.1rem solid #eaa51b;
+    transform: scaleX(0);
+    transition: 0.4s linear;
+  }
+  
+  .navbar .navbar-nav a:hover::after {
+    transform: scaleX(0.7);
+  }
+  
+  .navbar button {
+    height: 50px;
+    color: #fff;
+    border: none;
+    background-color: #eaa51b;
+  }
+  
+  .navbar button a {
+    text-decoration: none;
+    color: white;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  
+  .navbar button:hover {
+    background-color: #cb8a09;
+    color: #fff;
+    transition: 0.4s linear;
+  }
+  .navbar .navbar-brand {
+    font-size: 32px;
+    margin-top: -1rem;
+    font-weight: 500;
+  }
+  .navbar .navbar-nav a {
+    font-size: 20px;
+  }
+  .navbar button {
+    font-size: 20px;
+  }
+  /* navbar end */
+
+
+  /* banner start */
+
+.background__banner {
+    background-image: url(../img/img_jenis_kerusakan_hutan/banner_jenis_kerusakan.jpg);
+    color: #fff;
+}
+
+.banner {
+    background: #25594699 60%;
+    text-align: center;
+    padding: 1rem;
+}
+
+.banner p {
+    font-size: 20px;
+}
+
+.banner p span {
+    opacity: 70%;
+}
+
+.banner h1 {
+    font-size: 48px;
+}
+
+/* banner end */
+
+/* card jenis kerusakan start */
+
+  .card_kerusakan_hutan {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 3rem;
+    align-items: center;
+  }
+
+  .card {
+    border-radius: 20px !important;
+    box-shadow: -1px 5px 10px #aaa !important;
+  }
+
+  .card-img-top {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+
+  .card-body {
+    padding: 2rem !important;
+  }
+
+  .card-tittle {
+    color: #255946;
+    font-size: 26px;
+  }
+
+  .card-text {
+    font-size: 16px;
+  }
+
+  .card .card-body .btn {
+    background-color: #eaa51b;
+    border: 1px solid #eaa51b;
+  }
+  .card .card-body .btn:hover {
+    background-color: #cb8a09;
+    border: 1px solid #cb8a09;
+  }
+
+/* card jenis kerusakan end */
+
+/* bagian footer */
+
+footer {
+  background: #255946;
+  color: #fff;
+  margin-top: 4rem;
+}
+
+footer span {
+  font-family: 'Poppins';
+}
+
+footer .footer__1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+ padding-top: 3rem;
+ padding-bottom: 2.5rem;
+}
+
+footer .footer__1 h1 {
+  font-size: 35px;
+  font-weight: bold;
+}
+
+footer .footer__1 button {
+  width: auto;
+  color: #255946;
+  background-color: #EAA51B;
+  font-weight: bold;
+  border: none;
+  padding: 0.5rem 1.5rem;
+  border-radius: 5px;
+  font-size: 20px;
+  transition: 0.4s;
+}
+
+footer .footer__1 button:hover {
+  background-color: #ce9117;
+}
+
+footer hr {
+  border: 2px solid #579B7B;
+  width: 87.5%;
+  margin: auto;
+  filter: brightness(200%);
+}
+
+footer .footer__2 {
+  display: flex;
+  justify-content: center;
+  gap: 2.5rem;
+  padding-top: 3rem;
+  padding-bottom: 2.5rem;
+  align-items: baseline ;
+}
+
+footer .footer__2 .subfooter___1 {
+  position: relative;
+  width: 14%;
+}
+
+footer .footer__2 .subfooter___1 h2 {
+  font-size: 32px;
+  font-weight: bold;
+  position: absolute;
+  left: 3%;
+}
+
+footer .footer__2 .subfooter___2 p {
+  font-size: 20px;
+}
+
+footer .footer__2 .subfooter___3 p {
+  font-size: 20px;
+}
+
+footer .footer__2 .subfooter___3 div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+footer .footer__2 .subfooter___3 div i {
+  background-color: #EAA51B;
+  text-align: center;
+  padding: 0.5rem 0.5rem;
+  width: 2rem;
+  border-radius: 5px;
+  color: #255946;
+  transition: 0.4s;
+  cursor: pointer;
+}
+footer .footer__2 .subfooter___3 div i:last-child {
+  background-color: #EAA51B;
+  padding-right: 1.63rem;
+}
+
+footer .footer__2 .subfooter___3 div i:hover {
+  background-color: #ce9117;
+}
+
+footer .footer__3 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+footer .footer__3 p {
+  text-align: center;
+  margin-bottom: 0;
+  font-size: 20px;
+}
