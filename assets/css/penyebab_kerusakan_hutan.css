@@ -105,3 +105,148 @@ footer {
   color: white;
   margin-top: 8rem;
 }
+
+footer {
+  background: #255946;
+  color: #fff;
+  margin-top: 4rem;
+}
+
+footer span {
+  font-family: 'Poppins';
+}
+
+footer .footer__1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+ padding-top: 3rem;
+ padding-bottom: 2.5rem;
+}
+
+footer .footer__1 h1 {
+  font-size: 35px;
+  font-weight: bold;
+}
+
+footer .footer__1 button {
+  width: auto;
+  color: #255946;
+  background-color: #EAA51B;
+  font-weight: bold;
+  border: none;
+  padding: 0.5rem 1.5rem;
+  border-radius: 5px;
+  font-size: 20px;
+  transition: 0.4s;
+}
+
+footer .footer__1 button:hover {
+  background-color: #ce9117;
+}
+
+footer hr {
+  border: 2px solid #579B7B;
+  width: 87.5%;
+  margin: auto;
+  filter: brightness(200%);
+}
+
+footer .footer__2 {
+  display: flex;
+  justify-content: center;
+  gap: 2.5rem;
+  padding-top: 3rem;
+  padding-bottom: 2.5rem;
+  align-items: baseline ;
+}
+
+footer .footer__2 .subfooter___1 {
+  position: relative;
+  width: 14%;
+}
+
+footer .footer__2 .subfooter___1 h2 {
+  font-size: 32px;
+  font-weight: bold;
+  position: absolute;
+  left: 3%;
+}
+
+footer .footer__2 .subfooter___2 p {
+  font-size: 20px;
+}
+
+footer .footer__2 .subfooter___3 p {
+  font-size: 20px;
+}
+
+footer .footer__2 .subfooter___3 div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+footer .footer__2 .subfooter___3 div i {
+  background-color: #EAA51B;
+  text-align: center;
+  padding: 0.5rem 0.5rem;
+  width: 2rem;
+  border-radius: 5px;
+  color: #255946;
+  transition: 0.4s;
+  cursor: pointer;
+}
+footer .footer__2 .subfooter___3 div i:last-child {
+  background-color: #EAA51B;
+  padding-right: 1.63rem;
+}
+
+footer .footer__2 .subfooter___3 div i:hover {
+  background-color: #ce9117;
+}
+
+footer .footer__3 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+footer .footer__3 p {
+  text-align: center;
+  margin-bottom: 0;
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 1366px) {
+  .navbar .navbar-nav a {
+      color:  #717D96 !important;
+      margin-left: 1rem;
+      font-size: 18px !important;
+    }
+
+    .artikel div hr {
+      left: 13.8%;
+  }
+
+  .galeri {
+    display: grid;
+    justify-content: center;
+    gap: 0rem;
+    grid-template-columns: auto auto auto;
+    margin-top: 4rem;
+  }
+  
+  .galeri .galeri_1 img {
+    border-radius: 10px;
+    width: 400px;
+  }
+
+  @media only screen and (max-width: 1367px) {
+    footer .footer__1 {
+    gap: 2rem;
+   
+    }
+   
+   }
+}

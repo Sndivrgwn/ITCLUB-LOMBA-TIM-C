@@ -43,6 +43,8 @@
     transform: scaleX(0.7);
   }
   
+  
+
   .navbar button {
     height: 50px;
     color: #fff;
@@ -72,6 +74,38 @@
   }
   .navbar button {
     font-size: 20px;
+  }
+
+  @media screen and (max-width: 1920px) {
+    /* navbar responsive start */
+    /* navbar responsive end */
+  }
+
+  @media screen and (max-width:1200px){
+    /* navbar responsive start */
+    .navbar .navbar-nav {
+      margin-right: 5%;
+    }
+    .navbar .navbar-nav a {
+      margin-left: 0.2rem;
+    }
+    /* navbar responsive end */
+  }
+  
+  @media screen and (max-width:1018px){
+    /* navbar responsive start */
+    .navbar .navbar-nav a {
+      margin-left: 0.2rem;
+    }
+    /* navbar responsive end */
+  }
+  
+  @media screen and (max-width:375px){
+    /* navbar responsive start */
+    .navbar .navbar-brand {
+      font-size: 24px;
+    }
+    /* navbar responsive end */
   }
   /* navbar end */
 
@@ -166,6 +200,7 @@ footer .footer__1 {
   align-items: center;
  padding-top: 3rem;
  padding-bottom: 2.5rem;
+
 }
 
 footer .footer__1 h1 {
@@ -260,4 +295,20 @@ footer .footer__3 p {
   text-align: center;
   margin-bottom: 0;
   font-size: 20px;
+}
+
+@media only screen and (max-width: 1367px) {
+ footer .footer__1 {
+ gap: 2rem;
+
+ }
+
+ .card_kerusakan_hutan {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 5rem;
+  justify-content: center;
+  gap: 2rem;
+}
+
 }
