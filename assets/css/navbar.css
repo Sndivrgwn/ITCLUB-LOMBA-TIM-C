@@ -1,74 +1,85 @@
-/* navbar start */
-.navbar * {
-  font-weight: 500;
-}
-.navbar {
-  margin: 2rem;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-}
-.navbar .navbar-nav a.active {
-  color: #eaa51b;
-  font-weight: bold;
-}
-.navbar .navbar-nav {
-  margin-right: 10%;
-}
-.navbar .navbar-nav a {
-  color: #717d96;
-  margin-left: 1rem;
-}
-.navbar a {
-  color: #717d96;
-}
-.navbar .navbar-nav a:hover {
-  color: #eaa51b !important;
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Raleway", "Arial Narrow", Arial, sans-serif;
 }
 
-.navbar .navbar-nav a::after {
-  content: "";
-  display: block;
-  padding-bottom: 0.2rem;
-  border-bottom: 0.1rem solid #eaa51b;
-  transform: scaleX(0);
-  transition: 0.4s linear;
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;900&family=Raleway:ital,wght@0,300;0,500;0,600;0,700;0,900;1,300;1,500;1,700&display=swap');
+*,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
-.navbar .navbar-nav a:hover::after {
-  transform: scaleX(0.7);
-}
-
-.navbar button {
-  height: 50px;
-  color: #fff;
-  border: none;
-  background-color: #eaa51b;
-}
-
-.navbar button a {
-  text-decoration: none;
-  color: white;
-  padding-left: 1rem;
-  padding-right: 1rem;
-}
-
-.navbar button:hover {
-  background-color: #cb8a09;
-  color: #fff;
-  transition: 0.4s linear;
-}
-.navbar .navbar-brand {
-  font-size: 32px;
-  margin-top: -1rem;
-  font-weight: 500;
-}
-.navbar .navbar-nav a {
-  font-size: 20px;
-}
-.navbar button {
-  font-size: 20px;
-}
-/* navbar end */
+  
+  /* navbar start */
+  
+  .navbar {
+    padding: 2rem !important;
+  }
+  .navbar .navbar-nav a.active {
+    color: #eaa51b;
+    font-weight: bold;
+  }
+  .navbar .navbar-nav {
+    margin-right: 10%;
+  }
+  .navbar .navbar-nav a {
+    color: #717d96;
+    margin-left: 1rem;
+    font-size: 20px !important;
+  }
+  .navbar .navbar-nav a:hover {
+    color: #eaa51b !important;
+  }
+  
+  .navbar .navbar-nav a::after {
+    content: "";
+    display: block;
+    padding-bottom: 0.2rem;
+    border-bottom: 0.1rem solid #eaa51b;
+    transform: scaleX(0);
+    transition: 0.4s linear;
+  }
+  
+  .navbar .navbar-nav a:hover::after {
+    transform: scaleX(0.7);
+  }
+  
+  .navbar button {
+    height: 50px;
+    color: #fff;
+    border: none;
+    background-color: #eaa51b;
+  }
+  
+  .navbar button a {
+    text-decoration: none;
+    color: white;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  
+  .navbar button:hover {
+    background-color: #cb8a09;
+    color: #fff;
+    transition: 0.4s linear;
+  }
+  .navbar .navbar-brand {
+    font-size: 32px;
+    margin-top: -1rem;
+    font-weight: 500;
+  }
+  .navbar .navbar-nav a {
+    font-size: 20px;
+  }
+  .navbar button {
+    font-size: 20px;
+  }
+  /* navbar end */
   
   /* responsive */
   /* media laptop full hd */
@@ -79,7 +90,7 @@
     /* navbar responsive end */
   }
   
-  @media screen and (max-width:1200px){
+  @media screen and (max-width: 1200px) {
     /* navbar responsive start */
     .navbar .navbar-nav {
       margin-right: 5%;
@@ -90,7 +101,7 @@
     /* navbar responsive end */
   }
   
-  @media screen and (max-width:1018px){
+  @media screen and (max-width: 1018px) {
     /* navbar responsive start */
     .navbar .navbar-nav a {
       margin-left: 0.2rem;
@@ -98,13 +109,10 @@
     /* navbar responsive end */
   }
   
-  @media screen and (max-width:375px){
+  @media screen and (max-width: 375px) {
     /* navbar responsive start */
     .navbar .navbar-brand {
       font-size: 24px;
     }
     /* navbar responsive end */
   }
-  
-  
-  
