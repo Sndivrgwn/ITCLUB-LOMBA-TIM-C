@@ -68,3 +68,27 @@ konservasi.addEventListener("click", function () {
   galeri.style.fontWeight = "normal";
   galeri.style.color = "white";
 });
+
+
+let btnVisi = document.getElementById("visi_btn");
+let btnMisi = document.getElementById("misi_btn");
+let visi = document.getElementById("visi");
+let misi = document.getElementById("misi");
+
+btnVisi.addEventListener("click", function() {
+  btnVisi.style.backgroundColor = "#eaa51b";
+  btnVisi.style.color ="#fff";
+  visi.style.display ="block";
+  btnMisi.style.backgroundColor = "#E2E7F0";
+  btnMisi.style.color ="#1A202C";
+  misi.style.display ="none";
+})
+
+btnMisi.addEventListener("click", function() {
+  btnVisi.style.backgroundColor = "#E2E7F0";
+  btnVisi.style.color ="#1A202C";
+  visi.style.display ="none";
+  btnMisi.style.backgroundColor = "#eaa51b";
+  btnMisi.style.color ="#fff";
+  misi.style.display ="block";
+})
