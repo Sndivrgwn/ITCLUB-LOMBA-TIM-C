@@ -4,7 +4,7 @@
   font-family: "Raleway", "Arial Narrow", Arial, sans-serif;
 }
 
-  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;900&family=Raleway:ital,wght@0,300;0,500;0,600;0,700;0,900;1,300;1,500;1,700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;900&family=Raleway:ital,wght@0,300;0,500;0,600;0,700;0,900;1,300;1,500;1,700&display=swap");
 *,
 body {
   margin: 0;
@@ -51,46 +51,46 @@ body {
 
 /* card jenis kerusakan start */
 
-  .card_kerusakan_hutan {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    padding: 5rem;
-    justify-content: center;
-    gap: 3rem;
-  }
+.card_kerusakan_hutan {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  margin: 3rem;
+  justify-content: center;
+  gap: 3rem;
+}
 
-  .card {
-    border-radius: 20px !important;
-    box-shadow: -1px 5px 10px #aaa !important;
-    margin-bottom: 1rem;
-  }
+.card {
+  border-radius: 20px !important;
+  box-shadow: -1px 5px 10px #aaa !important;
+  margin-bottom: 1rem;
+}
 
-  .card-img-top {
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-  }
+.card-img-top {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
 
-  .card-body {
-    padding: 2rem !important;
-  }
+.card-body {
+  padding: 2rem !important;
+}
 
-  .card-tittle {
-    color: #255946;
-    font-size: 26px;
-  }
+.card-tittle {
+  color: #255946;
+  font-size: 26px;
+}
 
-  .card-text {
-    font-size: 16px;
-  }
+.card-text {
+  font-size: 16px;
+}
 
-  .card .card-body .btn {
-    background-color: #eaa51b;
-    border: 1px solid #eaa51b;
-  }
-  .card .card-body .btn:hover {
-    background-color: #cb8a09;
-    border: 1px solid #cb8a09;
-  }
+.card .card-body .btn {
+  background-color: #eaa51b;
+  border: 1px solid #eaa51b;
+}
+.card .card-body .btn:hover {
+  background-color: #cb8a09;
+  border: 1px solid #cb8a09;
+}
 
 /* card jenis kerusakan end */
 
@@ -103,16 +103,15 @@ footer {
 }
 
 footer span {
-  font-family: 'Poppins';
+  font-family: "Poppins";
 }
 
 footer .footer__1 {
   display: flex;
   justify-content: space-around;
   align-items: center;
- padding-top: 3rem;
- padding-bottom: 2.5rem;
-
+  padding-top: 3rem;
+  padding-bottom: 2.5rem;
 }
 
 footer .footer__1 h1 {
@@ -123,7 +122,7 @@ footer .footer__1 h1 {
 footer .footer__1 button {
   width: auto;
   color: #255946;
-  background-color: #EAA51B;
+  background-color: #eaa51b;
   font-weight: bold;
   border: none;
   padding: 0.5rem 1.5rem;
@@ -137,7 +136,7 @@ footer .footer__1 button:hover {
 }
 
 footer hr {
-  border: 2px solid #579B7B;
+  border: 2px solid #579b7b;
   width: 87.5%;
   margin: auto;
   filter: brightness(200%);
@@ -149,7 +148,7 @@ footer .footer__2 {
   gap: 2.5rem;
   padding-top: 3rem;
   padding-bottom: 2.5rem;
-  align-items: baseline ;
+  align-items: baseline;
 }
 
 footer .footer__2 .subfooter___1 {
@@ -180,7 +179,7 @@ footer .footer__2 .subfooter___3 div {
 }
 
 footer .footer__2 .subfooter___3 div i {
-  background-color: #EAA51B;
+  background-color: #eaa51b;
   text-align: center;
   padding: 0.5rem 0.5rem;
   width: 2rem;
@@ -190,7 +189,7 @@ footer .footer__2 .subfooter___3 div i {
   cursor: pointer;
 }
 footer .footer__2 .subfooter___3 div i:last-child {
-  background-color: #EAA51B;
+  background-color: #eaa51b;
   padding-right: 1.63rem;
 }
 
@@ -210,17 +209,14 @@ footer .footer__3 p {
 }
 
 @media only screen and (max-width: 1367px) {
- footer .footer__1 {
- gap: 2rem;
+  footer .footer__1 {
+    gap: 2rem;
+  }
 
- }
-
- .card_kerusakan_hutan {
-  display: grid;
-  grid-template-columns: auto auto auto;
-  padding: 5rem;
-  justify-content: center;
-  gap: 2rem;
-}
-
+  .card_kerusakan_hutan {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    gap: 2rem;
+  }
 }
