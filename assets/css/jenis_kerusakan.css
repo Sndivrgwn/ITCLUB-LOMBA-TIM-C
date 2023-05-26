@@ -1,39 +1,50 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;900&family=Raleway:ital,wght@0,300;0,500;0,700;1,300;1,500;1,700&display=swap');
-
-*, body {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif ;
-    font-family: 'Raleway', sans-serif ;
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Raleway", "Arial Narrow", Arial, sans-serif;
 }
 
-  /* banner start */
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;900&family=Raleway:ital,wght@0,300;0,500;0,600;0,700;0,900;1,300;1,500;1,700&display=swap');
+*,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  font-family: "Raleway", sans-serif;
+}
+
+/* banner start */
 
 .background__banner {
-    background-image: url(../img/img_jenis_kerusakan_hutan/banner_jenis_kerusakan.jpg);
-    color: #fff;
-    height: 232px;
-    background-size: cover;
+  background-image: url(../img/img_jenis_kerusakan_hutan/banner_jenis_kerusakan.jpg);
+  color: #fff;
+  height: 232px;
+  background-size: cover;
 }
 
 .banner {
-    background: #25594699 60%;
-    text-align: center;
-    padding: 1rem;
-    height: 100%;
+  background: #25594699 60%;
+  text-align: center;
+  padding: 2rem;
 }
 
 .banner p {
-    font-size: 20px;
+  font-size: 20px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
 }
 
 .banner p span {
-    opacity: 70%;
+  opacity: 70%;
 }
 
 .banner h1 {
-    font-size: 48px;
+  font-size: 48px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 600;
 }
 
 /* banner end */
