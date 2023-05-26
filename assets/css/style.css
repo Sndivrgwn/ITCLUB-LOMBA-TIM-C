@@ -4,14 +4,12 @@
   font-family: "Raleway", "Arial Narrow", Arial, sans-serif;
 }
 
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;900&family=Raleway:ital,wght@0,300;0,500;0,700;1,300;1,500;1,700&display=swap");
-
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;900&family=Raleway:ital,wght@0,300;0,500;0,600;0,700;0,900;1,300;1,500;1,700&display=swap');
 *,
 body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  color: #fff;
   font-family: "Poppins", sans-serif;
   font-family: "Raleway", sans-serif;
 }
@@ -19,9 +17,8 @@ body {
 /* navbar start */
 
 .navbar {
-  margin: 2rem;
-  margin-top: 1rem;
   margin-bottom: 1rem;
+ padding: 2rem !important;
 }
 .navbar .navbar-nav a.active {
   color: #eaa51b;
@@ -33,6 +30,7 @@ body {
 .navbar .navbar-nav a {
   color: #fff;
   margin-left: 1rem;
+  font-size: 24px !important;
 }
 .navbar .navbar-nav a:hover {
   color: #eaa51b !important;
@@ -119,10 +117,50 @@ body {
   /* navbar responsive end */
 }
 
+/* hal 1 start */
+
+  .background_landing_page {
+    height: 120vh;
+    background-image: url(../img/img_landing_page/bg\ _landing_page.png);
+    filter: brightness(85%);
+    background-size: cover;
+  }
+
+  .hal_1 {
+    color: #fff;
+    text-align: center;
+    padding-top: 7rem;
+  }
+
+  .hal_1 h5 {
+    font-size: 36px;
+    font-weight: 600;
+  }
+
+  .hal_1 h1 {
+    font-size: 80px;
+    font-weight: bold;
+  }
+
+  .hal_1 button {
+    color: #fff;
+    background-color: #eaa51b;
+    border-radius: 24px;
+    padding: 0.5rem 2rem;
+    font-size: 24px;
+  }
+  .hal_1 button:hover {
+    background-color: #ce9117;
+  }
+
+/* hal 1 end */
+
+
 /* bagian footer */
 
 footer {
   background: #255946;
+  color: #fff;
 }
 
 footer span {
@@ -230,3 +268,4 @@ footer .footer__3 p {
   margin-bottom: 0;
   font-size: 20px;
 }
+                                                          
