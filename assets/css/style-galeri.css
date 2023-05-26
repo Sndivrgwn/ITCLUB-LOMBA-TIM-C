@@ -11,6 +11,9 @@
   padding: 2rem;
 }
 
+.banner {
+ height: 100%;
+}
 .row_galeri {
   width: 100%;
   display: flex;
@@ -23,13 +26,13 @@
 .gambar_text {
   position: relative;
   width: 100%;
-  height: 271px;
+  height: 350px;
 }
 
 .gambar_text img {
   position: relative;
   width: 100%;
-  height: 271px;
+  height: 350px;
 }
 
 .button_galeri {
@@ -67,19 +70,24 @@
 /* responsive */
 /* responsive galeri full hd */
 
-@media screen and (max-width: 1920px) {
+@media only screen and (max-width: 1920px) {
   .gambar_text img {
-    height: 400px;
+    height: 270px;
+    object-fit: cover;
   }
   .gambar_text {
-    height: 400px;
+    height: 270px;
   }
 }
-@media screen and (max-width: 1440px) {
+@media only screen and (max-width: 1367px) {
   .gambar_text img {
-    height: 250px;
+    height: 270px;
+    object-fit: cover;
   }
   .gambar_text {
-    height: 250px;
+    height: 270px;
   }
 }
+
+/* responsive laptop */
+

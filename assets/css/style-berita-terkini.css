@@ -1,16 +1,16 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: "Raleway", "Arial Narrow", Arial, sans-serif;
 }
 
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;900&family=Raleway:ital,wght@0,300;0,500;0,600;0,700;0,900;1,300;1,500;1,700&display=swap');
+*,
 body {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+  font-family: "Raleway", "Poppins";
 }
-
-@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 /* input cari start */
 
@@ -55,12 +55,14 @@ body {
 .background__banner {
   background-image: url(../img/img_berita_terkini/image3.png);
   color: #fff;
+  height: 232px;
+  background-size: cover;
 }
 
 .banner {
   background: #25594699 60%;
   text-align: center;
-  padding: 1rem;
+  padding: 2rem;
 }
 
 .banner p {
@@ -88,9 +90,8 @@ body {
 .card_berita_terkini {
   display: flex;
   justify-content: center;
+  margin: 3rem;
   gap: 3rem;
-  margin-top: 3rem;
-  margin-bottom: 3rem;
   align-items: center;
 }
 
@@ -165,6 +166,10 @@ body {
 }
 /* paging berita terkini end */
 /* bagian footer */
+footer {
+  color: white;
+  margin-top: 8rem;
+}
 
 footer {
   background: #255946;
@@ -173,15 +178,15 @@ footer {
 }
 
 footer span {
-  font-family: "Poppins";
+  font-family: 'Poppins';
 }
 
 footer .footer__1 {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding-top: 3rem;
-  padding-bottom: 2.5rem;
+ padding-top: 3rem;
+ padding-bottom: 2.5rem;
 }
 
 footer .footer__1 h1 {
@@ -192,7 +197,7 @@ footer .footer__1 h1 {
 footer .footer__1 button {
   width: auto;
   color: #255946;
-  background-color: #eaa51b;
+  background-color: #EAA51B;
   font-weight: bold;
   border: none;
   padding: 0.5rem 1.5rem;
@@ -206,7 +211,7 @@ footer .footer__1 button:hover {
 }
 
 footer hr {
-  border: 2px solid #579b7b;
+  border: 2px solid #579B7B;
   width: 87.5%;
   margin: auto;
   filter: brightness(200%);
@@ -218,7 +223,7 @@ footer .footer__2 {
   gap: 2.5rem;
   padding-top: 3rem;
   padding-bottom: 2.5rem;
-  align-items: baseline;
+  align-items: baseline ;
 }
 
 footer .footer__2 .subfooter___1 {
@@ -249,7 +254,7 @@ footer .footer__2 .subfooter___3 div {
 }
 
 footer .footer__2 .subfooter___3 div i {
-  background-color: #eaa51b;
+  background-color: #EAA51B;
   text-align: center;
   padding: 0.5rem 0.5rem;
   width: 2rem;
@@ -259,7 +264,7 @@ footer .footer__2 .subfooter___3 div i {
   cursor: pointer;
 }
 footer .footer__2 .subfooter___3 div i:last-child {
-  background-color: #eaa51b;
+  background-color: #EAA51B;
   padding-right: 1.63rem;
 }
 
