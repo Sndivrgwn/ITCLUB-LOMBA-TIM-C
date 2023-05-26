@@ -1,0 +1,123 @@
+/* konten utama start */
+.page_berita_terkini {
+  width: 800px;
+  margin: auto;
+  margin-top: 4rem;
+}
+.button_page_berita_terkini {
+  width: 120px;
+  height: 32px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  text-decoration: none;
+  color: #fff;
+  opacity: 85%;
+  background-color: #2a9d8f;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+}
+.page_berita_terkini h1 {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 44px;
+  color: #535353;
+}
+.profil_berita_terkini {
+  display: flex;
+  justify-content: start;
+  margin-top: 1.3rem;
+  margin-bottom: 1.3rem;
+}
+
+.autor_berita_terkini p,hr{
+    margin: 0;
+}
+.autor_berita_terkini {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profil_berita_terkini img {
+  width: 42px;
+  height: 42px;
+  object-fit: cover;
+}
+
+.profil_berita_terkini p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #535353;
+  margin-left: 1rem;
+}
+
+.profil_berita_terkini hr {
+  width: 20px;
+  margin-left: 1rem;
+  margin-top: -0.1rem;
+  transform: rotate(90deg);
+}
+
+.konten_page_berita_terkini img {
+  width: 100%;
+  height: 278px;
+  object-fit: cover;
+}
+
+.tulisan_berita_terkini {
+  font-family: "Inter";
+  text-align: justify;
+}
+.tulisan_berita_terkini h3 {
+  font-style: normal;
+  margin-top: 1.5rem;
+  font-weight: 600;
+  font-size: 26px;
+  color: #535355;
+}
+
+.tulisan_berita_terkini p {
+  font-style: normal;
+  margin-top: 1.5rem;
+  font-weight: 400;
+  font-size: 22px;
+  color: #656565;
+}
+
+.baca_juga_berita_terkini {
+  margin-top: 2rem;
+  font-family: "Inter";
+}
+.baca_juga_berita_terkini h2 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  color: #535353;
+}
+.baca_juga_berita_terkini .baca_juga {
+  display: flex;
+  margin-top: 2rem;
+}
+
+.baca_juga_berita_terkini .baca_juga p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  color: #656565;
+}
+.baca_juga_berita_terkini .baca_juga h3 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  color: #535353;
+}
+.baca_juga_berita_terkini .baca_juga img {
+  margin-right: 1.6rem;
+}
+/* konten utama end */

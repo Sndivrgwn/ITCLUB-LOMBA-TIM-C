@@ -1,0 +1,28 @@
+/* konten utama start */
+.page_galeri {
+    width: 100%;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.gambar_galeri {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.gambar_page_galeri {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gambar_page_galeri img{
+    width: 100%;
+    object-fit: cover;
+}
+/* konten utama end */
+

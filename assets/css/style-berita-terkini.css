@@ -1,0 +1,315 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Raleway", "Arial Narrow", Arial, sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+/* input cari start */
+
+.cari_berita_terkini {
+  display: flex;
+  justify-content: center;
+  margin-top: 4rem;
+  margin-bottom: 1rem;
+}
+
+.input_berita_terkini {
+  width: 545px;
+  height: 42px;
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 16px;
+  padding: 0.6rem;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-top: 1px solid #a0abc0;
+  border-left: 1px solid #a0abc0;
+  border-bottom: 1px solid #a0abc0;
+  border-right: 1px solid #a0abc0;
+}
+
+.cari_berita_terkini button {
+  height: 42px;
+  width: 42px;
+  background-color: #eaa51b;
+  border: none;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.button_cari_berita:hover {
+  background-color: #cb8a09;
+}
+/* input cari end */
+
+/* banner start */
+
+.background__banner {
+  background-image: url(../img/img_berita_terkini/image3.png);
+  color: #fff;
+}
+
+.banner {
+  background: #25594699 60%;
+  text-align: center;
+  padding: 1rem;
+}
+
+.banner p {
+  font-size: 20px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+}
+
+.banner p span {
+  opacity: 70%;
+}
+
+.banner h1 {
+  font-size: 48px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 600;
+}
+
+/* banner end */
+
+/* card Berita terkini */
+
+.card_berita_terkini {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  align-items: center;
+}
+
+.card {
+  border-radius: 20px !important;
+  box-shadow: -1px 5px 10px #aaa !important;
+}
+
+.card-img-top {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.card-body {
+  padding: 2rem !important;
+}
+
+.card-tittle {
+  color: #255946;
+  font-size: 26px;
+  font-family: "Inter";
+  font-weight: 500;
+}
+
+.card-text {
+  font-size: 16px;
+  font-family: "Inter";
+  font-weight: 400;
+  color: #1a202c;
+}
+
+.card .card-body .btn {
+  background-color: #eaa51b;
+  border: 1px solid #eaa51b;
+}
+.card .card-body .btn:hover {
+  background-color: #cb8a09;
+  border: 1px solid #cb8a09;
+}
+.button_left_berita {
+  display: flex;
+  justify-content: end;
+  align-items: end;
+}
+/* card berita terkini end */
+
+/* paging berita terkini start */
+.paging_berita_terkini {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+}
+
+.button_paging_berita.active {
+  background-color: #eaa51b;
+}
+.button_paging_berita a {
+  text-decoration: none;
+  color: #1a202c;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+}
+.button_paging_berita {
+  width: 41.3px;
+  height: 38px;
+  background-color: white;
+  border: 1px solid #cbd2e0;
+}
+.paging_berita_terkini button:hover {
+  background-color: #eaa51b !important;
+}
+/* paging berita terkini end */
+/* bagian footer */
+
+footer {
+  background: #255946;
+  color: #fff;
+  margin-top: 4rem;
+}
+
+footer span {
+  font-family: "Poppins";
+}
+
+footer .footer__1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 3rem;
+  padding-bottom: 2.5rem;
+}
+
+footer .footer__1 h1 {
+  font-size: 35px;
+  font-weight: bold;
+}
+
+footer .footer__1 button {
+  width: auto;
+  color: #255946;
+  background-color: #eaa51b;
+  font-weight: bold;
+  border: none;
+  padding: 0.5rem 1.5rem;
+  border-radius: 5px;
+  font-size: 20px;
+  transition: 0.4s;
+}
+
+footer .footer__1 button:hover {
+  background-color: #ce9117;
+}
+
+footer hr {
+  border: 2px solid #579b7b;
+  width: 87.5%;
+  margin: auto;
+  filter: brightness(200%);
+}
+
+footer .footer__2 {
+  display: flex;
+  justify-content: center;
+  gap: 2.5rem;
+  padding-top: 3rem;
+  padding-bottom: 2.5rem;
+  align-items: baseline;
+}
+
+footer .footer__2 .subfooter___1 {
+  position: relative;
+  width: 14%;
+}
+
+footer .footer__2 .subfooter___1 h2 {
+  font-size: 32px;
+  font-weight: bold;
+  position: absolute;
+  left: 3%;
+}
+
+footer .footer__2 .subfooter___2 p {
+  font-size: 20px;
+}
+
+footer .footer__2 .subfooter___3 p {
+  font-size: 20px;
+}
+
+footer .footer__2 .subfooter___3 div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+footer .footer__2 .subfooter___3 div i {
+  background-color: #eaa51b;
+  text-align: center;
+  padding: 0.5rem 0.5rem;
+  width: 2rem;
+  border-radius: 5px;
+  color: #255946;
+  transition: 0.4s;
+  cursor: pointer;
+}
+footer .footer__2 .subfooter___3 div i:last-child {
+  background-color: #eaa51b;
+  padding-right: 1.63rem;
+}
+
+footer .footer__2 .subfooter___3 div i:hover {
+  background-color: #ce9117;
+}
+
+footer .footer__3 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+footer .footer__3 p {
+  text-align: center;
+  margin-bottom: 0;
+  font-size: 20px;
+}
+
+/* responsive */
+/* media laptop full hd */
+
+/* full HD 1920 */
+@media screen and (max-width: 1920px) {
+  /* navbar responsive start */
+  /* navbar responsive end */
+}
+
+@media screen and (max-width: 1200px) {
+  /* navbar responsive start */
+  .navbar .navbar-nav {
+    margin-right: 5%;
+  }
+  .navbar .navbar-nav a {
+    margin-left: 0.2rem;
+  }
+  /* navbar responsive end */
+}
+
+@media screen and (max-width: 1018px) {
+  /* navbar responsive start */
+  .navbar .navbar-nav a {
+    margin-left: 0.2rem;
+  }
+  /* navbar responsive end */
+}
+
+@media screen and (max-width: 375px) {
+  /* navbar responsive start */
+  .navbar .navbar-brand {
+    font-size: 24px;
+  }
+  /* navbar responsive end */
+}
