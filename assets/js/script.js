@@ -69,26 +69,66 @@ konservasi.addEventListener("click", function () {
   galeri.style.color = "white";
 });
 
-
 let btnVisi = document.getElementById("visi_btn");
 let btnMisi = document.getElementById("misi_btn");
 let visi = document.getElementById("visi");
 let misi = document.getElementById("misi");
 
-btnVisi.addEventListener("click", function() {
+btnVisi.addEventListener("click", function () {
   btnVisi.style.backgroundColor = "#eaa51b";
-  btnVisi.style.color ="#fff";
-  visi.style.display ="block";
+  btnVisi.style.color = "#fff";
+  visi.style.display = "block";
   btnMisi.style.backgroundColor = "#E2E7F0";
-  btnMisi.style.color ="#1A202C";
-  misi.style.display ="none";
-})
+  btnMisi.style.color = "#1A202C";
+  misi.style.display = "none";
+});
 
-btnMisi.addEventListener("click", function() {
+btnMisi.addEventListener("click", function () {
   btnVisi.style.backgroundColor = "#E2E7F0";
-  btnVisi.style.color ="#1A202C";
-  visi.style.display ="none";
+  btnVisi.style.color = "#1A202C";
+  visi.style.display = "none";
   btnMisi.style.backgroundColor = "#eaa51b";
-  btnMisi.style.color ="#fff";
-  misi.style.display ="block";
-})
+  btnMisi.style.color = "#fff";
+  misi.style.display = "block";
+});
+
+let btnKerusakan_1 = document.getElementById("btn_1");
+let btnKerusakan_2 = document.getElementById("btn_2");
+let btnKerusakan_3 = document.getElementById("btn_3");
+let imgKerusakan_1 = document.getElementById("img_1");
+let imgKerusakan_2 = document.getElementById("img_2");
+let imgKerusakan_3 = document.getElementById("img_3");
+
+btnKerusakan_1.addEventListener("click", function () {
+  imgKerusakan_1.style.display = "block";
+  imgKerusakan_2.style.display = "none";
+  imgKerusakan_3.style.display = "none";
+  btnKerusakan_1.style.border = "1px solid #eaa51b";
+  btnKerusakan_2.style.border = "1px solid #D9D9D9";
+  btnKerusakan_3.style.border = "1px solid #D9D9D9";
+  btnKerusakan_1.style.backgroundColor = "#eaa51b";
+  btnKerusakan_2.style.backgroundColor = "#D9D9D9";
+  btnKerusakan_3.style.backgroundColor = "#D9D9D9";
+});
+btnKerusakan_2.addEventListener("click", function () {
+  imgKerusakan_2.style.display = "block";
+  imgKerusakan_1.style.display = "none";
+  imgKerusakan_3.style.display = "none";
+  btnKerusakan_2.style.border = "1px solid #eaa51b";
+  btnKerusakan_1.style.border = "1px solid #D9D9D9";
+  btnKerusakan_3.style.border = "1px solid #D9D9D9";
+  btnKerusakan_2.style.backgroundColor = "#eaa51b";
+  btnKerusakan_1.style.backgroundColor = "#D9D9D9";
+  btnKerusakan_3.style.backgroundColor = "#D9D9D9";
+});
+btnKerusakan_3.addEventListener("click", function () {
+  imgKerusakan_3.style.display = "block";
+  imgKerusakan_1.style.display = "none";
+  imgKerusakan_2.style.display = "none";
+  btnKerusakan_3.style.border = "1px solid #eaa51b";
+  btnKerusakan_2.style.border = "1px solid #D9D9D9";
+  btnKerusakan_1.style.border = "1px solid #D9D9D9";
+  btnKerusakan_3.style.backgroundColor = "#eaa51b";
+  btnKerusakan_2.style.backgroundColor = "#D9D9D9";
+  btnKerusakan_1.style.backgroundColor = "#D9D9D9";
+});
