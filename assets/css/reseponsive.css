@@ -11,6 +11,10 @@
     height: 126vh;
   }
 
+  .card .tanggal_Jenis_kerusakan {
+    bottom: 37.6%;
+  }
+
   footer .footer__1 {
     display: flex;
     justify-content: space-evenly;
