@@ -4,7 +4,7 @@
   font-family: "Raleway", "Arial Narrow", Arial, sans-serif;
 }
 
-  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;900&family=Raleway:ital,wght@0,300;0,500;0,600;0,700;0,900;1,300;1,500;1,700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;900&family=Raleway:ital,wght@0,300;0,500;0,600;0,700;0,900;1,300;1,500;1,700&display=swap");
 *,
 body {
   margin: 0;
@@ -18,7 +18,7 @@ body {
 
 .navbar {
   margin-bottom: 1rem;
- padding: 2rem !important;
+  padding: 2rem !important;
 }
 .navbar .navbar-nav a.active {
   color: #eaa51b;
@@ -119,39 +119,39 @@ body {
 
 /* hal 1 start */
 
-  .background_landing_page {
-    height: 120vh;
-    background-image: url(../img/img_landing_page/bg\ _landing_page.png);
-    filter: brightness(85%);
-    background-size: cover;
-  }
+.background_landing_page {
+  height: 120vh;
+  background-image: url(../img/img_landing_page/bg\ _landing_page.png);
+  filter: brightness(85%);
+  background-size: cover;
+}
 
-  .hal_1 {
-    color: #fff;
-    text-align: center;
-    padding-top: 7rem;
-  }
+.hal_1 {
+  color: #fff;
+  text-align: center;
+  padding-top: 7rem;
+}
 
-  .hal_1 h5 {
-    font-size: 36px;
-    font-weight: 600;
-  }
+.hal_1 h5 {
+  font-size: 36px;
+  font-weight: 600;
+}
 
-  .hal_1 h1 {
-    font-size: 80px;
-    font-weight: bold;
-  }
+.hal_1 h1 {
+  font-size: 80px;
+  font-weight: bold;
+}
 
-  .hal_1 button {
-    color: #fff;
-    background-color: #eaa51b;
-    border-radius: 24px;
-    padding: 0.5rem 2rem;
-    font-size: 24px;
-  }
-  .hal_1 button:hover {
-    background-color: #ce9117;
-  }
+.hal_1 button {
+  color: #fff;
+  background-color: #eaa51b;
+  border-radius: 24px;
+  padding: 0.5rem 2rem;
+  font-size: 24px;
+}
+.hal_1 button:hover {
+  background-color: #ce9117;
+}
 
 /* hal 1 end */
 
@@ -190,7 +190,7 @@ body {
   top: 24%;
 }
 .hal_2 .hal_2_bagian_satu .hal_2_visimisi .paragraf_awal {
-  color: #717D96;
+  color: #717d96;
   font-size: 16px;
 }
 .hal_2 .hal_2_bagian_satu .hal_2_visimisi h1 {
@@ -230,11 +230,11 @@ body {
   font-size: 20px;
 }
 .hal_2 .hal_2_bagian_satu .hal_2_visimisi .btn_visi_misi .btn_2 {
-  background: #E2E7F0;
+  background: #e2e7f0;
   border-radius: 0px 13px 13px 0px;
   padding: 1rem 7rem;
   font-weight: bold;
-  color: #1A202C;
+  color: #1a202c;
   font-size: 20px;
 }
 
@@ -307,7 +307,7 @@ body {
 }
 
 .hal_2_bagian_dua .card_1 div i {
-  background-color: #9DAF96;
+  background-color: #9daf96;
   color: #fff;
   padding: 10px 10px;
   font-size: 25px;
@@ -318,7 +318,7 @@ body {
 }
 
 .hal_2_bagian_dua .card_2 div i {
-  background-color: #9DAF96;
+  background-color: #9daf96;
   color: #fff;
   padding: 10px 10px;
   font-size: 25px;
@@ -342,8 +342,8 @@ body {
   width: 74px;
   height: 10px;
   border-radius: 10px;
-  background: #D9D9D9;
-  border: 1px solid #D9D9D9;
+  background: #d9d9d9;
+  border: 1px solid #d9d9d9;
 }
 .btn_bagian_dua .btn_2 {
   width: 74px;
@@ -356,14 +356,14 @@ body {
   width: 74px;
   height: 10px;
   border-radius: 10px;
-  background: #D9D9D9;
-  border: 1px solid #D9D9D9;
+  background: #d9d9d9;
+  border: 1px solid #d9d9d9;
 }
 
-#img_1, #img_3 {
+#img_1,
+#img_3 {
   display: none;
 }
-
 
 /* hal 2 :end */
 
@@ -394,7 +394,6 @@ body {
 .hal_3 .hal_3_image .image_1 {
   width: 50%;
   height: 600px;
-
 }
 .hal_3 .hal_3_image .image_2 {
   width: 50%;
@@ -403,12 +402,10 @@ body {
 .hal_3 .hal_3_image .image_1 img {
   width: 100%;
   height: 600px;
-  
 }
 .hal_3 .hal_3_image .image_2 img {
   width: 100%;
   height: 600px;
-
 }
 
 .subimage_1 {
@@ -440,15 +437,13 @@ body {
 /* hal 3 :end */
 
 /* hal 4 :start */
-
 .hal_4 {
-  height: 150vh;
   background-image: url(../img/img_landing_page/bg\ \(1\).png);
   background-size: cover;
   background-repeat: no-repeat;
   color: #fff;
+  padding-bottom: 150px;
 }
-
 .hal_4 .awal {
   display: flex;
   justify-content: center;
@@ -461,11 +456,11 @@ body {
   width: 57%;
   padding: 3rem;
 }
-.hal_4 .awal .awal_kiri h1{
+.hal_4 .awal .awal_kiri h1 {
   width: 78%;
   font-size: 54px;
 }
-.hal_4 .awal .awal_kiri p{
+.hal_4 .awal .awal_kiri p {
   width: 100%;
   font-size: 20px;
 }
@@ -492,7 +487,8 @@ body {
   gap: 4rem;
 }
 
-.hal_4 .awal .awal_kanan .kiri h1, .kanan h1{
+.hal_4 .awal .awal_kanan .kiri h1,
+.kanan h1 {
   text-align: center;
   font-size: 100px;
   font-weight: bold;
@@ -543,8 +539,125 @@ body {
 }
 /* hal 4end  */
 
+/* hal 4 bagian 2 start */
+.hal_4_bagian_2 {
+  margin-top: 150px;
+}
+.hal_4_bagian_2 .header {
+  text-align: center;
+  text-transform: capitalize;
+}
+.hal_4_bagian_2 .header .p_header_1 {
+  font-family: "Inter";
+  font-style: normal;
+  color: #eaa51b;
+  font-weight: 500;
+  font-size: 28px;
+}
+.hal_4_bagian_2 .header h1 {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 54px;
+}
+.hal_4_bagian_2 .header .p_header_2 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 26px;
+}
+.konten_hal_4_bagian_2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.konten_hal_4_bagian_2 {
+  width: 95%;
+  margin: 0 !important;
+}
+
+.konten_hal_4_bagian_2 .kotak {
+  background-color: #fafafa;
+  width: 395px;
+  height: 310px;
+  color: #828282;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  padding: 2.4rem;
+  margin-top: 4rem;
+}
+.konten_hal_4_bagian_2 .kotak.active {
+  width: 425px;
+  height: 360px;
+}
+.konten_hal_4_bagian_2 .kotak.aktif_2 {
+  right: 0;
+}
+
+.konten_hal_4_bagian_2 .kotak_header {
+  display: flex;
+  margin: 0;
+  align-items: center;
+  justify-content: start;
+  margin-bottom: 1rem;
+}
+
+.konten_hal_4_bagian_2 .kotak_header i {
+  font-size: 20px;
+  padding: 1rem;
+  background: #255946;
+  color: #fff;
+  margin-right: 1rem;
+}
+.konten_hal_4_bagian_2 .kotak_header p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  margin: 0;
+}
+.konten_hal_4_bagian_2 p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+}
 /* bagian footer */
 
+
+
+/* hal 5 start */
+
+.hal_5 {
+  background: #255946;
+  height: 500px;
+  margin-bottom: 2rem;
+}
+
+.hal_5 .header_5 {
+  display: flex;
+  justify-content: space-between;
+  padding: 3rem;
+}
+.hal_5 .header_5 h1{
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 54px;
+  color: white;
+  
+}
+.hal_5 .header_5 a, .header_5 button{
+  width: 224px;
+height: 40px;
+border: none;
+background: #EAA51B;
+color: #255946;
+border-radius: 6px;
+}
+/* hal 5 end */
 footer {
   background: #255946;
   color: #fff;
@@ -655,4 +768,3 @@ footer .footer__3 p {
   margin-bottom: 0;
   font-size: 20px;
 }
-                                                          
