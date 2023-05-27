@@ -660,8 +660,125 @@ height: 40px;
 }
 /* hal 4end  */
 
+/* hal 4 bagian 2 start */
+.hal_4_bagian_2 {
+  margin-top: 150px;
+}
+.hal_4_bagian_2 .header {
+  text-align: center;
+  text-transform: capitalize;
+}
+.hal_4_bagian_2 .header .p_header_1 {
+  font-family: "Inter";
+  font-style: normal;
+  color: #eaa51b;
+  font-weight: 500;
+  font-size: 28px;
+}
+.hal_4_bagian_2 .header h1 {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 54px;
+}
+.hal_4_bagian_2 .header .p_header_2 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 26px;
+}
+.konten_hal_4_bagian_2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.konten_hal_4_bagian_2 {
+  width: 95%;
+  margin: 0 !important;
+}
+
+.konten_hal_4_bagian_2 .kotak {
+  background-color: #fafafa;
+  width: 395px;
+  height: 310px;
+  color: #828282;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  padding: 2.4rem;
+  margin-top: 4rem;
+}
+.konten_hal_4_bagian_2 .kotak.active {
+  width: 425px;
+  height: 360px;
+}
+.konten_hal_4_bagian_2 .kotak.aktif_2 {
+  right: 0;
+}
+
+.konten_hal_4_bagian_2 .kotak_header {
+  display: flex;
+  margin: 0;
+  align-items: center;
+  justify-content: start;
+  margin-bottom: 1rem;
+}
+
+.konten_hal_4_bagian_2 .kotak_header i {
+  font-size: 20px;
+  padding: 1rem;
+  background: #255946;
+  color: #fff;
+  margin-right: 1rem;
+}
+.konten_hal_4_bagian_2 .kotak_header p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  margin: 0;
+}
+.konten_hal_4_bagian_2 p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+}
 /* bagian footer */
 
+
+
+/* hal 5 start */
+
+.hal_5 {
+  background: #255946;
+  height: 500px;
+  margin-bottom: 2rem;
+}
+
+.hal_5 .header_5 {
+  display: flex;
+  justify-content: space-between;
+  padding: 3rem;
+}
+.hal_5 .header_5 h1{
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 54px;
+  color: white;
+  
+}
+.hal_5 .header_5 a, .header_5 button{
+  width: 224px;
+height: 40px;
+border: none;
+background: #EAA51B;
+color: #255946;
+border-radius: 6px;
+}
+/* hal 5 end */
 footer {
   background: #255946;
   color: #fff;
@@ -698,8 +815,6 @@ footer .footer__1 button {
 
 footer .footer__1 button:hover {
   background-color: #ce9117;
-  opacity: 70%;
-
 }
 
 footer hr {
@@ -762,8 +877,6 @@ footer .footer__2 .subfooter___3 div i:last-child {
 
 footer .footer__2 .subfooter___3 div i:hover {
   background-color: #ce9117;
-  opacity: 70%;
-
 }
 
 footer .footer__3 {
@@ -776,4 +889,3 @@ footer .footer__3 p {
   margin-bottom: 0;
   font-size: 20px;
 }
-                                                          
