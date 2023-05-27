@@ -4,26 +4,23 @@
   scroll-behavior: smooth;
 }
 
-
-
-  @import url('https://fonts.googleapis.com/css2?family=Assistant:wght@300;400;500;600;700&family=Inter:wght@100;200;300;400;500;600;700;800&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,300;1,500;1,700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Assistant:wght@300;400;500;600;700&family=Inter:wght@100;200;300;400;500;600;700;800&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,300;1,500;1,700&display=swap");
 
 *,
 body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Inter', sans-serif;
-  font-family: 'Raleway', sans-serif;
-  font-family: 'Assistant', sans-serif;
-
+  font-family: "Inter", sans-serif;
+  font-family: "Raleway", sans-serif;
+  font-family: "Assistant", sans-serif;
 }
 
 /* navbar start */
 
 .navbar {
   margin-bottom: 1rem;
- padding: 2rem !important;
+  padding: 2rem !important;
 }
 .navbar .navbar-nav a.active {
   color: #eaa51b;
@@ -73,7 +70,6 @@ body {
   color: #fff;
   transition: 0.4s linear;
   opacity: 70%;
-
 }
 .navbar .navbar-brand {
   font-size: 32px;
@@ -126,50 +122,46 @@ body {
 
 /* hal 1 start */
 
-  .background_landing_page {
-    height: 120vh;
-    background-image: url(../img/img_landing_page/bg\ _landing_page.png);
-    filter: brightness(85%);
-    background-size: cover;
-  }
+.background_landing_page {
+  height: 120vh;
+  background-image: url(../img/img_landing_page/bg\ _landing_page.png);
+  filter: brightness(85%);
+  background-size: cover;
+}
 
-  .hal_1 {
-    color: #fff;
-    text-align: center;
-    padding-top: 5rem;
-  }
+.hal_1 {
+  color: #fff;
+  text-align: center;
+  padding-top: 5rem;
+}
 
-  .hal_1 h5 {
-    font-size: 40px;
-    font-weight: 600;
-    padding: 1.5rem;
-  font-family: 'Raleway', sans-serif;
+.hal_1 h5 {
+  font-size: 40px;
+  font-weight: 600;
+  padding: 1.5rem;
+  font-family: "Raleway", sans-serif;
+}
 
-  }
+.hal_1 h1 {
+  font-size: 80px;
+  font-weight: 700;
+  font-family: "Raleway", sans-serif;
+}
 
-  .hal_1 h1 {
-    font-size: 80px;
-    font-weight: 700;
-  font-family: 'Raleway', sans-serif;
-
-  }
-
-  .hal_1 button {
-    color: #fff;
-    background-color: #eaa51b;
-    border-radius: 24px;
-    font-size: 22px;
-    width: 243px;
+.hal_1 button {
+  color: #fff;
+  background-color: #eaa51b;
+  border-radius: 24px;
+  font-size: 22px;
+  width: 243px;
   height: 58px;
   font-weight: 500px;
-  font-family: 'Assistant', sans-serif;
-
-  }
-  .hal_1 button:hover {
-    background-color: #ce9117;
+  font-family: "Assistant", sans-serif;
+}
+.hal_1 button:hover {
+  background-color: #ce9117;
   opacity: 70%;
-
-  }
+}
 
 /* hal 1 end */
 
@@ -208,31 +200,27 @@ body {
   top: 24%;
 }
 .hal_2 .hal_2_bagian_satu .hal_2_visimisi .paragraf_awal {
-  color: #717D96;
+  color: #717d96;
   font-size: 16px;
-  font-family: 'Inter', sans-serif;
-
+  font-family: "Inter", sans-serif;
 }
 .hal_2 .hal_2_bagian_satu .hal_2_visimisi h1 {
   color: #255946;
   font-size: 46px;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 500;
-
 }
 .hal_2 .hal_2_bagian_satu .hal_2_visimisi p {
   width: 85%;
   font-size: 19px;
   padding-top: 1rem;
-  font-family: 'Inter', sans-serif;
-
+  font-family: "Inter", sans-serif;
 }
 .hal_2 .hal_2_bagian_satu .hal_2_visimisi .last_paragraf {
   width: 90%;
   font-size: 19px;
   padding-left: 3rem;
-  font-family: 'Inter', sans-serif;
-
+  font-family: "Inter", sans-serif;
 }
 .hal_2 .hal_2_bagian_satu .hal_2_visimisi .last_paragraf_dua {
   width: 90%;
@@ -240,8 +228,7 @@ body {
   padding-left: 3rem;
   display: none;
   padding-top: 1rem;
-  font-family: 'Inter', sans-serif;
-
+  font-family: "Inter", sans-serif;
 }
 .hal_2 .hal_2_bagian_satu .hal_2_visimisi .btn_visi_misi {
   text-align: center;
@@ -259,11 +246,11 @@ body {
   font-size: 20px;
 }
 .hal_2 .hal_2_bagian_satu .hal_2_visimisi .btn_visi_misi .btn_2 {
-  background: #E2E7F0;
+  background: #e2e7f0;
   border-radius: 0px 13px 13px 0px;
   padding: 1rem 7rem;
   font-weight: bold;
-  color: #1A202C;
+  color: #1a202c;
   font-size: 20px;
 }
 
@@ -287,20 +274,18 @@ body {
 .hal_2_bagian_dua h1 {
   font-size: 54px;
   font-weight: 700;
-  font-family: 'Raleway', sans-serif;
-  
+  font-family: "Raleway", sans-serif;
 }
 .hal_2_bagian_dua h3 {
   font-size: 24px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   width: 55%;
   padding-top: 1rem;
   padding-bottom: 2rem;
 }
 
 .hal_2_bagian_dua .card_bagian_dua p {
-  font-family: 'Inter', sans-serif;
-
+  font-family: "Inter", sans-serif;
 }
 .hal_2_bagian_dua .card_bagian_dua {
   display: flex;
@@ -340,13 +325,12 @@ body {
 
 .hal_2_bagian_dua .card_1 div h3 {
   margin-top: 1.5rem;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 500;
-  
 }
 
 .hal_2_bagian_dua .card_1 div i {
-  background-color: #9DAF96;
+  background-color: #9daf96;
   color: #fff;
   padding: 10px 10px;
   font-size: 25px;
@@ -354,13 +338,12 @@ body {
 }
 .hal_2_bagian_dua .card_2 div h3 {
   margin-top: 1.5rem;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 500;
-
 }
 
 .hal_2_bagian_dua .card_2 div i {
-  background-color: #9DAF96;
+  background-color: #9daf96;
   color: #fff;
   padding: 10px 10px;
   font-size: 25px;
@@ -384,8 +367,8 @@ body {
   width: 74px;
   height: 10px;
   border-radius: 10px;
-  background: #D9D9D9;
-  border: 1px solid #D9D9D9;
+  background: #d9d9d9;
+  border: 1px solid #d9d9d9;
 }
 .btn_bagian_dua .btn_2 {
   width: 74px;
@@ -398,14 +381,14 @@ body {
   width: 74px;
   height: 10px;
   border-radius: 10px;
-  background: #D9D9D9;
-  border: 1px solid #D9D9D9;
+  background: #d9d9d9;
+  border: 1px solid #d9d9d9;
 }
 
-#img_1, #img_3 {
+#img_1,
+#img_3 {
   display: none;
 }
-
 
 /* hal 2 :end */
 
@@ -422,14 +405,12 @@ body {
 .hal_3 h1 {
   font-size: 54px;
   font-weight: bold;
-  font-family: 'Raleway', sans-serif;
-  
+  font-family: "Raleway", sans-serif;
 }
 
 .hal_3 p {
   font-size: 24px;
-  font-family: 'Inter', sans-serif;
-
+  font-family: "Inter", sans-serif;
 }
 
 .hal_3 .hal_3_image {
@@ -440,7 +421,6 @@ body {
 .hal_3 .hal_3_image .image_1 {
   width: 50%;
   height: 600px;
-
 }
 .hal_3 .hal_3_image .image_2 {
   width: 50%;
@@ -449,12 +429,10 @@ body {
 .hal_3 .hal_3_image .image_1 img {
   width: 100%;
   height: 600px;
-  
 }
 .hal_3 .hal_3_image .image_2 img {
   width: 100%;
   height: 600px;
-
 }
 
 .subimage_1 {
@@ -466,16 +444,13 @@ body {
 .subimage_1 h1 {
   font-size: 50px;
   width: 80%;
-  font-family: 'Raleway', sans-serif;
-  
-
+  font-family: "Raleway", sans-serif;
 }
 
 .subimage_1 p {
   font-size: 20px;
   width: 60%;
-  font-family: 'Inter', sans-serif;
-
+  font-family: "Inter", sans-serif;
 }
 
 .subimage_1 button {
@@ -484,15 +459,13 @@ body {
   color: #fff;
   width: 195px;
   border-radius: 8px !important;
-height: 52px;
-  font-family: 'Inter', sans-serif;
-
+  height: 52px;
+  font-family: "Inter", sans-serif;
 }
-.subimage_1 button a{
+.subimage_1 button a {
   text-decoration: none;
   color: #fff;
-  font-family: 'Inter', sans-serif;
-
+  font-family: "Inter", sans-serif;
 }
 .subimage_1 button:hover {
   background-color: #cb8a09;
@@ -503,7 +476,6 @@ height: 52px;
 /* hal 3 :end */
 
 /* hal 4 :start */
-
 .hal_4 {
   background-image: url(../img/img_landing_page/bg\ \(1\).png);
   background-size: cover;
@@ -526,17 +498,15 @@ height: 52px;
   width: 57%;
   padding: 3rem;
 }
-.hal_4 .awal .awal_kiri h1{
+.hal_4 .awal .awal_kiri h1 {
   width: 70%;
   font-size: 54px;
-  font-family: 'Raleway', sans-serif;
-
+  font-family: "Raleway", sans-serif;
 }
-.hal_4 .awal .awal_kiri p{
+.hal_4 .awal .awal_kiri p {
   width: 100%;
   font-size: 20px;
-  font-family: 'Inter', sans-serif;
-
+  font-family: "Inter", sans-serif;
 }
 
 .hal_4 .awal .awal_kiri button {
@@ -544,17 +514,15 @@ height: 52px;
   color: #fff;
   font-size: 20px;
   width: 162px;
-height: 56px;
+  height: 56px;
   transition: 0.4s;
-  font-family: 'Inter', sans-serif;
-
+  font-family: "Inter", sans-serif;
 }
 .hal_4 .awal .awal_kiri button a {
   color: #fff;
   font-size: 20px;
   text-decoration: none;
-  font-family: 'Inter', sans-serif;
-
+  font-family: "Inter", sans-serif;
 }
 .hal_4 .awal .awal_kiri button:hover {
   background-color: #cb8a09;
@@ -575,17 +543,16 @@ height: 56px;
   justify-content: center;
   align-items: center;
   gap: 4rem;
-  font-family: 'Inter', sans-serif;
-
+  font-family: "Inter", sans-serif;
 }
 
-.hal_4 .awal .awal_kanan .kiri h1, .kanan h1{
+.hal_4 .awal .awal_kanan .kiri h1,
+.kanan h1 {
   text-align: center;
   font-size: 100px;
   font-weight: 600;
   color: #eaa51b;
-  font-family: 'Inter', sans-serif;
-
+  font-family: "Inter", sans-serif;
 }
 
 .card_kerusakan_hutan {
@@ -603,7 +570,7 @@ height: 56px;
 }
 
 .card .tanggal_Jenis_kerusakan {
-  background-color: #F1CF69;
+  background-color: #f1cf69;
   color: #255946;
   bottom: 35.9%;
   left: 8%;
@@ -614,8 +581,7 @@ height: 56px;
   text-align: center;
   border-top-left-radius: 7px;
   border-top-right-radius: 7px;
-  font-family: 'Inter', sans-serif;
-
+  font-family: "Inter", sans-serif;
 }
 
 .card-img-top {
@@ -631,27 +597,24 @@ height: 56px;
 .card-tittle {
   color: #255946;
   font-size: 26px;
-  font-family: 'Inter', sans-serif;
-
+  font-family: "Inter", sans-serif;
 }
 
 .card-text {
   font-size: 16px;
-  color: #1A202C;
-  font-family: 'Inter', sans-serif;
-
+  color: #1a202c;
+  font-family: "Inter", sans-serif;
 }
 
 .card .card-body .btn {
   background-color: #eaa51b;
   border: 1px solid #eaa51b;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   width: 120px;
   padding: 8px 12px;
   font-size: 14px;
   font-weight: bold;
-height: 40px;
-
+  height: 40px;
 }
 .card .card-body .btn:hover {
   background-color: #cb8a09;
@@ -669,7 +632,7 @@ height: 40px;
   text-transform: capitalize;
 }
 .hal_4_bagian_2 .header .p_header_1 {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 
   font-style: normal;
   color: #eaa51b;
@@ -677,13 +640,13 @@ height: 40px;
   font-size: 28px;
 }
 .hal_4_bagian_2 .header h1 {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 54px;
 }
 .hal_4_bagian_2 .header .p_header_2 {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 
   font-style: normal;
   font-weight: 500;
@@ -735,7 +698,7 @@ height: 40px;
   margin-right: 1rem;
 }
 .konten_hal_4_bagian_2 .kotak_header p {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 
   font-style: normal;
   font-weight: 400;
@@ -743,7 +706,7 @@ height: 40px;
   margin: 0;
 }
 .konten_hal_4_bagian_2 p {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 
   font-style: normal;
   font-weight: 400;
@@ -751,38 +714,147 @@ height: 40px;
 }
 /* bagian footer */
 
-
-
 /* hal 5 start */
 
 .hal_5 {
   background: #255946;
-  height: 500px;
-  margin-bottom: 2rem;
 }
 
 .hal_5 .header_5 {
   display: flex;
   justify-content: space-between;
   padding: 3rem;
+  padding-top: 80px;
+  padding-bottom: 53px;
 }
-.hal_5 .header_5 h1{
-  font-family: 'Raleway';
+.button_left_berita {
+  display: flex;
+  justify-content: end;
+  align-items: end;
+}
+.hal_5 .header_5 h1 {
+  font-family: "Raleway";
   font-style: normal;
   font-weight: 700;
   font-size: 54px;
   color: white;
-  
 }
-.hal_5 .header_5 a, .header_5 button{
+.hal_5 .header_5 a,
+.header_5 button {
   width: 224px;
-height: 40px;
-border: none;
-background: #EAA51B;
-color: #255946;
-border-radius: 6px;
+  height: 40px;
+  border: none;
+  background: #eaa51b;
+  color: #255946;
+  border-radius: 6px;
 }
+
+.card_berita_terkini img {
+  height: 260px;
+  border-radius: 15px 15px 0px 0px;
+}
+.card_berita_terkini {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: center;
+  gap: 3.5rem;
+  padding-bottom: 80px;
+}
+
+.card .tanggal_berita_terkini {
+  background-color: #f1cf69;
+  color: #255946;
+  bottom: 42%;
+  left: 8%;
+  width: 30%;
+  font-size: 15px;
+  height: 25px;
+  padding-top: 0.2rem;
+  text-align: center;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+  font-family: "Inter", sans-serif;
+}
+
 /* hal 5 end */
+
+/* hal 6 start */
+.hal_6 {
+  background-color: #1a202c;
+  padding-bottom: 215px;
+}
+
+.hal_6 .header {
+  text-align: center;
+  padding-top: 150px;
+}
+.hal_6 .header h1 {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 54px;
+  color: #fff;
+}
+.hal_6 .header p {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  color: #fff;
+}
+.hal_6 .bulat {
+  width: 111px;
+  height: 111px;
+  background: #33ff00;
+  opacity: 0.25;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-top: -55px;
+  margin-left: 5px;
+}
+.hal_6 .bulat2 {
+  width: 111px;
+  height: 111px;
+  background: #33ff00;
+  opacity: 0.25;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin-bottom: -50px;
+  margin-right: 5px;
+}
+.konten_hal_6 {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: center;
+  align-items: center;
+  gap: 28px;
+  flex-wrap: wrap;
+}
+.konten_hal_6 img {
+  position: relative;
+}
+.konten_hal_6 .button_before_after {
+  position: absolute;
+  margin-top: -60px;
+}
+.konten_hal_6 .button_before_after button {
+  margin: 20px;
+  width: 85px;
+  height: 32px;
+  background: rgba(196, 196, 196, 0.66);
+  border-radius: 8px;
+  border: none;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  color: #fff;
+}
+/* hal 6 end */
 footer {
   background: #255946;
   color: #fff;
