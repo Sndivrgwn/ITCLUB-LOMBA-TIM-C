@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  scroll-behavior: smooth;
   font-family: "Raleway", "Arial Narrow", Arial, sans-serif;
 }
 
@@ -67,6 +68,8 @@ body {
   background-color: #cb8a09;
   color: #fff;
   transition: 0.4s linear;
+  opacity: 70%;
+
 }
 .navbar .navbar-brand {
   font-size: 32px;
@@ -147,10 +150,12 @@ body {
     background-color: #eaa51b;
     border-radius: 24px;
     padding: 0.5rem 2rem;
-    font-size: 24px;
+    font-size: 20px;
   }
   .hal_1 button:hover {
     background-color: #ce9117;
+  opacity: 70%;
+
   }
 
 /* hal 1 end */
@@ -432,9 +437,14 @@ body {
   font-size: 20px;
   color: #fff;
 }
+.subimage_1 button a{
+  text-decoration: none;
+  color: #fff;
+}
 .subimage_1 button:hover {
   background-color: #cb8a09;
   color: #fff;
+  opacity: 70%;
 }
 
 /* hal 3 :end */
@@ -474,6 +484,16 @@ body {
   background-color: #eaa51b;
   color: #fff;
   font-size: 20px;
+  transition: 0.4s;
+}
+.hal_4 .awal .awal_kiri button a {
+  color: #fff;
+  font-size: 20px;
+  text-decoration: none;
+}
+.hal_4 .awal .awal_kiri button:hover {
+  background-color: #cb8a09;
+  opacity: 70%;
 }
 
 .hal_4 .awal .awal_kanan {
@@ -514,6 +534,20 @@ body {
   box-shadow: -1px 5px 10px rgba(7, 41, 42, 0.05) !important;
 }
 
+.card .tanggal_Jenis_kerusakan {
+  background-color: #F1CF69;
+  color: #255946;
+  bottom: 37%;
+  left: 8%;
+  width: 30%;
+  font-size: 15px;
+  height: 25px;
+  padding-top: 0.2rem;
+  text-align: center;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+}
+
 .card-img-top {
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
@@ -531,6 +565,7 @@ body {
 
 .card-text {
   font-size: 16px;
+  color: #1A202C;
 }
 
 .card .card-body .btn {
@@ -540,6 +575,7 @@ body {
 .card .card-body .btn:hover {
   background-color: #cb8a09;
   border: 1px solid #cb8a09;
+  opacity: 70%;
 }
 /* hal 4end  */
 
@@ -581,6 +617,8 @@ footer .footer__1 button {
 
 footer .footer__1 button:hover {
   background-color: #ce9117;
+  opacity: 70%;
+
 }
 
 footer hr {
@@ -643,6 +681,8 @@ footer .footer__2 .subfooter___3 div i:last-child {
 
 footer .footer__2 .subfooter___3 div i:hover {
   background-color: #ce9117;
+  opacity: 70%;
+
 }
 
 footer .footer__3 {
