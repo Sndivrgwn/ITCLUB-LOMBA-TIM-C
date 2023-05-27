@@ -1,4 +1,16 @@
 @media only screen and (max-width: 1367px) {
+  .card_kerusakan_hutan {
+    gap: 1.5rem;
+  }
+
+  .card {
+    width: 383px !important;
+  }
+
+  .hal_3 {
+    height: 126vh;
+  }
+
   footer .footer__1 {
     display: flex;
     justify-content: space-evenly;
