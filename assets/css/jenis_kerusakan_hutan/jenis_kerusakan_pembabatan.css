@@ -1,15 +1,21 @@
 * {
   margin: 0;
   padding: 0;
+  scroll-behavior: smooth;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&family=Poppins:wght@200;300;400;500;900&family=Raleway:ital,wght@0,300;0,500;0,600;0,700;0,900;1,300;1,500;1,700&display=swap');
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Assistant:wght@300;400;500;600;700&family=Inter:wght@100;200;300;400;500;600;700;800&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,300;1,500;1,700&display=swap');
+
 *,
 body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Raleway", "Poppins", "inter";
+  font-family: 'Inter', sans-serif;
+  font-family: 'Raleway', sans-serif;
+  font-family: 'Assistant', sans-serif;
 
 }
 
@@ -26,22 +32,22 @@ body {
 
 .background_pembabatan {
     background-image: url(../../img/img_jenis_kerusakan_hutan/jenis_kerusakan_pembabatan/image\ 3.png);
-    height: 15rem;
+height: 315px;
     background-size: cover;
 }
 
 .cont {
-    padding-left: 3rem !important;
-    padding-right: 3rem !important;
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
 }
 .conts {
-    margin-left: 5.7rem !important;
-    margin-right: 5.7rem !important;
+    margin-left: 2.9rem !important;
+    margin-right: 2.9em !important;
 }
 
 .banner {
     background: #25594699 60%;
-    height: 15rem;
+height: 315px;
 }
 
 .banner p {
@@ -50,19 +56,25 @@ body {
     font-size: 20px;
     padding-top: 2rem;
     font-weight: 500;
+  font-family: 'Inter', sans-serif;
+
 }
 
 .banner p a {
     opacity: 70%;
     color: #fff;
     text-decoration: none;
+  font-family: 'Inter', sans-serif;
+
 }
 
 .artikel h1 {
     font-size: 48px;
     color: #255946;
     font-weight: bold;
-    margin-top: 4rem;
+    margin-top: 84.24px;
+  font-family: 'Raleway', sans-serif;
+
 }
 
 .artikel div {
@@ -75,12 +87,16 @@ body {
 
 .artikel div p span {
     font-family: 'Poppins';
+  font-family: 'Inter', sans-serif;
+
 }
 
 .artikel div .p_subjudul{
     font-size: 20px;
     color: #255946;
     margin-right: 2rem;
+  font-family: 'Inter', sans-serif;
+
 }
 
 .artikel div hr {
@@ -91,13 +107,15 @@ body {
     opacity: 100%;
     position: absolute;
     top: 0.9rem;
-    left: 11.7%;
+    left: 10.8%;
 }
 
 .artikel p {
     font-size: 20px;
     color: #1A202C;
     text-align: justify;
+  font-family: 'Inter', sans-serif;
+
 }
 
 footer {
@@ -108,7 +126,7 @@ footer {
 footer {
     background: #255946;
     color: #fff;
-    margin-top: 4rem;
+    margin-top: 150px;
   }
   
   footer span {

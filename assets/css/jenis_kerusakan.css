@@ -1,18 +1,23 @@
 * {
   margin: 0;
   padding: 0;
+  scroll-behavior: smooth;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&family=Poppins:wght@200;300;400;500;900&family=Raleway:ital,wght@0,300;0,500;0,600;0,700;0,900;1,300;1,500;1,700&display=swap');
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Assistant:wght@300;400;500;600;700&family=Inter:wght@100;200;300;400;500;600;700;800&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,300;1,500;1,700&display=swap');
+
 *,
 body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Raleway", "Poppins", "inter";
+  font-family: 'Inter', sans-serif;
+  font-family: 'Raleway', sans-serif;
+  font-family: 'Assistant', sans-serif;
+
 }
-
-
 
 /* banner start */
 
@@ -33,16 +38,24 @@ body {
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
+  font-family: 'Inter', sans-serif;
+
 }
 
-.banner p span {
+.banner p span a {
   opacity: 70%;
+  color: #fff;
+  text-decoration: 0;
+  font-family: 'Inter', sans-serif;
+
 }
 
 .banner h1 {
   font-size: 48px;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 500;
+  font-family: 'Raleway', sans-serif;
+
 }
 
 /* banner end */
@@ -54,7 +67,9 @@ body {
   grid-template-columns: auto auto auto;
   margin: 3rem;
   justify-content: center;
+  margin-top: 60px;
   gap: 3rem;
+  margin-bottom: 150px;
 }
 
 .card {
@@ -75,13 +90,23 @@ body {
 .card-tittle {
   color: #255946;
   font-size: 26px;
+  font-family: 'Inter', sans-serif;
+
 }
 
 .card-text {
   font-size: 16px;
+  font-family: 'Inter', sans-serif;
+
 }
 
 .card .card-body .btn {
+  font-family: 'Inter', sans-serif;
+  width: 120px;
+height: 40px;
+padding: 8px 12px;
+font-weight: bold;
+font-size: 14px;
   background-color: #eaa51b;
   border: 1px solid #eaa51b;
 }
