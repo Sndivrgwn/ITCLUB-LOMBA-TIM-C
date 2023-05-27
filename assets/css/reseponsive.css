@@ -72,6 +72,15 @@
   .card .card-body .btn {
     font-size: 13px;
   }
+  .konten_hal_4_bagian_2 .kotak.aktif {
+    margin-left: -0.5rem;
+  }
+  .konten_hal_4_bagian_2 .kotak.aktif_2 {
+    margin-right: -1rem;
+  }
+  .button_hal_4 {
+    margin-top: 35%;
+  }
 
   footer .footer__1 {
     display: flex;

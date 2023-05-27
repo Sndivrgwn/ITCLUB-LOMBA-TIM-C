@@ -689,7 +689,7 @@ body {
 .button_hal_4 .button_left_hal_4 {
   width: 50px; 
   height: 50px; 
-  color: #255946; 
+  color:#21A099; 
   border: none;
   background-color: #fff;
 }
@@ -728,6 +728,7 @@ body {
 .konten_hal_4_bagian_2 .kotak.active {
   width: 425px;
   height: 360px;
+  padding-top: 4rem;
 }
 .konten_hal_4_bagian_2 .kotak.aktif_2 {
   right: 0;
