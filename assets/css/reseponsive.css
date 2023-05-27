@@ -43,7 +43,7 @@
   }  
   
   .card_kerusakan_hutan {
-    gap: 1.5rem;
+    gap: 2.2rem;
   }
 
   .card {
@@ -51,15 +51,15 @@
   }
 
   .hal_3 {
-    height: 130vh !important;
+    height: 126vh !important;
   }
 
   .card .tanggal_Jenis_kerusakan {
-    bottom: 37.6%;
+    bottom:37.8% !important;
   }
 
-  .hal_3 {
-    height: 110vh;
+  .card .card-body .btn {
+    font-size: 13px;
   }
 
   footer .footer__1 {

@@ -162,6 +162,7 @@ body {
     width: 243px;
   height: 58px;
   font-weight: 500px;
+  border: #eaa51b;
   font-family: 'Assistant', sans-serif;
 
   }
@@ -418,7 +419,7 @@ body {
 /* hal 3 :start */
 
 .hal_3 {
-  height: 114vh;
+  height: 111vh;
   background-color: #255946;
   color: #fff;
   text-align: center;
