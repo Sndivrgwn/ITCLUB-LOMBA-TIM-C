@@ -148,6 +148,7 @@ body {
   font-family: "Raleway", sans-serif;
 }
 
+
 .hal_1 button {
   color: #fff;
   background-color: #eaa51b;
@@ -168,9 +169,13 @@ body {
 
 /* hal 2 :start */
 
+.background {
+  background-image: url(../img/img_landing_page/bg.png);
+  background-size: cover;
+}
+
 .hal_2 {
   height: 270vh;
-  background-image: url(../img/img_landing_page/bg.png);
   background-size: cover;
   padding-bottom: 0;
 }
@@ -484,7 +489,6 @@ body {
 
 /* hal 4 :start */
 .hal_4 {
-  background-image: url(../img/img_landing_page/bg\ \(1\).png);
   background-size: cover;
   background-repeat: no-repeat;
   color: #fff;
@@ -634,6 +638,19 @@ body {
 .hal_4_bagian_2 {
   margin-top: 150px;
 }
+.hal_4_bagian_2 .pembungkus_hal_4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.hal_4_bagian_2 .bg_hal_4_bagian_2 {
+  background: #255946b0;
+  width: 1120px;
+  height: 582px;
+  display: flex;
+  justify-content: center;
+}
 .hal_4_bagian_2 .header {
   text-align: center;
   text-transform: capitalize;
@@ -669,6 +686,26 @@ body {
   margin: 0 !important;
 }
 
+.button_hal_4 .button_left_hal_4 {
+  width: 50px; height: 50px; color: #255946; border: none
+}
+.button_hal_4  .button_right_hal_4 {
+  width: 50px;
+  color: white;
+  height: 50px;
+  background: #255946;
+  border: none;
+}
+.button_hal_4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  margin-top: 35%;
+  background-color: white;
+  width: 120px;
+  height: 66px;
+}
 .konten_hal_4_bagian_2 .kotak {
   background-color: #fafafa;
   width: 395px;
@@ -680,6 +717,9 @@ body {
   justify-content: center;
   padding: 2.4rem;
   margin-top: 4rem;
+}
+.konten_hal_4_bagian_2 .kotak.aktif {
+  left: 0;
 }
 .konten_hal_4_bagian_2 .kotak.active {
   width: 425px;
@@ -740,7 +780,8 @@ body {
   align-items: end;
 }
 .hal_5 .header_5 h1 {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
+
   font-style: normal;
   font-weight: 700;
   font-size: 54px;
@@ -749,6 +790,8 @@ body {
 .hal_5 .header_5 a,
 .header_5 button {
   width: 224px;
+  font-family: "Inter", sans-serif;
+
   height: 40px;
   border: none;
   background: #eaa51b;
@@ -787,7 +830,6 @@ body {
 
 /* hal 6 start */
 .hal_6 {
-  background-color: #1a202c;
   padding-bottom: 215px;
 }
 
@@ -796,7 +838,8 @@ body {
   padding-top: 150px;
 }
 .hal_6 .header h1 {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
+
   font-style: normal;
   font-weight: 700;
   font-size: 54px;
