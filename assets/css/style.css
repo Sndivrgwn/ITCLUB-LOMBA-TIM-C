@@ -505,11 +505,11 @@ height: 52px;
 /* hal 4 :start */
 
 .hal_4 {
-  height: 150vh;
   background-image: url(../img/img_landing_page/bg\ \(1\).png);
   background-size: cover;
   background-repeat: no-repeat;
   color: #fff;
+  padding-bottom: 150px;
 }
 
 .hal_4 .awal {
@@ -669,20 +669,22 @@ height: 40px;
   text-transform: capitalize;
 }
 .hal_4_bagian_2 .header .p_header_1 {
-  font-family: "Inter";
+  font-family: 'Inter', sans-serif;
+
   font-style: normal;
   color: #eaa51b;
   font-weight: 500;
   font-size: 28px;
 }
 .hal_4_bagian_2 .header h1 {
-  font-family: "Raleway";
+  font-family: 'Raleway', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 54px;
 }
 .hal_4_bagian_2 .header .p_header_2 {
-  font-family: "Inter";
+  font-family: 'Inter', sans-serif;
+
   font-style: normal;
   font-weight: 500;
   font-size: 26px;
@@ -733,14 +735,16 @@ height: 40px;
   margin-right: 1rem;
 }
 .konten_hal_4_bagian_2 .kotak_header p {
-  font-family: "Inter";
+  font-family: 'Inter', sans-serif;
+
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
   margin: 0;
 }
 .konten_hal_4_bagian_2 p {
-  font-family: "Inter";
+  font-family: 'Inter', sans-serif;
+
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
