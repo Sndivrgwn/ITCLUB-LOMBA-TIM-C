@@ -687,7 +687,11 @@ body {
 }
 
 .button_hal_4 .button_left_hal_4 {
-  width: 50px; height: 50px; color: #255946; border: none
+  width: 50px; 
+  height: 50px; 
+  color: #255946; 
+  border: none;
+  background-color: #fff;
 }
 .button_hal_4  .button_right_hal_4 {
   width: 50px;
@@ -802,6 +806,7 @@ body {
 .card_berita_terkini img {
   height: 260px;
   border-radius: 15px 15px 0px 0px;
+  object-fit: cover;
 }
 .card_berita_terkini {
   display: grid;
@@ -814,7 +819,7 @@ body {
 .card .tanggal_berita_terkini {
   background-color: #f1cf69;
   color: #255946;
-  bottom: 42%;
+  bottom: 41.9%;
   left: 8%;
   width: 30%;
   font-size: 15px;
@@ -862,7 +867,7 @@ body {
   top: 0;
   left: 0;
   margin-top: -55px;
-  margin-left: 5px;
+    margin-left: -4rem;
 }
 .hal_6 .bulat2 {
   width: 111px;
@@ -874,10 +879,18 @@ body {
   bottom: 0;
   right: 0;
   margin-bottom: -50px;
-  margin-right: 5px;
+  margin-right: -4rem;
 }
 .konten_hal_6 {
-  display: grid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.konten_hal_6_bagian_2 {
+  position: relative;
+  width: 90%;
+    display: grid;
   grid-template-columns: auto auto;
   justify-content: center;
   align-items: center;
