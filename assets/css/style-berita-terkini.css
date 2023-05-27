@@ -97,7 +97,10 @@ body {
   gap: 3rem;
   align-items: center;
 }
-
+.card_berita_terkini img {
+  height: 265px;
+  object-fit: cover;
+}
 .card {
   border-radius: 20px !important;
   box-shadow: -1px 5px 10px #aaa !important;
