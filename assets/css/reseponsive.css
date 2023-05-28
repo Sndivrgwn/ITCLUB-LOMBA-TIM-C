@@ -1,20 +1,80 @@
-@media only screen and (min-width: 1920px) {
+@media only screen and (min-width: 1855px) {
   footer .footer__1 {
     justify-content: center;
     gap: 26% !important;
-   }
+  }
 
-   
   footer .footer__2 {
-  gap: 10% !important;
-}
-}
+    gap: 10% !important;
+  }
 
+  /* hal 4 */
 
-
-@media only screen and (max-width: 1680px) {
   .button_hal_4 {
-    margin-top: 32%;
+    margin-top: 26%;
+  }
+  .konten_hal_4_bagian_2 .kotak {
+    width: 550px !important;
+    height: 350px !important;
+  }
+  .hal_4_bagian_2 .bg_hal_4_bagian_2 {
+    width: 80%;
+    height: 600px;
+  }
+  .konten_hal_4_bagian_2 .kotak.active {
+    height: 390px !important;
+  }
+  .konten_hal_4_bagian_2 .kotak.aktif {
+    margin-left: 2%;
+  }
+  .konten_hal_4_bagian_2 .kotak.aktif_2 {
+    margin-right: 2%;
+  }
+
+  /* hal 6 */
+  .konten_hal_6 img {
+    width: 800px;
+  }
+  .konten_hal_6 .button_before_after button {
+    width: 100px;
+    height: 32px;
+  }
+  .hal_6 .bulat {
+    width: 131px;
+    height: 131px;
+    margin-left: -1%;
+  }
+  .hal_6 .bulat2 {
+    width: 131px;
+    height: 131px;
+    margin-right: -1%;
+  }
+}
+@media only screen and (max-width: 1854px) {
+  .konten_hal_4_bagian_2 .kotak {
+    width: 450px !important;
+    height: 350px !important;
+  }
+  .konten_hal_4_bagian_2 .kotak.kotak.active {
+    height: 390px !important;
+  }
+  .hal_4_bagian_2 .bg_hal_4_bagian_2 {
+    width: 80%;
+    height: 600px;
+  }
+  footer .footer__1 {
+    justify-content: center;
+    gap: 26% !important;
+  }
+
+  footer .footer__2 {
+    gap: 10% !important;
+  }
+
+  /* hal 4 */
+
+  .button_hal_4 {
+    margin-top: 30%;
   }
   .konten_hal_4_bagian_2 .kotak.aktif {
     margin-left: 4rem;
@@ -22,7 +82,111 @@
   .konten_hal_4_bagian_2 .kotak.aktif_2 {
     margin-right: 4rem;
   }
+
+  /* hal 6 */
+  .hal_6 .bulat {
+    width: 131px;
+    height: 131px;
+    margin-left: -39px;
+  }
+  .hal_6 .bulat2 {
+    width: 131px;
+    height: 131px;
+    margin-right: -35px;
+  }
 }
+@media only screen and (max-width: 1680px) {
+  .konten_hal_4_bagian_2 .kotak {
+    width: 450px !important;
+    height: 350px !important;
+  }
+  .konten_hal_4_bagian_2 .kotak.kotak.active {
+    height: 390px !important;
+  }
+  .hal_4_bagian_2 .bg_hal_4_bagian_2 {
+    width: 80%;
+    height: 600px;
+  }
+  footer .footer__1 {
+    justify-content: center;
+    gap: 26% !important;
+  }
+
+  footer .footer__2 {
+    gap: 10% !important;
+  }
+
+  /* hal 4 */
+
+  .button_hal_4 {
+    margin-top: 30%;
+  }
+  .konten_hal_4_bagian_2 .kotak.aktif {
+    margin-left: 4rem;
+  }
+  .konten_hal_4_bagian_2 .kotak.aktif_2 {
+    margin-right: 4rem;
+  }
+
+  /* hal 6 */
+  .konten_hal_6 img {
+    width: 680px;
+  }
+  .hal_6 .bulat {
+    margin-left: 0;
+  }
+  .hal_6 .bulat2 {
+    margin-right: 0;
+  }
+}
+@media only screen and (max-width: 1568px) {
+  .konten_hal_4_bagian_2 .kotak {
+    width: 400px !important;
+    height: 350px !important;
+  }
+  .konten_hal_4_bagian_2 .kotak.kotak.active {
+    height: 390px !important;
+  }
+  .hal_4_bagian_2 .bg_hal_4_bagian_2 {
+    width: 80%;
+    height: 600px;
+  }
+  footer .footer__1 {
+    justify-content: center;
+    gap: 26% !important;
+  }
+
+  footer .footer__2 {
+    gap: 10% !important;
+  }
+
+  /* hal 4 */
+
+  .button_hal_4 {
+    margin-top: 35%;
+  }
+  .konten_hal_4_bagian_2 .kotak.aktif {
+    margin-left: 2rem;
+  }
+  .konten_hal_4_bagian_2 .kotak.aktif_2 {
+    margin-right: 2rem;
+  }
+
+  /* hal 6 */
+  .konten_hal_6 img {
+
+  }
+  .konten_hal_6 .button_before_after button {
+
+  }
+  .hal_6 .bulat {
+
+  }
+  .hal_6 .bulat2 {
+
+  }
+}
+
 @media only screen and (max-width: 1367px) {
   .hal_2 .hal_2_bagian_satu .hal_2_visimisi .btn_visi_misi .btn_1 {
     background-color: #eaa51b;
@@ -33,11 +197,11 @@
     font-size: 20px;
   }
   .hal_2 .hal_2_bagian_satu .hal_2_visimisi .btn_visi_misi .btn_2 {
-    background: #E2E7F0;
+    background: #e2e7f0;
     border-radius: 0px 13px 13px 0px;
     padding: 1rem 6rem;
     font-weight: bold;
-    color: #1A202C;
+    color: #1a202c;
     font-size: 20px;
   }
 
@@ -47,7 +211,6 @@
   .hal_2_bagian_dua .card_bagian_dua .card_2 {
     width: 450px;
   }
-  
 
   .image_bagian_dua_123 {
     width: 725px;
@@ -66,8 +229,8 @@
     height: 305vh;
     background-image: url(../img/img_landing_page/bg.png);
     background-size: cover;
-  }  
-  
+  }
+
   .card_kerusakan_hutan {
     gap: 2.2rem;
   }
@@ -81,7 +244,7 @@
   }
 
   .card .tanggal_Jenis_kerusakan {
-    bottom:37.7% !important;
+    bottom: 37.7% !important;
   }
 
   .card .card-body .btn {
