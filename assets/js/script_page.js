@@ -6,9 +6,15 @@ let galeri = document.getElementById("nav__galeri");
 let paging_1 = document.getElementById("paging_1")
 let paging_2 = document.getElementById("paging_2")
 let paging_3 = document.getElementById("paging_3")
-let card = document.getElementById("hilang_2")
 let card_1 = document.getElementById("hilang_1")
-let card_2 = document.getElementById("hilang_3")
+let card_2 = document.getElementById("hilang_2")
+let card_3 = document.getElementById("hilang_3")
+let card_4 = document.getElementById("hilang_4")
+let card_5 = document.getElementById("hilang_5")
+let card_6 = document.getElementById("hilang_6")
+let card_7 = document.getElementById("hilang_7")
+let card_8 = document.getElementById("hilang_8")
+let card_9 = document.getElementById("hilang_9")
 
 home.addEventListener("click", function () {
   home.style.fontWeight = "bold";
@@ -80,27 +86,44 @@ paging_1.addEventListener("click", function() {
  paging_2.style.backgroundColor = "white";
  paging_3.style.backgroundColor = "white";
  card_1.style.display = "flex";
- card_2.style.display = "none";
- card.style.display = "flex";
-
+ card_2.style.display = "flex";
+ card_3.style.display = "flex";
+ card_4.style.display = "flex";
+ card_5.style.display = "flex";
+ card_6.style.display = "flex";
+ card_7.style.display = "none";
+ card_8.style.display = "none";
+ card_9.style.display = "none";
 });
 
 paging_2.addEventListener("click", function() {
  paging_2.style.backgroundColor = "#eaa51b";
  paging_1.style.backgroundColor = "white";
  paging_3.style.backgroundColor = "white";
- card.style.display = "flex";
  card_1.style.display = "none";
- card_2.style.display = "flex";
+ card_2.style.display = "none";
+ card_3.style.display = "none";
+ card_4.style.display = "flex";
+ card_5.style.display = "flex";
+ card_6.style.display = "flex";
+ card_7.style.display = "flex";
+ card_8.style.display = "flex";
+ card_9.style.display = "flex";
 });
 
 paging_3.addEventListener("click", function() {
  paging_3.style.backgroundColor = "#eaa51b";
  paging_1.style.backgroundColor = "white";
  paging_2.style.backgroundColor = "white";
- card.style.display = "flex";
  card_1.style.display = "none";
  card_2.style.display = "none";
+ card_3.style.display = "none";
+ card_4.style.display = "none";
+ card_5.style.display = "none";
+ card_6.style.display = "none";
+ card_7.style.display = "flex";
+ card_8.style.display = "flex";
+ card_9.style.display = "flex";
 });
 
 
