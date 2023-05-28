@@ -75,6 +75,8 @@ let visi = document.getElementById("visi");
 let misi = document.getElementById("misi");
 
 btnVisi.addEventListener("click", function () {
+  btnMisi.style.border = 'none';
+  btnVisi.style.border = 'none';
   btnVisi.style.backgroundColor = "#eaa51b";
   btnVisi.style.color = "#fff";
   visi.style.display = "block";
@@ -86,6 +88,8 @@ btnVisi.addEventListener("click", function () {
 });
 
 btnMisi.addEventListener("click", function () {
+  btnMisi.style.border = 'none';
+  btnVisi.style.border = 'none';
   btnVisi.style.backgroundColor = "#E2E7F0";
   btnVisi.style.color = "#1A202C";
   visi.style.display = "none";

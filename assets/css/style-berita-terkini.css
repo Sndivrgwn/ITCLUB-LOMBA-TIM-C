@@ -116,7 +116,9 @@ body {
 .card {
   border-radius: 20px !important;
   box-shadow: -1px 5px 10px #aaa !important;
+  width: 390px;
 }
+
 
 .card-img-top {
   border-top-left-radius: 15px !important;
@@ -329,6 +331,9 @@ footer .footer__3 p {
   }
   .card .card-body .btn {
    font-size: 13px;
+  }
+  .card {
+    width: 500px;
   }
 }
 
