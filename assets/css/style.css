@@ -147,7 +147,6 @@ body {
   font-family: "Raleway", sans-serif;
 }
 
-
 .hal_1 button {
   color: #fff;
   background-color: #eaa51b;
@@ -261,7 +260,6 @@ body {
 .image_bagian_dua_123 {
   height: 583px;
   width: 830px;
-  
 }
 
 .aktif {
@@ -676,6 +674,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: 0.2s ease !important;
 }
 .konten_hal_4_bagian_2 {
   width: 95%;
@@ -683,23 +682,37 @@ body {
 }
 
 .button_hal_4 .button_left_hal_4 {
-  width: 50px; 
-  height: 50px; 
-  color: #255946; 
+  width: 50px;
+  height: 50px;
+  color: #255946;
   border: none;
   background-color: #fff;
+  position: relative;
+  outline: none;
+  transition: 0.7s ease;
 }
-.button_hal_4  .button_right_hal_4 {
+.button_hal_4 .button_right_hal_4 {
   width: 50px;
-  color: white;
   height: 50px;
-  background: #255946;
+  color: #fff;
   border: none;
+  background-color: #255946;
+  position: relative;
+  outline: none;
+  transition: 0.7s ease;
 }
-.button_hal_4 button:hover {
-  color: #fff !important;
-  background-color: #255946 !important;
-}
+
+/* #btn {
+  left: 0;
+  top: 0;
+  position: absolute;
+  width: 62px;
+  height: 66px;
+  z-index: 9999;
+  background-color:#255946;
+  opacity: 0.9;
+  transition: 0.5s;
+} */
 .button_hal_4 {
   display: flex;
   justify-content: center;
@@ -709,6 +722,7 @@ body {
   background-color: white;
   width: 120px;
   height: 66px;
+  transition: 0.4s ease;
 }
 .konten_hal_4_bagian_2 .kotak {
   background-color: #fafafa;
@@ -721,6 +735,14 @@ body {
   justify-content: center;
   padding: 2.4rem;
   margin-top: 4rem;
+}
+
+ #kotak_hilang2 {
+  display: none;
+}
+.konten_hal_4_bagian_2 .kotak.hilang {
+  margin-left: 200px !important;
+  margin-right: 200px !important;
 }
 .konten_hal_4_bagian_2 .kotak.aktif {
   left: 0;
@@ -868,7 +890,7 @@ body {
   top: 0;
   left: 0;
   margin-top: -55px;
-    margin-left: -4rem;
+  margin-left: -4rem;
 }
 .hal_6 .bulat2 {
   width: 111px;
@@ -891,7 +913,7 @@ body {
 .konten_hal_6_bagian_2 {
   position: relative;
   width: 90%;
-    display: grid;
+  display: grid;
   grid-template-columns: auto auto;
   justify-content: center;
   align-items: center;
