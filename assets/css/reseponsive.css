@@ -64,11 +64,11 @@
   }
   footer .footer__1 {
     justify-content: center;
-    gap: 26% !important;
+    gap: 21% !important;
   }
 
   footer .footer__2 {
-    gap: 10% !important;
+    gap: 7.4% !important;
   }
 
   /* hal 4 */
@@ -109,11 +109,11 @@
   }
   footer .footer__1 {
     justify-content: center;
-    gap: 26% !important;
+    gap: 0% !important;
   }
 
   footer .footer__2 {
-    gap: 10% !important;
+    gap: 0% !important;
   }
 
   /* hal 4 */
@@ -153,11 +153,11 @@
   }
   footer .footer__1 {
     justify-content: center;
-    gap: 26% !important;
+    gap: 12% !important;
   }
 
   footer .footer__2 {
-    gap: 10% !important;
+    gap: 3.5% !important;
   }
 
   /* hal 4 */
@@ -286,6 +286,15 @@
 
   footer hr {
     width: 89%;
+  }
+
+  footer .footer__1 {
+    justify-content: center;
+    gap: 9% !important;
+  }
+
+  footer .footer__2 {
+    gap: 3.5% !important;
   }
 
   footer .footer__2 .subfooter___1 h2 {
