@@ -1,3 +1,17 @@
+@media only screen and (min-width: 1920px) {
+  footer .footer__1 {
+    justify-content: center;
+    gap: 26% !important;
+   }
+
+   
+  footer .footer__2 {
+  gap: 10% !important;
+}
+}
+
+
+
 @media only screen and (max-width: 1680px) {
   .button_hal_4 {
     margin-top: 32%;
@@ -44,11 +58,12 @@
   }
 
   .hal_2_bagian_dua {
-    margin-top: 10%;
+    margin-top: 17%;
+    padding-bottom: 150px;
   }
 
   .hal_2 {
-    height: 280vh;
+    height: 305vh;
     background-image: url(../img/img_landing_page/bg.png);
     background-size: cover;
   }  
@@ -66,7 +81,7 @@
   }
 
   .card .tanggal_Jenis_kerusakan {
-    bottom:37.8% !important;
+    bottom:37.7% !important;
   }
 
   .card .card-body .btn {

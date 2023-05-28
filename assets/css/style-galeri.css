@@ -120,6 +120,18 @@ body {
 /* responsive */
 /* responsive galeri full hd */
 
+@media only screen and (min-width: 1920px) {
+  footer .footer__1 {
+    justify-content: center;
+    gap: 14%;
+   }
+
+   
+  footer .footer__2 {
+  gap: 10% !important;
+}
+}
+
 @media only screen and (max-width: 1920px) {
   .gambar_text img {
     height: 270px;

@@ -60,3 +60,14 @@
 }
 /* konten utama end */
 
+@media only screen and (min-width: 1920px) {
+    footer .footer__1 {
+      justify-content: center;
+      gap: 14%;
+     }
+  
+     
+    footer .footer__2 {
+    gap: 10% !important;
+  }
+  }

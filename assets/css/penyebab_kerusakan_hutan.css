@@ -238,6 +238,16 @@ footer .footer__3 p {
   font-size: 20px;
 }
 
+@media only screen and (min-width: 1920px) {
+  .artikel div hr {
+    left: 8.7%;
+  }
+
+  .galeri_1 img {
+    width: 565px;
+  }
+}
+
 @media only screen and (max-width: 1366px) {
   .navbar .navbar-nav a {
       color:  #717D96 !important;
@@ -246,7 +256,7 @@ footer .footer__3 p {
     }
 
     .artikel div hr {
-      left: 13.8%;
+      left: 13.5%;
   }
 
   .galeri {

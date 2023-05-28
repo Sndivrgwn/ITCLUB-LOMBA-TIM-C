@@ -107,7 +107,7 @@ height: 315px;
     opacity: 100%;
     position: absolute;
     top: 0.9rem;
-    left: 10.8%;
+    left: 10.9%;
 }
 
 .artikel p {
@@ -235,6 +235,22 @@ footer {
     font-size: 20px;
   }
 
+  @media only screen and (min-width: 1920px) {
+    .artikel div hr {
+      left: 8.3%;
+    }
+    
+    footer .footer__1 {
+      justify-content: center;
+      gap: 27%;
+     }
+  
+     
+  footer .footer__2 {
+    gap: 10%;
+  }
+
+
 @media only screen and (max-width: 1366px) {
     .navbar .navbar-nav a {
         color:  #717D96 !important;
@@ -243,7 +259,7 @@ footer {
       }
 
       .artikel div hr {
-        left: 13.8%;
+        left: 12.4%;
     }
 
     @media only screen and (max-width: 1367px) {
@@ -253,4 +269,4 @@ footer {
       }
      
      }
-}
+}}
