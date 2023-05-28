@@ -14,5 +14,5 @@ Indonesia memiliki kekayaan alam yang melimpah, termasuk hutan yang sangat berag
 
 Kami menggunakan beberapa open source projek untuk website ini:
 
-- [Bootstrap] 
-- [AOS]
+- [AOS] - Markdown parser done right. Fast and easy to extend.
+- [Bootstrap] - great UI boilerplate for modern web apps
