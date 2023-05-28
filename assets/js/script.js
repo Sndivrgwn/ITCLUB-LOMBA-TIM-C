@@ -141,3 +141,34 @@ btnKerusakan_3.addEventListener("click", function () {
   btnKerusakan_2.style.backgroundColor = "#D9D9D9";
   btnKerusakan_1.style.backgroundColor = "#D9D9D9";
 });
+
+
+// var btn = document.getElementById("btn");
+let button_left = document.getElementById("button_left_hal_4");
+let button_right = document.getElementById("button_right_hal_4");
+let kotak1 = document.getElementById("kotak_hilang1");
+let kotak2 = document.getElementById("kotak_hilang2");
+
+// function leftclick(){
+//   btn.style.left = '0';
+// };
+// function rightclick(){
+//   btn.style.left = '60px';
+// };
+
+button_left.addEventListener("click", function () {
+  button_left.style.color = "white";
+  button_left.style.backgroundColor = "#255946";
+  button_right.style.color = "#255946";
+  button_right.style.backgroundColor = "white";
+  kotak2.style.display = "flex";
+  kotak1.style.display = "none";
+});
+button_right.addEventListener("click", function () {
+  button_right.style.color = "white";
+  button_right.style.backgroundColor = "#255946";
+  button_left.style.color = "#255946";
+  button_left.style.backgroundColor = "white";
+  kotak2.style.display = "none";
+  kotak1.style.display = "flex";
+});
