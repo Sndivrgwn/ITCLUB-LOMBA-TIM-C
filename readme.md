@@ -4,8 +4,9 @@ Indonesia memiliki kekayaan alam yang melimpah, termasuk hutan yang sangat berag
 
 ## Fitur
 
-- Penyebab dan dampak kerusakan hutan
-- jenis jenis kerusakan hutan
-- berita kerusakan hutan
-- galeri
+- Navigasi 
+- Informasi jenis jenis kerusakan hutan
+- Berita kerusakan hutan
+- Galeri Foto
+- Responsif HD dan Full HD
 
