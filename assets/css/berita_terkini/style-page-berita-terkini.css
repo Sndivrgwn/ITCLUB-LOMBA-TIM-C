@@ -133,6 +133,21 @@ text-decoration: none;
   font-family: 'Inter', sans-serif;
   margin-bottom: 150px;
 }
+.baca_juga_berita_terkini a {
+  text-decoration: none;
+}
+.baca_juga_berita_terkini a:hover {
+  color: #eaa51b ;
+}
+.baca_juga_berita_terkini img {
+  transition: transform 0.3s ease;
+  width: 200px;
+  height: 150px;
+  object-fit: cover;
+}
+.baca_juga_berita_terkini img:hover {
+  transform: scale(1.1);
+}
 .baca_juga_berita_terkini h2 {
   font-style: normal;
   font-weight: 600;
@@ -159,4 +174,10 @@ text-decoration: none;
 .baca_juga_berita_terkini .baca_juga img {
   margin-right: 1.6rem;
 }
+.baca_juga_tulisan_berita {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+} 
 /* konten utama end */
