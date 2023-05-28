@@ -1,5 +1,13 @@
 @media only screen and (max-width: 1680px) {
-  
+  .button_hal_4 {
+    margin-top: 32%;
+  }
+  .konten_hal_4_bagian_2 .kotak.aktif {
+    margin-left: 4rem;
+  }
+  .konten_hal_4_bagian_2 .kotak.aktif_2 {
+    margin-right: 4rem;
+  }
 }
 @media only screen and (max-width: 1367px) {
   .hal_2 .hal_2_bagian_satu .hal_2_visimisi .btn_visi_misi .btn_1 {
@@ -63,6 +71,15 @@
 
   .card .card-body .btn {
     font-size: 13px;
+  }
+  .konten_hal_4_bagian_2 .kotak.aktif {
+    margin-left: -0.5rem;
+  }
+  .konten_hal_4_bagian_2 .kotak.aktif_2 {
+    margin-right: -1rem;
+  }
+  .button_hal_4 {
+    margin-top: 35%;
   }
 
   footer .footer__1 {

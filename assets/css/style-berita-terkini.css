@@ -106,6 +106,9 @@ body {
   gap: 3rem;
   align-items: center;
 }
+.card_berita_terkini.hilang_2 {
+  display: none;
+}
 .card_berita_terkini img {
   height: 265px;
   object-fit: cover;
