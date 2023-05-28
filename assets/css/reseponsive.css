@@ -773,6 +773,9 @@
     flex-direction: column;
     padding: 2rem;
   }
+  footer .footer__2 .subfooter___2 p {
+    font-size: 18px;
+}
 
   footer .footer__2 .subfooter___1 h2 {
     bottom: -32px;
@@ -987,6 +990,10 @@
     padding-top: 2rem;
     margin-top: 0%;
   }
+  .hal_6 .header p {
+    font-size: 20px;
+    padding: 1rem;
+  }
 }
 
 @media only screen and (max-width: 376px) {
@@ -1040,5 +1047,41 @@ footer .footer__2 .subfooter___1 {
 }
 
 @media only screen and (max-width: 362px) {
-  
+  .hal_2 {
+    height: 290vh !important;
+  }
+
+  .hal_2_bagian_dua {
+    color: #fff;
+    padding: 2rem;
+    padding-top: 2rem;
+    margin-top: 0%;
+  }
+
+  .hal_2_bagian_dua .image_bagian_dua {
+    left: 82.7%;
 }
+
+  .hal_3 {
+    height: 155vh !important;
+  }
+
+  .hal_4 .awal .awal_kanan .kiri h1, .kanan h1 {
+    text-align: center;
+    font-size: 62px;
+}
+.konten_hal_4_bagian_2 .kotak.aktif_2 {
+  margin-right: 0.5rem !important;
+  margin-top: 125%;
+  padding: 1rem;
+}
+.hal_4 {
+  padding: 0;
+  height: 512vh;
+}
+footer .footer__1 h1 {
+  font-size: 29px;
+  padding-bottom: 1rem;
+}
+}
+
