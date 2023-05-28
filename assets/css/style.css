@@ -740,10 +740,7 @@ body {
  #kotak_hilang2 {
   display: none;
 }
-.konten_hal_4_bagian_2 .kotak.hilang {
-  margin-left: 200px !important;
-  margin-right: 200px !important;
-}
+
 .konten_hal_4_bagian_2 .kotak.aktif {
   left: 0;
 }
