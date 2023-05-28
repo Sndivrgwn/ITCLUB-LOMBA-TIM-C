@@ -130,7 +130,7 @@
 
   /* hal 6 */
   .konten_hal_6 img {
-    width: 680px;
+    width: 700px;
   }
   .hal_6 .bulat {
     margin-left: 0;
@@ -300,4 +300,27 @@
     justify-content: flex-start;
     align-items: start;
   }
+  /* hal 4 bagian 2 start */
+
+.hal_6 .bulat {
+  width: 111px;
+  height: 111px;
+  margin-top: -55px;
+    margin-left: -4rem;
+}
+.hal_6 .bulat2 {
+  width: 111px;
+  height: 111px;
+  margin-bottom: -50px;
+  margin-right: -4rem;
+}
+
+.konten_hal_6 img {
+  width: 600px;
+}
+
+.konten_hal_6 .button_before_after button {
+  width: 85px;
+  height: 32px;
+}
 }
