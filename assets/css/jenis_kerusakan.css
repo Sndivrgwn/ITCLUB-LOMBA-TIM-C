@@ -28,7 +28,7 @@ body {
 .banner {
   background: #25594699 60%;
   text-align: center;
-  padding: 2rem;
+  height: 100%;
 }
 
 .banner p {
@@ -244,10 +244,41 @@ footer .footer__2 {
 
 }
 
-@media only screen and (max-width: 1367px) {
-  footer .footer__1 {
-    gap: 2rem;
+@media only screen and (max-width: 1919px) {
+  .card .card-body .btn {
+    font-size: 13px;
   }
+  .card {
+    width: 500px;
+  }
+
+}
+
+@media only screen and (max-width: 1682px) {
+  .card {
+    width: 480px;
+  }
+  .card_kerusakan_hutan {
+    gap: 1.5rem;
+  }
+
+}
+
+@media only screen and (max-width: 1562px) {
+  .card {
+    width: 450px;
+  }
+
+}
+
+@media only screen and (max-width: 1440px) {
+  .card {
+    width: 420px;
+  }
+
+}
+
+@media only screen and (max-width: 1367px) {
 
   .card_kerusakan_hutan {
     display: grid;
@@ -256,3 +287,96 @@ footer .footer__2 {
     gap: 2rem;
   }
 }
+
+@media only screen and (max-width: 1280px) {
+  .card {
+    width: 300px !important;
+  }
+  .card_kerusakan_hutan {
+    gap: 1rem !important;
+  }
+
+}
+
+@media only screen and (max-width: 1233px) {
+  .card {
+    width: 350px !important;
+  }
+  .card_kerusakan_hutan {
+    gap: 1.5rem;
+  }
+
+}
+
+@media only screen and (max-width: 1138px) {
+  .card {
+    width: 320px !important;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .card {
+    width: 300px !important;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .card_kerusakan_hutan {
+    grid-template-columns: auto auto;
+  }
+  .card {
+    width: 430px !important;
+  }
+}
+
+@media only screen and (max-width: 904px) {
+  .card {
+    width: 400px !important;
+  }
+}
+
+@media only screen and (max-width: 835px) {
+  .card {
+    width: 350px !important;
+  }
+}
+
+@media only screen and (max-width: 708px) {
+  .card {
+    width: 300px !important;
+  }
+}
+
+@media only screen and (max-width: 644px) {
+  .card {
+    width: 280px !important;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .card {
+    width: 250px !important;
+  }
+}
+
+@media only screen and (max-width: 555px) {
+  .card {
+    width: 230px !important;
+  }
+}
+
+@media only screen and (max-width: 510px) {
+  .card {
+    width: 200px !important;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .card_kerusakan_hutan {
+    grid-template-columns: auto;
+  }
+  .card {
+    width: 100% !important;
+  }
+}
+

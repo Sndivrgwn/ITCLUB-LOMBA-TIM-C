@@ -82,37 +82,52 @@ body {
   /* navbar end */
   
   /* responsive */
-  /* media laptop full hd */
-  
-  /* full HD 1920 */
-  @media screen and (max-width: 1920px) {
-    /* navbar responsive start */
-    /* navbar responsive end */
-  }
-  
-  @media screen and (max-width: 1200px) {
-    /* navbar responsive start */
-    .navbar .navbar-nav {
-      margin-right: 5%;
-    }
+
+  @media screen and (max-width: 1440px) {
+    
     .navbar .navbar-nav a {
       margin-left: 0.2rem;
     }
-    /* navbar responsive end */
+    .navbar .navbar-nav {
+      margin-right: 3%;
+    }
+  }
+
+  @media screen and (max-width: 1200px) {
+    
+    .navbar .navbar-nav a {
+      margin-left: 0.2rem;
+    }
+  }
+
+  @media screen and (max-width: 1150px) {
+    .navbar .navbar-nav a {
+      margin-left: 0.1rem;
+      font-size: 16px !important;
+    }
+    .navbar .navbar-nav {
+      margin-right: 2%;
+    }
+  }
+  
+  @media screen and (max-width: 1150px) {
+    .navbar .navbar-nav a {
+      margin-left: 0.1rem;
+      font-size: 16px !important;
+    }
+    .navbar .navbar-nav {
+      margin-right: 1%;
+    }
   }
   
   @media screen and (max-width: 1018px) {
-    /* navbar responsive start */
     .navbar .navbar-nav a {
       margin-left: 0.2rem;
     }
-    /* navbar responsive end */
   }
   
   @media screen and (max-width: 375px) {
-    /* navbar responsive start */
     .navbar .navbar-brand {
       font-size: 24px;
     }
-    /* navbar responsive end */
   }

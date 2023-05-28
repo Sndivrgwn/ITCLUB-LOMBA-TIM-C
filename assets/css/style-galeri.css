@@ -50,9 +50,10 @@ body {
   text-decoration: none;
 }
 
-.row_galeri {
+.page_gambar_galeri {
   width: 100%;
-  display: flex;
+  display: grid;
+  grid-template-columns: auto auto auto;
   justify-content: center;
   align-items: center;
   gap: 1rem;
@@ -118,7 +119,7 @@ body {
 /* konten galeri end */
 
 /* responsive */
-/* responsive galeri full hd */
+
 
 @media only screen and (min-width: 1920px) {
   footer .footer__1 {
@@ -126,21 +127,66 @@ body {
     gap: 14%;
    }
 
-   
   footer .footer__2 {
   gap: 10% !important;
-}
-}
+  }
 
-@media only screen and (max-width: 1920px) {
   .gambar_text img {
-    height: 270px;
+    height: 350px;
     object-fit: cover;
   }
+
   .gambar_text {
-    height: 270px;
+    height: 350px;
+  }
+
+  .text_img_galeri {
+   padding: 3rem;
+   padding-bottom: 2rem;
   }
 }
+
+@media only screen and (max-width: 1919px) {
+  footer .footer__1 {
+    justify-content: center;
+    gap: 14%;
+   }
+
+  footer .footer__2 {
+  gap: 10% !important;
+  }
+
+  .gambar_text img {
+    height: 350px;
+    object-fit: cover;
+  }
+
+  .gambar_text {
+    height: 350px;
+  }
+
+  .text_img_galeri {
+   padding: 3rem;
+   padding-bottom: 2rem;
+  }
+}
+
+@media only screen and (max-width: 1450px) {
+  .gambar_text img {
+    height: 350px;
+    object-fit: cover;
+  }
+
+  .gambar_text {
+    height: 350px;
+  }
+
+  .text_img_galeri {
+   padding: 1rem;
+   padding-bottom: 2rem;
+  }
+}
+
 @media only screen and (max-width: 1367px) {
   .gambar_text img {
     height: 270px;
@@ -148,6 +194,92 @@ body {
   }
   .gambar_text {
     height: 270px;
+  }
+  .text_img_galeri {
+    padding-left: 2rem;
+    padding-bottom: 2rem;
+   }
+}
+
+@media only screen and (max-width: 1290px) {
+  .gambar_text img {
+    height: 270px;
+    object-fit: cover;
+  }
+  .gambar_text {
+    height: 270px;
+  }
+  .text_img_galeri {
+    padding-left: 1rem;
+    padding-bottom: 2rem;
+   }
+   .text_img_galeri h2 {
+    font-size: 20px;
+   }
+}
+
+@media only screen and (max-width: 1087px) {
+  .gambar_text img {
+    height: 270px;
+    object-fit: cover;
+  }
+  .gambar_text {
+    height: 270px;
+  }
+  .text_img_galeri {
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+   }
+   .text_img_galeri h2 {
+    font-size: 20px;
+   }
+}
+
+@media only screen and (max-width: 991px) {
+  .page_gambar_galeri {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    align-items: center;
+  }
+  .page_gambar_galeri .gambar_text.tengah {
+    margin-left: 50%;
+  }
+  .gambar_text img {
+    height: 270px;
+    object-fit: cover;
+  }
+
+  .gambar_text {
+    height: 270px;
+  }
+
+  .text_img_galeri {
+    padding-left: 2rem;
+    padding-bottom: 2rem;
+   }
+
+   .text_img_galeri h2 {
+    font-size: 20px;
+   }
+}
+
+@media only screen and (max-width: 768px) {
+  .text_img_galeri {
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+   }
+}
+
+@media only screen and (max-width: 991px) {
+  .page_gambar_galeri {
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+    align-items: center;
+  }
+  .page_gambar_galeri .gambar_text.tengah {
+    margin-left: 0;
   }
 }
 
