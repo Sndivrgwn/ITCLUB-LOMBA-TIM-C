@@ -8,6 +8,87 @@
     gap: 10% !important;
   }
 
+  .hal_1 {
+    padding-top: 8rem;
+  }
+
+  .hal_2 {
+    padding-top: 3rem;
+    height: 220vh;
+  }
+  
+.hal_2 .hal_2_bagian_satu .hal_2_image_dua {
+  left: 11%;
+  bottom: 0%;
+}
+.hal_2 .hal_2_bagian_satu .hal_2_image_satu {
+  left: 20%;
+  top: 122px;
+}
+  
+.hal_2 .hal_2_bagian_satu .hal_2_image_satu img {
+  width: 700px;
+  height: 800px;
+}
+.hal_2 .hal_2_bagian_satu .hal_2_image_dua img {
+  width: 500px;
+}
+
+.hal_2 .hal_2_bagian_satu .hal_2_visimisi {
+  width: 39%;
+  left: 45%;
+  top: 29%;
+}
+
+
+.hal_2_bagian_dua {
+  margin-top: 10%;
+}
+
+.hal_2_bagian_dua .card_bagian_dua .card_1 {
+  width: 600px;
+  height: 285px;
+}
+.hal_2_bagian_dua .card_bagian_dua .card_2 {
+  width: 600px;
+  height: 265px;
+}
+
+.hal_2_bagian_dua .image_bagian_dua_123 {
+  height: 583px;
+  width: 1110px;
+}
+.btn_bagian_dua {
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  bottom: 8%;
+  margin-left: 27rem;
+}
+
+.hal_3 {
+  height: 88vh;
+}
+
+
+.card_kerusakan_hutan {
+  gap: 4rem;
+}
+
+.card  {
+  width: 540px;
+}
+
+
+.card .card-body .btn {
+  width: 130px;
+}
+
+.card .tanggal_Jenis_kerusakan {
+  bottom: 30.52%;
+}
+
   /* hal 4 */
 
   .button_hal_4 {
