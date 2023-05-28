@@ -419,7 +419,7 @@
 
   .hal_2 {
     padding-top: 3rem;
-    height: 240vh;
+    height: 250vh;
   }
 
   .hal_2 .hal_2_bagian_satu .hal_2_image_dua {
@@ -484,7 +484,7 @@
     color: #fff;
     padding: 2rem;
     padding-top: 0;
-    margin-top: 0%;
+    margin-top: 10%;
   }
 
   .hal_2_bagian_dua .penghubung {
@@ -515,7 +515,7 @@
     width: 350px;
   }
   .hal_2_bagian_dua .image_bagian_dua {
-    left: 69%;
+    left: 66%;
     height: 240px;
   }
 
@@ -547,7 +547,7 @@
   }
 
   .hal_3 {
-    height: 122vh !important;
+    height: 127vh !important;
   }
 
   .hal_3 h1 {
@@ -607,8 +607,13 @@
 
   .hal_4 {
     padding: 0;
-    height: 410vh;
+    height: 430vh;
   }
+
+  .hal_4_bagian_2 .bg_hal_4_bagian_2 {
+    width: 83%;
+    height: 78rem;
+}
 
   .hal_4 .awal {
     flex-direction: column-reverse;
@@ -690,6 +695,11 @@
     margin-top: 112%;
   }
 
+  .konten_hal_4_bagian_2 .kotak {
+    width: 325px !important;
+    height: 325px !important;
+  }
+
   .konten_hal_4_bagian_2 .kotak.kotak.active {
     height: 390px !important;
     margin-top: 206%;
@@ -705,11 +715,11 @@
   }
 
   .konten_hal_4_bagian_2 .kotak.aktif {
-    margin-left: -0.2rem !important;
+    margin-left: 2.5rem !important;
   }
 
   .konten_hal_4_bagian_2 .kotak.aktif_2 {
-    margin-right: -0.2rem !important;
+    margin-right: 2.5rem !important;
   }
 
   .hal_5 .header_5 h1 {
@@ -788,6 +798,9 @@
     height: 200px;
     width: 340px;
   }
+  .hal_2_bagian_dua .image_bagian_dua {
+    left: 70%;
+  }
 
   .btn_bagian_dua {
     margin-left: 3.7rem;
@@ -800,9 +813,10 @@
     margin-top: 0%;
   }
 
+
   .hal_4 {
     padding: 0;
-    height: 430vh;
+    height: 450vh;
   }
 
   .konten_hal_4_bagian_2 .kotak {
@@ -826,10 +840,12 @@
   }
 
   .konten_hal_4_bagian_2 .kotak.aktif_2 {
-    margin-right: 0.26rem !important;
+    margin-right: 1rem !important;
     margin-top: 116%;
     padding: 1rem;
   }
+
+  
 
   .button_hal_4 {
     margin-top: 311%;
@@ -845,7 +861,7 @@
   }
 
   .hal_3 {
-    height: 130vh !important;
+    height: 132vh !important;
   }
 
   footer .footer__2 .subfooter___1 h2 {
@@ -979,7 +995,7 @@
 }
 
 footer .footer__2 .subfooter___1 {
-  position: relative;
-  width: 34%;
+    position: relative;
+    width: 34%;
 }
 }
