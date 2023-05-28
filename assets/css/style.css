@@ -572,6 +572,7 @@ body {
   margin-bottom: 1rem;
   border: none !important;
   box-shadow: -1px 5px 10px rgba(7, 41, 42, 0.05) !important;
+  width: 418px;
 }
 
 .card .tanggal_Jenis_kerusakan {
