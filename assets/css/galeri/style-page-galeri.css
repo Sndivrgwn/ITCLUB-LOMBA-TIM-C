@@ -43,31 +43,25 @@
 }
 .gambar_galeri {
     width: 100%;
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: auto auto auto;
     justify-content: center;
     align-items: center;
 }
-.gambar_page_galeri {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.gambar_page_galeri img{
+
+.gambar_galeri img{
     width: 100%;
     object-fit: cover;
 }
 /* konten utama end */
 
-@media only screen and (min-width: 1920px) {
-    footer .footer__1 {
-      justify-content: center;
-      gap: 14%;
-     }
-  
-     
-    footer .footer__2 {
-    gap: 10% !important;
+@media only screen and (max-width: 991px) {
+  .gambar_galeri {
+    grid-template-columns: auto auto;
   }
+}
+@media only screen and (max-width: 425px) {
+  .gambar_galeri {
+    grid-template-columns: auto;
   }
+}
