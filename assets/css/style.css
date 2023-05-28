@@ -69,7 +69,6 @@ body {
   background-color: #cb8a09;
   color: #fff;
   transition: 0.4s linear;
-  opacity: 70%;
 }
 .navbar .navbar-brand {
   font-size: 32px;
@@ -162,7 +161,6 @@ body {
 }
 .hal_1 button:hover {
   background-color: #ce9117;
-  opacity: 70%;
 }
 
 /* hal 1 end */
@@ -482,7 +480,6 @@ body {
 .subimage_1 button:hover {
   background-color: #cb8a09;
   color: #fff;
-  opacity: 70%;
 }
 
 /* hal 3 :end */
@@ -537,7 +534,6 @@ body {
 }
 .hal_4 .awal .awal_kiri button:hover {
   background-color: #cb8a09;
-  opacity: 70%;
 }
 
 .hal_4 .awal .awal_kanan {
@@ -583,7 +579,7 @@ body {
 .card .tanggal_Jenis_kerusakan {
   background-color: #f1cf69;
   color: #255946;
-  bottom: 35.9%;
+  bottom: 35.8%;
   left: 8%;
   width: 30%;
   font-size: 15px;
@@ -630,7 +626,6 @@ body {
 .card .card-body .btn:hover {
   background-color: #cb8a09;
   border: 1px solid #cb8a09;
-  opacity: 70%;
 }
 /* hal 4end  */
 

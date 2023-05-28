@@ -81,6 +81,8 @@ btnVisi.addEventListener("click", function () {
   btnMisi.style.backgroundColor = "#E2E7F0";
   btnMisi.style.color = "#1A202C";
   misi.style.display = "none";
+  btnVisi.style.transition = 'linear 0.3s';
+  visi.style.transition = 'linear 0.3s';
 });
 
 btnMisi.addEventListener("click", function () {
@@ -90,6 +92,9 @@ btnMisi.addEventListener("click", function () {
   btnMisi.style.backgroundColor = "#eaa51b";
   btnMisi.style.color = "#fff";
   misi.style.display = "block";
+  btnMisi.style.transition = 'linear 0.3s';
+  misi.style.transition = 'linear 0.3s';
+
 });
 
 let btnKerusakan_1 = document.getElementById("btn_1");
