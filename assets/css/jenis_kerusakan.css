@@ -357,6 +357,14 @@ footer .footer__2 {
   .card {
     width: 250px !important;
   }
+  .banner p {
+    font-size: 16px;
+    padding-top: 2rem;
+  }
+  .banner h1 {
+      margin-top: 2rem;
+    font-size: 32px;
+  }
 }
 
 @media only screen and (max-width: 555px) {
@@ -371,7 +379,7 @@ footer .footer__2 {
   }
 }
 
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 429px) {
   .card_kerusakan_hutan {
     grid-template-columns: auto;
   }

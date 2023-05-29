@@ -200,13 +200,16 @@ hr {
     margin: 0;
   }
   .banner p {
-    font-size: 14px;
+    font-size: 16px;
   }
   .banner p span a {
-    font-size: 14px;
+    font-size: 16px;
   }
   
   .banner h1 {
+    font-size: 32px;
+  }
+  .page_berita_terkini h1 {
     font-size: 32px;
   }
 }

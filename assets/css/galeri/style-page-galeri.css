@@ -64,4 +64,12 @@
   .gambar_galeri {
     grid-template-columns: auto;
   }
+  .banner p {
+    font-size: 16px;
+    padding-top: 2rem;
+  }
+  .banner h1 {
+    margin-top: 2rem;
+    font-size: 32px;
+  }
 }

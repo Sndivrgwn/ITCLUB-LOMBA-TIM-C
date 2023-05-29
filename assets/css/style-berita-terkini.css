@@ -28,7 +28,6 @@ body {
   width: 545px;
   height: 42px;
   font-family: "Raleway", sans-serif;
-
   font-weight: 500;
   font-size: 16px;
   padding: 0.6rem;
@@ -194,6 +193,11 @@ body {
 .paging_berita_terkini button:hover {
   background-color: #eaa51b !important;
 }
+
+#paging_4,
+#paging_5 {
+  display: none;
+}
 /* paging berita terkini end */
 
 
@@ -335,12 +339,39 @@ body {
   }
 }
 
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 429px) {
   .card_berita_terkini {
     grid-template-columns: auto;
   }
   .card {
     width: 100% !important;
   }
+  .banner p {
+    font-size: 16px;
+    padding-top: 2rem;
+  }
+  .banner h1 {
+    margin-top: 2rem;
+    font-size: 32px;
+  }
+  .input_berita_terkini {
+    width: 100%;
+  }
+  .card_berita_terkini {
+    margin: 2rem;
+    gap:2rem;
+  }
+  
+  #hilang_7,
+#hilang_8,
+#hilang_9 {
+  display: none !important;
+}
+  #hilang_4,
+#hilang_5,
+#hilang_6 {
+  display: none !important;
+}
+  
 }
 
