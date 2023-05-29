@@ -13,6 +13,7 @@ footer .footer__1 {
   align-items: center;
   padding-top: 3rem;
   padding-bottom: 2.5rem;
+  
 }
 
 footer .footer__1 h1 {
@@ -145,7 +146,7 @@ footer .footer__3 p {
   @media only screen and (max-width: 1568px) {
     footer .footer__1 {
       justify-content: center;
-      gap: 12% !important;
+      gap: 10% !important;
     }
   
     footer .footer__2 {
@@ -180,10 +181,6 @@ footer .footer__3 p {
       width: 89%;
     }
   
-    footer .footer__1 {
-      justify-content: center;
-      gap: 9% !important;
-    }
   
     footer .footer__2 {
       gap: 3.5% !important;
