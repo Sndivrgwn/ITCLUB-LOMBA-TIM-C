@@ -387,6 +387,12 @@ footer .footer__3 p {
   .galeri {
     grid-template-columns: auto auto !important;
   }
+  .banner h1 {
+    font-size: 32px;
+  }
+  .artikel h1 {
+    font-size: 32px;
+  }
 }
 
 @media only screen and (max-width: 544px) {
@@ -400,10 +406,13 @@ footer .footer__3 p {
 
 @media only screen and (max-width: 425px) {
   .galeri_1 img {
-    width: 300px !important;
+    width: 90% !important;
   }
   .galeri {
     grid-template-columns: auto !important;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
   }
   .conts {
     margin: 1rem !important;

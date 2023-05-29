@@ -271,15 +271,32 @@ body {
    }
 }
 
-@media only screen and (max-width: 991px) {
+@media only screen and (max-width: 425px) {
   .page_gambar_galeri {
     display: grid;
     grid-template-columns: auto;
     justify-content: center;
     align-items: center;
+    width: 100%;
   }
   .page_gambar_galeri .gambar_text.tengah {
     margin-left: 0;
+  }
+  .page_gambar_galeri .gambar_text {
+    width: 100%;
+  }
+  .page_gambar_galeri .gambar_text img {
+    width: 100%;
+  }
+  .banner h1 {
+    margin-top: 3rem !important;
+    font-size: 32px !important;
+  }
+  .banner p span a {
+    font-size: 16px;
+  }
+  .banner p {
+    font-size: 16px !important;
   }
 }
 
