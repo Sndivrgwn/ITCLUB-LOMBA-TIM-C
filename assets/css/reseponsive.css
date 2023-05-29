@@ -515,9 +515,13 @@
     width: 350px;
   }
   .hal_2_bagian_dua .image_bagian_dua {
-    left: 66%;
-    height: 240px;
-  }
+    left: 4%;
+    height: 246px;
+}
+.hal_2_bagian_dua .image_bagian_dua {
+  height: 233px;
+  width: 380px;
+}
 
   .hal_2_bagian_dua .card_bagian_dua .card_1 {
     width: 350px;
@@ -757,6 +761,13 @@
     width: 375px;
   }
 
+  .hal_6 .bulat2 {
+    width: 100px;
+    height: 100px;
+    margin-bottom: -50px;
+    margin-right:-1rem;
+}
+
   footer .footer__1 {
     flex-direction: column;
     justify-content: start;
@@ -802,7 +813,7 @@
     width: 340px;
   }
   .hal_2_bagian_dua .image_bagian_dua {
-    left: 70%;
+    left: 6%;
   }
 
   .btn_bagian_dua {
@@ -910,7 +921,7 @@
 }
 
 .hal_2_bagian_dua .image_bagian_dua {
-  left: 75%;
+  left: 5%;
 }
 
 .hal_2_bagian_dua {
@@ -998,7 +1009,7 @@
 
 @media only screen and (max-width: 376px) {
   .hal_2_bagian_dua .image_bagian_dua {
-    left: 78.4%;
+    left: 7%;
 }
 
 .hal_2 {
@@ -1059,7 +1070,7 @@ footer .footer__2 .subfooter___1 {
   }
 
   .hal_2_bagian_dua .image_bagian_dua {
-    left: 82.7%;
+    left: 7%;
 }
 
   .hal_3 {
