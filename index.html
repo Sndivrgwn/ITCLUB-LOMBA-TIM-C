@@ -9,13 +9,16 @@
   <link rel="stylesheet" href="assets/css/style.css" />
   <link rel="stylesheet" href="libs/boostrap/css/bootstrap.min.css" />
   <link rel="stylesheet" href="assets/css/reseponsive.css" />
+  <link rel="stylesheet" href="libs/aos/css/aos.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  <script src="libs/jquery/jquery-3.6.4.min.js"></script>
 </head>
 
 <body>
   <!-- navbar start -->
   <div class="background_landing_page">
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary animate__animated animate__fadeInDown ">
       <div class="container-fluid">
         <a class="navbar-brand fw-bold text-white" href="#"><span style="color: #eaa51b">Hutan</span>Lestari</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
@@ -50,13 +53,13 @@
 
     <div class="hal_1">
       <div>
-        <h1>Ayo bersama-sama <br />menjaga Paru-Paru Dunia</h1>
-        <h5>
+        <h1 id="tulisan_hal1" class="tulisan_hal1"></>
+        <h5 class="animate__animated animate__fadeIn animate__delay-4s">
           Komunitas kami mendukung penanaman <br />
           pohon & Proyek pengimbangan <br />
           CO2 terbaik di Indonesia
         </h5>
-        <a href="#komunitas"><button class="">Lihat Selengkapnya</button></a>
+        <a href="#komunitas" class="animate__animated animate__fadeInUp animate__delay-5s"><button class="">Lihat Selengkapnya</button></a>
       </div>
     </div>
   </div>
@@ -65,19 +68,19 @@
   <div class="background">
     <div class="hal_2">
       <div class="hal_2_bagian_satu position-relative">
-        <div class="hal_2_image_satu position-relative">
+        <div class="hal_2_image_satu position-relative" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">
           <img src="assets/img/img_landing_page/image_belakang.png" alt="" id="tentang" />
         </div>
-        <div class="hal_2_image_dua position-absolute">
+        <div class="hal_2_image_dua position-absolute" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="800" data-aos-once="true">
           <img src="assets/img/img_landing_page/image_depan.png" alt="" />
         </div>
-        <div class="hal_2_visimisi position-absolute">
+        <div class="hal_2_visimisi position-absolute" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400" data-aos-once="true">
           <p class="paragraf_awal">SELAMAT DATANG DI HUTAN LESTARI</p>
           <h1>
             Kami ada untuk kelestarian <br />
             Hutan di Indonesia
           </h1>
-          <p>
+          <p >
             indonesia kehilangan sekitar 500 ribu hektar hutan setiap tahunnya,
             entah sebab bencana alam maupun karena ulah dari manusia itu
             sendiri. Penebangan hutan menjadi masalah serius di indonesia,
@@ -123,8 +126,8 @@
               <button class="btn_3" id="btn_3"></button>
             </div>
           </div>
-          <div class="card_bagian_dua">
-            <div class="card_1">
+          <div class="card_bagian_dua overflow-hidden">
+            <div class="card_1" data-aos="fade-left" data-aos-duration="1000" data-aos-once="true">
               <div>
                 <i class="fa-solid fa-tree"></i>
                 <h3>KERUSAKAN HUTAN</h3>
@@ -135,7 +138,7 @@
                 hutan atau istilahnya deforestasi.
               </p>
             </div>
-            <div class="card_2">
+            <div class="card_2" data-aos="fade-left" data-aos-duration="1000" data-aos-once="true">
               <div>
                 <i class="fa-solid fa-tree"></i>
                 <h3>JAGA HUTAN KITA</h3>
@@ -196,18 +199,18 @@
           <p style="font-size: 24px;">bersama</p>
           <div class="kiri_kanan">
             <div class="kiri">
-              <h1>3000</h1>
+              <h1 class="counter">3000</h1>
               <p>Lembaga/kelompok</p>
             </div>
             <div class="kanan">
-              <h1>3238</h1>
+              <h1 class="counter">3284</h1>
               <p>relawan</p>
             </div>
           </div>
         </div>
       </div>
       <div class="card_kerusakan_hutan">
-        <div class="card">
+        <div class="card" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">
           <img src="assets/img/img_jenis_kerusakan_hutan/card_jenis_kerusakan_1.png" alt=""
             class="card-img-top position-relative" />
           <p class="position-absolute tanggal_Jenis_kerusakan">24 Mei 2023</p>
@@ -218,7 +221,7 @@
               class="btn btn-primary">Selengkapnya</a>
           </div>
         </div>
-        <div class="card">
+        <div class="card" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200" data-aos-once="true">
           <img src="assets/img/img_jenis_kerusakan_hutan/card_jenis_kerusakan_2.png" alt=""
             class="card-img-top position-relative" />
           <p class="position-absolute tanggal_Jenis_kerusakan">24 Mei 2023</p>
@@ -229,7 +232,7 @@
             <a class="btn btn-primary">Selengkapnya</a>
           </div>
         </div>
-        <div class="card">
+        <div class="card" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400" data-aos-once="true">
           <img src="assets/img/img_jenis_kerusakan_hutan/card_jenis_kerusakan_3.png" alt=""
             class="card-img-top position-relative" />
           <p class="position-absolute tanggal_Jenis_kerusakan">24 Mei 2023</p>
@@ -476,6 +479,79 @@
   <!-- footer selesai -->
   <script src="libs/boostrap/js/bootstrap.min.js"></script>
   <script src="assets/js/script.js"></script>
+  <script src="libs/aos/js/aos.js"></script>
+  <script src="https://unpkg.com/typeit@8.7.1/dist/index.umd.js"></script>
+  <script src="libs/waypoints/jquery.waypoints.js"></script>
+    
+ <!-- counterup cdn -->
+ <script src="libs/counter-up/jquery.counterup.min.js" ></script>
+
+  <script>
+    AOS.init();
+  </script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.21/lodash.min.js"></script>
+<script>
+  $(document).ready(function() {
+    // Inisialisasi CounterUp.js
+    $('.counter').counterUp({
+      delay: 10,
+      time: 2000
+    });
+  
+    var animationOccurred = false;
+  
+    $(window).scroll(function() {
+      var windowHeight = $(window).height();
+      var scrollPos = $(window).scrollTop();
+      var targetPos = $('.counter').offset().top;
+  
+      if (!animationOccurred && scrollPos > targetPos - windowHeight + 100) {
+        // Animasikan elemen target saat tampil di jendela
+        $('.counter').each(function() {
+          var $this = $(this);
+          var countTo = $this.attr('data-count');
+          $({ countNum: $this.text() }).animate(
+            {
+              countNum: countTo
+            },
+            {
+              duration: 1000,
+              easing: 'linear',
+              step: function() {
+                $this.text(Math.floor(this.countNum));
+              },
+              complete: function() {
+                $this.text(this.countNum);
+              }
+            }
+          );
+        });
+  
+        animationOccurred = true;
+        $(window).off('scroll');
+      }
+    });
+  });
+  </script>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+<script>
+const instance = new TypeIt("#tulisan_hal1", {
+  startDelay: 900,
+  strings: "Ayo bersama-sama <br> menjaga paru-paru dunia", 
+  speed: 50,
+}).go();
+
+instance.destroy();
+</script>
 </body>
 
 </html>

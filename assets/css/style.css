@@ -172,7 +172,7 @@ body {
 }
 
 .hal_2 {
-  height: 280vh;
+  height: 260vh;
   background-size: cover;
   padding-bottom: 0;
 }
@@ -193,7 +193,7 @@ body {
 }
 
 .hal_2 .hal_2_bagian_satu .hal_2_visimisi {
-  width: 50%;
+  width: 44%;
   background-color: #fff;
   padding-left: 3rem;
   padding-top: 4rem;
@@ -243,7 +243,7 @@ body {
 .hal_2 .hal_2_bagian_satu .hal_2_visimisi .btn_visi_misi .btn_1 {
   background-color: #eaa51b;
   border-radius: 13px 0px 0px 13px;
-  padding: 1rem 7rem;
+  padding: 1rem 6rem;
   font-weight: bold;
   color: #fff;
   font-size: 20px;
@@ -251,7 +251,7 @@ body {
 .hal_2 .hal_2_bagian_satu .hal_2_visimisi .btn_visi_misi .btn_2 {
   background: #e2e7f0;
   border-radius: 0px 13px 13px 0px;
-  padding: 1rem 7rem;
+  padding: 1rem 6rem;
   font-weight: bold;
   color: #1a202c;
   font-size: 20px;
@@ -301,6 +301,7 @@ body {
   float: right;
   align-items: flex-end;
   gap: 30px;
+  width: 5000%;
 }
 
 .hal_2_bagian_dua .card_bagian_dua .card_1 {
@@ -403,7 +404,6 @@ body {
 /* hal 3 :start */
 
 .hal_3 {
-  height: 111vh;
   background-color: #255946;
   color: #fff;
   text-align: center;
