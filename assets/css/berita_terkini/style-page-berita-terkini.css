@@ -18,6 +18,7 @@ body {
 
 .banner p {
   font-family: "Inter", sans-serif;
+  padding-top: 2rem;
 }
 
 .banner p span a {
@@ -205,7 +206,7 @@ hr {
   .banner p span a {
     font-size: 16px;
   }
-  
+
   .banner h1 {
     font-size: 32px;
   }

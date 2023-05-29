@@ -51,6 +51,7 @@ body {
 .button_cari_berita:hover {
   background-color: #cb8a09;
 }
+
 /* input cari end */
 
 /* banner start */
@@ -71,9 +72,9 @@ body {
 .banner p {
   font-size: 20px;
   font-family: "Inter", sans-serif;
-
   font-style: normal;
   font-weight: 400;
+  padding-top: 2rem;
 }
 
 .banner p span a {
@@ -108,6 +109,7 @@ body {
 #hilang_9 {
   display: none;
 }
+
 .card_berita_terkini img {
   height: 265px;
   object-fit: cover;
@@ -153,15 +155,18 @@ body {
   font-weight: 600;
   margin-top: 0.5rem;
 }
+
 .card .card-body .btn:hover {
   background-color: #cb8a09;
   border: 1px solid #cb8a09;
 }
+
 .button_left_berita {
   display: flex;
   justify-content: end;
   align-items: end;
 }
+
 /* card berita terkini end */
 
 /* paging berita terkini start */
@@ -176,20 +181,22 @@ body {
 .button_paging_berita.active {
   background-color: #eaa51b;
 }
+
 .button_paging_berita a {
   text-decoration: none;
   color: #1a202c;
   font-family: "Inter", sans-serif;
-
   font-style: normal;
   font-weight: 400;
 }
+
 .button_paging_berita {
   width: 41.3px;
   height: 38px;
   background-color: white;
   border: 1px solid #cbd2e0;
 }
+
 .paging_berita_terkini button:hover {
   background-color: #eaa51b !important;
 }
@@ -198,8 +205,8 @@ body {
 #paging_5 {
   display: none;
 }
-/* paging berita terkini end */
 
+/* paging berita terkini end */
 
 /* responsive */
 /* media laptop full hd */
@@ -209,7 +216,7 @@ body {
   .card .card-body .btn {
     font-size: 13px;
   }
-  
+
   .card {
     width: 500px;
   }
@@ -219,7 +226,7 @@ body {
   .card .card-body .btn {
     font-size: 13px;
   }
-  
+
   .card {
     width: 500px;
   }
@@ -232,25 +239,21 @@ body {
   .card_berita_terkini {
     gap: 1.5rem;
   }
-
 }
 
 @media only screen and (max-width: 1562px) {
   .card {
     width: 450px;
   }
-
 }
 
 @media only screen and (max-width: 1440px) {
   .card {
     width: 420px;
   }
-
 }
 
 @media only screen and (max-width: 1367px) {
-
   .card_kerusakan_hutan {
     display: grid;
     grid-template-columns: auto auto auto;
@@ -266,14 +269,12 @@ body {
   .card_berita_terkini {
     gap: 1rem !important;
   }
-
 }
 
 @media only screen and (max-width: 1233px) {
   .card {
     width: 350px !important;
   }
-
 }
 
 @media only screen and (max-width: 1138px) {
@@ -342,6 +343,8 @@ body {
 @media only screen and (max-width: 429px) {
   .card_berita_terkini {
     grid-template-columns: auto;
+    padding: 0;
+    margin: 0;
   }
   .card {
     width: 100% !important;
@@ -358,20 +361,21 @@ body {
     width: 100%;
   }
   .card_berita_terkini {
-    margin: 2rem;
-    gap:2rem;
+    margin: 1rem;
+    gap: 2rem;
   }
-  
-  #hilang_7,
-#hilang_8,
-#hilang_9 {
-  display: none !important;
-}
-  #hilang_4,
-#hilang_5,
-#hilang_6 {
-  display: none !important;
-}
-  
-}
 
+  #hilang_7,
+  #hilang_8,
+  #hilang_9 {
+    display: none !important;
+  }
+  #hilang_4,
+  #hilang_5,
+  #hilang_6 {
+    display: none !important;
+  }
+  .page_gambar_galeri {
+    padding: 1rem;
+  }
+}
