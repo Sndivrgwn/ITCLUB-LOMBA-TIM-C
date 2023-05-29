@@ -314,7 +314,7 @@
   }
 
   .hal_3 {
-    height: 126vh !important;
+    height: 125vh !important;
   }
 
   .card .tanggal_Jenis_kerusakan {
@@ -515,12 +515,12 @@
     width: 350px;
   }
   .hal_2_bagian_dua .image_bagian_dua {
-    left: 4%;
+    left: 1%;
     height: 246px;
 }
 .hal_2_bagian_dua .image_bagian_dua {
   height: 233px;
-  width: 380px;
+  width: 357px;
 }
 
   .hal_2_bagian_dua .card_bagian_dua .card_1 {
@@ -800,9 +800,6 @@
 }
 
 @media only screen and (max-width: 415px) {
-  .hal_2_bagian_dua .image_bagian_dua {
-    left: 74%;
-  }
 
   .hal_2 {
     height: 250vh;
@@ -813,7 +810,7 @@
     width: 340px;
   }
   .hal_2_bagian_dua .image_bagian_dua {
-    left: 6%;
+    left: 3%;
   }
 
   .btn_bagian_dua {
@@ -921,7 +918,7 @@
 }
 
 .hal_2_bagian_dua .image_bagian_dua {
-  left: 5%;
+  left: 3%;
 }
 
 .hal_2_bagian_dua {
@@ -1009,7 +1006,7 @@
 
 @media only screen and (max-width: 376px) {
   .hal_2_bagian_dua .image_bagian_dua {
-    left: 7%;
+    left: 0%;
 }
 
 .hal_2 {
@@ -1070,7 +1067,12 @@ footer .footer__2 .subfooter___1 {
   }
 
   .hal_2_bagian_dua .image_bagian_dua {
-    left: 7%;
+    left: 0%;
+}
+
+.hal_2_bagian_dua .image_bagian_dua {
+  height: 233px;
+  width: 340px;
 }
 
   .hal_3 {
@@ -1096,3 +1098,270 @@ footer .footer__1 h1 {
 }
 }
 
+@media only screen and (max-width: 325px) {
+  .hal_1 {
+    color: #fff;
+    text-align: center;
+    padding-top: 3rem;
+}
+
+.hal_1 h1 {
+  font-size: 30px;
+  padding: 0rem;
+}
+.hal_1 h5 {
+  font-size: 18px;
+}
+
+.hal_1 button {
+  font-size: 18px;
+  width: 222px;
+  height: 45px;
+}
+
+.hal_2 .hal_2_bagian_satu .hal_2_visimisi h1 {
+  font-size: 28px;
+}
+
+.hal_2 .hal_2_bagian_satu .hal_2_visimisi p {
+  font-size: 14px;
+}
+
+.hal_2 .hal_2_bagian_satu .hal_2_visimisi .btn_visi_misi .btn_1 {
+  padding: 0.5rem 1.5rem;
+  font-size: 13px;
+}
+.hal_2 .hal_2_bagian_satu .hal_2_visimisi .btn_visi_misi .btn_2 {
+  padding: 0.5rem 1.5rem;
+  font-size: 13px;
+}
+
+.hal_2 .hal_2_bagian_satu .hal_2_visimisi .last_paragraf {
+  font-size: 14px;
+  padding-left: 2rem;
+  padding-bottom: 0;
+}
+
+.hal_2 .hal_2_bagian_satu .hal_2_visimisi .last_paragraf_dua {
+  font-size: 14px;
+  padding-left: 2rem;
+  padding-bottom: 0;
+}
+
+.hal_2_bagian_dua h1 {
+  font-size: 29px;
+}
+
+.hal_2_bagian_dua h3 {
+  font-size: 18px;
+  width: 100%;
+}
+
+.hal_2_bagian_dua .image_bagian_dua_123 {
+  height: 200px;
+  width: 300px;
+}
+
+.btn_bagian_dua .btn_2 {
+  width: 50px;
+  height: 4px;
+}
+.btn_bagian_dua .btn_1 {
+  width: 50px;
+  height: 4px;
+}
+.btn_bagian_dua .btn_3 {
+  width: 50px;
+  height: 4px;
+}
+
+.hal_2_bagian_dua .image_bagian_dua {
+  left: 0%;
+}
+
+.hal_2_bagian_dua .image_bagian_dua {
+  height: 233px;
+  width: 300px;
+}
+
+.btn_bagian_dua {
+  margin-left: 4.1rem;
+}
+
+.hal_2_bagian_dua .card_bagian_dua .card_1 {
+  width: 300px;
+  height: 310px;
+  padding: 1.5rem;
+  padding-top: 0;
+  padding-bottom: 2rem;
+}
+.hal_2_bagian_dua .card_bagian_dua .card_2 {
+  width: 300px;
+  height: 310px;
+  padding: 1.5rem;
+  padding-top: 0;
+  padding-bottom: 3rem;
+}
+
+.hal_2 {
+  height: 400vh !important;
+  padding-top: 0;
+}
+
+.hal_3 h1 {
+  font-size: 26px;
+}
+
+.hal_3 p {
+  font-size: 18px;
+  padding: 0.5rem;
+}
+
+.hal_4 .awal .awal_kiri h1 {
+  width: 90%;
+  font-size: 28px;
+  padding-top: 3rem;
+}
+
+.hal_4 .awal .awal_kiri p {
+  width: 100%;
+  font-size: 14px;
+}
+
+.hal_4 .awal .awal_kiri button a {
+  font-size: 15px;
+}
+
+.hal_4 .awal .awal_kiri button {
+  width: 145px;
+  height: 43px;
+}
+
+.card {
+  width: 303px !important;
+}
+
+.card .tanggal_Jenis_kerusakan {
+  bottom: 43% !important;
+}
+
+.hal_3 p {
+  font-size: 18px;
+  padding: 1rem;
+}
+
+.hal_4_bagian_2 .header h1 {
+  font-size: 28px;
+}
+
+.hal_4_bagian_2 .header .p_header_2 {
+  font-size: 18px;
+}
+
+.konten_hal_4_bagian_2 .kotak {
+  width: 300px !important;
+  height: 325px !important;
+}
+.konten_hal_4_bagian_2 .kotak.aktif {
+  margin-left: 1rem !important;
+}
+
+.konten_hal_4_bagian_2 .kotak.aktif_2 {
+  margin-right: 0.8rem !important;
+  margin-top: 125%;
+  padding: 1rem;
+}
+
+.hal_4 {
+  padding: 0;
+  height: 670vh;
+}
+
+.konten_hal_4_bagian_2 {
+  width: 102%;
+  margin: 0 !important;
+}
+
+.button_hal_4 {
+  margin-top: 375%;
+}
+
+.konten_hal_4_bagian_2 .kotak_header p {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  margin: 0;
+}
+
+.konten_hal_4_bagian_2 .kotak_header i {
+  font-size: 18px;
+  padding: 0.5rem;
+  background: #255946;
+  color: #fff;
+  margin-right: 1rem;
+}
+
+.konten_hal_4_bagian_2 p {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.hal_5 .header_5 h1 {
+  font-size: 29px;
+}
+
+.card-tittle {
+  color: #255946;
+  font-size: 24px;
+  font-family: "Inter", sans-serif;
+}
+
+.card .tanggal_berita_terkini {
+  bottom: 41.2%;
+}
+
+.hal_6 .header h1 {
+  font-size: 30px;
+}
+
+.hal_6 .header p {
+  font-size: 18px;
+  padding: 1rem;
+} 
+
+.konten_hal_6 img {
+  width: 300px;
+}
+
+footer .footer__1 h1 {
+  font-size: 25px;
+  padding-bottom: 1rem;
+}
+
+footer .footer__2 .subfooter___1 h2 {
+  width: 241%;
+  font-size: 26px;
+}
+
+footer .footer__1 button {
+  width: auto;
+  color: #255946;
+  background-color: #eaa51b;
+  font-weight: bold;
+  border: none;
+  padding: 0.5rem 1.5rem;
+  border-radius: 5px;
+  font-size: 18px;
+  transition: 0.4s;
+}
+
+footer .footer__3 p {
+    text-align: center;
+    margin-bottom: 0;
+    font-size: 16px;
+}
+
+}

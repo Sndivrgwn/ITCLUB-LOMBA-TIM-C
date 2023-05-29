@@ -13,6 +13,7 @@ footer .footer__1 {
   align-items: center;
   padding-top: 3rem;
   padding-bottom: 2.5rem;
+  
 }
 
 footer .footer__1 h1 {
@@ -114,6 +115,85 @@ footer .footer__3 p {
     justify-content: center;
     gap: 26% !important;
   }
+  @media only screen and (max-width: 1854px) {
+    footer .footer__1 {
+      justify-content: center;
+      gap: 21% !important;
+    }
+  
+    footer .footer__2 {
+      gap: 7.4% !important;
+    }
+  
+  }
+  @media only screen and (max-width: 1680px) {
+    footer .footer__1 {
+      justify-content: center;
+      gap: 0% !important;
+    }
+  
+    footer .footer__2 {
+      gap: 0% !important;
+    }
+  
+  }
+  @media only screen and (max-width: 1568px) {
+    footer .footer__1 {
+      justify-content: center;
+      gap: 10% !important;
+    }
+  
+    footer .footer__2 {
+      gap: 3.5% !important;
+    }
+  
+    footer .footer__1 {
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      padding-top: 3rem;
+      padding-bottom: 2.5rem;
+    }
+  
+    footer .footer__1 h1 {
+      font-size: 32px;
+    }
+  
+    footer .footer__2 .subfooter___1 {
+      position: relative;
+      width: 28%;
+    }
+  
+    footer .footer__2 .subfooter___1 h2 {
+      font-size: 32px;
+      font-weight: bold;
+      position: absolute;
+      left: 24%;
+    }
+  
+    footer hr {
+      width: 89%;
+    }
+  
+  
+    footer .footer__2 {
+      gap: 3.5% !important;
+    }
+  
+    footer .footer__2 .subfooter___1 h2 {
+      bottom: -67px;
+    }
+  
+    footer .footer__2 .subfooter___3 p {
+      width: 75%;
+    }
+  
+    footer .footer__2 .subfooter___3 div {
+      justify-content: flex-start;
+      align-items: start;
+    }
+  }
+  @media only screen and (max-width: 434px) {
 
   footer .footer__2 {
     gap: 10% !important;
