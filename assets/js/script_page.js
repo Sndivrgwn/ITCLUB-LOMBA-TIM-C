@@ -19,9 +19,9 @@ let card_8 = document.getElementById("hilang_8");
 let card_9 = document.getElementById("hilang_9");
 let button_left = document.getElementById("button_left_berita");
 let button_right = document.getElementById("button_right_berita");
+let button_nav_berita = Document.getElementById("button_nav_berita_terkini")
 
-
-button_right.addEventListener("click", function() {
+button_right.addEventListener("click", function () {
   paging_1.style.display = "none";
   paging_2.style.display = "none";
   paging_4.style.display = "flex";
@@ -30,8 +30,8 @@ button_right.addEventListener("click", function() {
   paging_5.style.justifyContent = "center";
   paging_5.style.alignItems = "center";
   paging_5.style.display = "flex";
-})
-button_left.addEventListener("click", function() {
+});
+button_left.addEventListener("click", function () {
   paging_1.style.display = "flex";
   paging_2.style.display = "flex";
   paging_1.style.justifyContent = "center";
@@ -40,7 +40,7 @@ button_left.addEventListener("click", function() {
   paging_2.style.alignItems = "center";
   paging_4.style.display = "none";
   paging_5.style.display = "none";
-})
+});
 
 home.addEventListener("click", function () {
   home.style.fontWeight = "bold";
@@ -107,7 +107,20 @@ konservasi.addEventListener("click", function () {
   galeri.style.color = "#717d96";
 });
 
-paging_1.addEventListener("click", function() {
+button_nav_berita.addEventListener("click", function () {
+  konservasi.style.fontWeight = "normal";
+  konservasi.style.color = "#717d96";
+  home.style.fontWeight = "normal";
+  home.style.color = "#717d96";
+  tentang.style.fontWeight = "normal";
+  tentang.style.color = "#717d96k";
+  jenis.style.fontWeight = "normal";
+  jenis.style.color = "#717d96";
+  galeri.style.fontWeight = "normal";
+  galeri.style.color = "#717d96";
+});
+
+paging_1.addEventListener("click", function () {
   paging_1.style.backgroundColor = "#eaa51b";
   paging_2.style.backgroundColor = "white";
   paging_3.style.backgroundColor = "white";
@@ -124,25 +137,24 @@ paging_1.addEventListener("click", function() {
   card_9.style.display = "none";
 });
 
-paging_2.addEventListener("click", function() {
- paging_2.style.backgroundColor = "#eaa51b";
- paging_1.style.backgroundColor = "white";
- paging_3.style.backgroundColor = "white";
- paging_4.style.backgroundColor = "white";
- paging_5.style.backgroundColor = "white";
- card_1.style.display = "none";
- card_2.style.display = "none";
- card_3.style.display = "none";
- card_4.style.display = "flex";
- card_5.style.display = "flex";
- card_6.style.display = "flex";
- card_7.style.display = "flex";
- card_8.style.display = "flex";
- card_9.style.display = "flex";
+paging_2.addEventListener("click", function () {
+  paging_2.style.backgroundColor = "#eaa51b";
+  paging_1.style.backgroundColor = "white";
+  paging_3.style.backgroundColor = "white";
+  paging_4.style.backgroundColor = "white";
+  paging_5.style.backgroundColor = "white";
+  card_1.style.display = "none";
+  card_2.style.display = "none";
+  card_3.style.display = "none";
+  card_4.style.setProperty("display", "flex", "important");
+  card_5.style.setProperty("display", "flex", "important");
+  card_6.style.setProperty("display", "flex", "important");
+  card_7.style.setProperty("display", "flex", "important");
+  card_8.style.setProperty("display", "flex", "important");
+  card_9.style.setProperty("display", "flex", "important");
 });
 
-
-paging_3.addEventListener("click", function() {
+paging_3.addEventListener("click", function () {
   paging_3.style.backgroundColor = "#eaa51b";
   paging_1.style.backgroundColor = "white";
   paging_2.style.backgroundColor = "white";
@@ -159,7 +171,7 @@ paging_3.addEventListener("click", function() {
   card_9.style.setProperty("display", "flex", "important");
 });
 
-paging_4.addEventListener("click", function() {
+paging_4.addEventListener("click", function () {
   paging_4.style.backgroundColor = "#eaa51b";
   paging_2.style.backgroundColor = "white";
   paging_3.style.backgroundColor = "white";
@@ -175,7 +187,7 @@ paging_4.addEventListener("click", function() {
   card_8.style.display = "none";
   card_9.style.display = "none";
 });
-paging_5.addEventListener("click", function() {
+paging_5.addEventListener("click", function () {
   paging_5.style.backgroundColor = "#eaa51b";
   paging_2.style.backgroundColor = "white";
   paging_3.style.backgroundColor = "white";

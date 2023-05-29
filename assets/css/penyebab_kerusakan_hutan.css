@@ -4,21 +4,17 @@
   scroll-behavior: smooth;
 }
 
-
-
-  @import url('https://fonts.googleapis.com/css2?family=Assistant:wght@300;400;500;600;700&family=Inter:wght@100;200;300;400;500;600;700;800&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,300;1,500;1,700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Assistant:wght@300;400;500;600;700&family=Inter:wght@100;200;300;400;500;600;700;800&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,300;1,500;1,700&display=swap");
 
 *,
 body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Inter', sans-serif;
-  font-family: 'Raleway', sans-serif;
-  font-family: 'Assistant', sans-serif;
-
+  font-family: "Inter", sans-serif;
+  font-family: "Raleway", sans-serif;
+  font-family: "Assistant", sans-serif;
 }
-
 
 .navbar .navbar-nav a {
   color: #717d96 !important;
@@ -40,6 +36,7 @@ body {
   padding-left: 3rem !important;
   padding-right: 3rem !important;
 }
+
 .conts {
   margin-left: 5.7rem !important;
   margin-right: 5.7rem !important;
@@ -56,8 +53,7 @@ body {
   padding-top: 3.5rem;
   font-weight: 500;
   font-size: 48px;
-  font-family: 'Raleway', sans-serif;
-
+  font-family: "Raleway", sans-serif;
 }
 
 .artikel h1 {
@@ -65,8 +61,7 @@ body {
   color: #255946;
   font-weight: bold;
   margin-top: 85.64px;
-  font-family: 'Raleway', sans-serif;
-
+  font-family: "Raleway", sans-serif;
 }
 
 .artikel div {
@@ -78,16 +73,15 @@ body {
 }
 
 .artikel div p span {
-  font-family: 'Inter', sans-serif;
-
+  font-family: "Inter", sans-serif;
+  padding-top: 2rem;
 }
 
 .artikel div .p_subjudul {
   font-size: 20px;
   color: #255946;
   margin-right: 2rem;
-  font-family: 'Inter', sans-serif;
-
+  font-family: "Inter", sans-serif;
 }
 
 .artikel div hr {
@@ -105,8 +99,7 @@ body {
   font-size: 20px;
   color: #1a202c;
   text-align: justify;
-  font-family: 'Inter', sans-serif;
-
+  font-family: "Inter", sans-serif;
 }
 
 .galeri {
@@ -133,15 +126,15 @@ footer {
 }
 
 footer span {
-  font-family: 'Poppins';
+  font-family: "Poppins";
 }
 
 footer .footer__1 {
   display: flex;
   justify-content: space-around;
   align-items: center;
- padding-top: 3rem;
- padding-bottom: 2.5rem;
+  padding-top: 3rem;
+  padding-bottom: 2.5rem;
 }
 
 footer .footer__1 h1 {
@@ -152,7 +145,7 @@ footer .footer__1 h1 {
 footer .footer__1 button {
   width: auto;
   color: #255946;
-  background-color: #EAA51B;
+  background-color: #eaa51b;
   font-weight: bold;
   border: none;
   padding: 0.5rem 1.5rem;
@@ -166,7 +159,7 @@ footer .footer__1 button:hover {
 }
 
 footer hr {
-  border: 2px solid #579B7B;
+  border: 2px solid #579b7b;
   width: 87.5%;
   margin: auto;
   filter: brightness(200%);
@@ -178,7 +171,7 @@ footer .footer__2 {
   gap: 2.5rem;
   padding-top: 3rem;
   padding-bottom: 2.5rem;
-  align-items: baseline ;
+  align-items: baseline;
 }
 
 footer .footer__2 .subfooter___1 {
@@ -209,7 +202,7 @@ footer .footer__2 .subfooter___3 div {
 }
 
 footer .footer__2 .subfooter___3 div i {
-  background-color: #EAA51B;
+  background-color: #eaa51b;
   text-align: center;
   padding: 0.5rem 0.5rem;
   width: 2rem;
@@ -219,7 +212,7 @@ footer .footer__2 .subfooter___3 div i {
   cursor: pointer;
 }
 footer .footer__2 .subfooter___3 div i:last-child {
-  background-color: #EAA51B;
+  background-color: #eaa51b;
   padding-right: 1.63rem;
 }
 
@@ -242,7 +235,7 @@ footer .footer__3 p {
   .artikel div hr {
     left: 8.7%;
   }
-  
+
   .galeri_1 img {
     width: 565px;
   }
@@ -276,13 +269,13 @@ footer .footer__3 p {
 }
 @media only screen and (max-width: 1366px) {
   .navbar .navbar-nav a {
-      color:  #717D96 !important;
-      margin-left: 1rem;
-      font-size: 18px !important;
-    }
+    color: #717d96 !important;
+    margin-left: 1rem;
+    font-size: 18px !important;
+  }
 
-    .artikel div hr {
-      left: 13.5%;
+  .artikel div hr {
+    left: 13.5%;
   }
 
   .galeri {
@@ -292,20 +285,17 @@ footer .footer__3 p {
     grid-template-columns: auto auto auto;
     margin-top: 4rem;
   }
-  
+
   .galeri .galeri_1 img {
     border-radius: 10px;
     width: 400px;
   }
-
 }
 
 @media only screen and (max-width: 1367px) {
   footer .footer__1 {
-  gap: 2rem;
- 
+    gap: 2rem;
   }
- 
 }
 
 @media only screen and (max-width: 1248px) {
@@ -418,5 +408,3 @@ footer .footer__3 p {
     margin: 1rem !important;
   }
 }
-
-

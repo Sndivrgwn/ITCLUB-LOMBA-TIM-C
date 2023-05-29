@@ -1,57 +1,53 @@
 * {
-    margin: 0;
-    padding: 0;
-    scroll-behavior: smooth;
-  }
-  
-  
-  
-    @import url('https://fonts.googleapis.com/css2?family=Assistant:wght@300;400;500;600;700&family=Inter:wght@100;200;300;400;500;600;700;800&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,300;1,500;1,700&display=swap');
-  
-  *,
-  body {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Inter', sans-serif;
-    font-family: 'Raleway', sans-serif;
-    font-family: 'Assistant', sans-serif;
-  
-  }
-  
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Assistant:wght@300;400;500;600;700&family=Inter:wght@100;200;300;400;500;600;700;800&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,300;1,500;1,700&display=swap");
+
+*,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  font-family: "Raleway", sans-serif;
+  font-family: "Assistant", sans-serif;
+}
+
 /* konten utama start */
 .banner p span a {
-    text-decoration: none;
-    color: #fff;
-    font-family: 'Inter', sans-serif;
-
+  text-decoration: none;
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  padding-top: 2rem;
 }
 
 .banner h1 {
-    font-family: 'Inter', sans-serif;
-
+  font-family: "Inter", sans-serif;
 }
 
 .page_galeri {
-    width: 100%;
-    margin-top: 67px;
-    display: flex;
-    margin-bottom: 150px;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  width: 100%;
+  margin-top: 67px;
+  display: flex;
+  margin-bottom: 150px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .gambar_galeri {
-    width: 100%;
-    display: grid;
-    grid-template-columns: auto auto auto;
-    justify-content: center;
-    align-items: center;
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: center;
+  align-items: center;
 }
 
-.gambar_galeri img{
-    width: 100%;
-    object-fit: cover;
+.gambar_galeri img {
+  width: 100%;
+  object-fit: cover;
 }
 /* konten utama end */
 
