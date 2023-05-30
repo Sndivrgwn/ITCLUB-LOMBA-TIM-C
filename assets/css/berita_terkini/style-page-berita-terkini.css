@@ -18,7 +18,9 @@ body {
 
 .banner p {
   font-family: "Inter", sans-serif;
-  padding-top: 2rem;
+  padding: 2rem;
+  padding-bottom: 0;
+
 }
 
 .banner p span a {

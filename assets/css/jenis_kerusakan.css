@@ -358,9 +358,6 @@ footer .footer__3 p {
 }
 
 @media only screen and (max-width: 600px) {
-  .card {
-    width: 250px !important;
-  }
   .banner p {
     font-size: 16px;
     padding-top: 2rem;
@@ -370,34 +367,22 @@ footer .footer__3 p {
     font-size: 32px;
   }
   .card_kerusakan_hutan {
+    display: grid;
     grid-template-columns: auto;
+    padding: 1rem;
+    margin: 0;
   }
   .card {
     width: 100% !important;
   }
 }
 
-@media only screen and (max-width: 555px) {
-  .card_kerusakan_hutan {
-    grid-template-columns: auto;
-  }
-  .card {
-    width: 100% !important;
-  }
-}
-
-@media only screen and (max-width: 510px) {
-  .card_kerusakan_hutan {
-    grid-template-columns: auto;
-  }
-  .card {
-    width: 100% !important;
-  }
-}
 
 @media only screen and (max-width: 425px) {
   .card_kerusakan_hutan {
     grid-template-columns: auto;
+    padding: 0;
+    margin: 1.5rem;
   }
   .card {
     width: 100% !important;
