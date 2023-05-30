@@ -265,7 +265,7 @@
   .hal_2 .hal_2_bagian_satu .hal_2_visimisi .btn_visi_misi .btn_1 {
     background-color: #eaa51b;
     border-radius: 13px 0px 0px 13px;
-    padding: 1rem 6rem;
+    padding: 1rem 5rem;
     font-weight: bold;
     color: #fff;
     font-size: 20px;
@@ -273,19 +273,44 @@
   .hal_2 .hal_2_bagian_satu .hal_2_visimisi .btn_visi_misi .btn_2 {
     background: #e2e7f0;
     border-radius: 0px 13px 13px 0px;
-    padding: 1rem 6rem;
+    padding: 1rem 5rem;
     font-weight: bold;
     color: #1a202c;
     font-size: 20px;
   }
 
+  .hal_2 .hal_2_bagian_satu .hal_2_visimisi {
+    width: 50%;
+    background-color: #fff;
+    padding-left: 3rem;
+    padding-top: 4rem;
+    padding-bottom: 5rem;
+    border-radius: 24px;
+    left: 45%;
+    top: 24%;
+}
+
   .hal_2_bagian_dua .card_bagian_dua .card_1 {
     width: 450px;
-  }
-  .hal_2_bagian_dua .card_bagian_dua .card_2 {
-    width: 450px;
-  }
+    padding-left: 4rem;
+}
+.hal_2_bagian_dua .card_bagian_dua .card_2 {
+  width: 450px;
+  padding-left: 4rem;
+}
 
+.hal_2_bagian_dua .card_1 div h3 {
+  margin-top: 1.5rem;
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  width: 100%;
+}
+.hal_2_bagian_dua .card_2 div h3 {
+  margin-top: 1.5rem;
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  width: 100%;
+}
   .image_bagian_dua_123 {
     width: 725px;
   }
@@ -313,9 +338,6 @@
     width: 383px !important;
   }
 
-  .hal_3 {
-    height: 125vh !important;
-  }
 
   .card .tanggal_Jenis_kerusakan {
     bottom: 37.7% !important;
@@ -409,6 +431,12 @@
 }
 
 @media only screen and (max-width: 434px) {
+  .navbar-toggler {
+    height: 40px !important;
+    font-size: 16px !important;
+    margin-top: -1.7rem;
+  }
+  
   .hal_1 h1 {
     font-size: 36px;
     padding: 2rem;
@@ -492,6 +520,15 @@
     gap: 0;
   }
 
+  .hal_2_bagian_dua .card_bagian_dua {
+    display: flex;
+    flex-direction: column;
+    float: right;
+    align-items: flex-end;
+    gap: 30px;
+    width: 100%;
+  }
+
   .hal_2_bagian_dua .card_bagian_dua p {
     font-size: 15px;
   }
@@ -526,10 +563,12 @@
   .hal_2_bagian_dua .card_bagian_dua .card_1 {
     width: 350px;
     height: 290px;
+    padding-left: 2rem;
   }
   .hal_2_bagian_dua .card_bagian_dua .card_2 {
     width: 350px;
     height: 250px;
+    padding-left: 2rem;
   }
 
   .btn_bagian_dua {
@@ -921,6 +960,13 @@
   left: 3%;
 }
 
+.hal_2_bagian_dua .card_bagian_dua .card_1 {
+  padding-left: 3rem;
+}
+.hal_2_bagian_dua .card_bagian_dua .card_2 {
+  padding-left: 3rem;
+}
+
 .hal_2_bagian_dua {
   color: #fff;
   padding: 2rem;
@@ -1006,11 +1052,44 @@
 
 @media only screen and (max-width: 376px) {
   .hal_2_bagian_dua .image_bagian_dua {
-    left: 0%;
+    left: 7%;
 }
 
+.hal_2_bagian_dua .image_bagian_dua_123 {
+  height: 200px;
+  width: 310px;
+}
 .hal_2 {
-  height: 280vh !important;
+  height: 300vh !important;
+}
+
+.btn_bagian_dua {
+  margin-left: 3rem;
+}
+
+.hal_2_bagian_dua .card_1 div i {
+  background-color: #9daf96;
+  color: #fff;
+  padding: 10px 10px;
+  font-size: 16px;
+  border-radius: 5rem;
+}
+
+.hal_2_bagian_dua .card_2 div i {
+  background-color: #9daf96;
+  color: #fff;
+  padding: 10px 10px;
+  font-size: 16px;
+  border-radius: 5rem;
+}
+
+.hal_2_bagian_dua .card_bagian_dua .card_1 {
+  padding-left: 4rem;
+  height: 320px;
+}
+.hal_2_bagian_dua .card_bagian_dua .card_2 {
+  padding-left: 4rem;
+  height: 300px;
 }
 
 .hal_3 h1 {
