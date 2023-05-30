@@ -118,7 +118,6 @@ button_nav_berita.addEventListener("click", function () {
   jenis.style.color = "#717d96";
   galeri.style.fontWeight = "normal";
   galeri.style.color = "#717d96";
-  
 });
 
 paging_1.addEventListener("click", function () {
