@@ -19,7 +19,7 @@ let card_8 = document.getElementById("hilang_8");
 let card_9 = document.getElementById("hilang_9");
 let button_left = document.getElementById("button_left_berita");
 let button_right = document.getElementById("button_right_berita");
-let button_nav_berita = Document.getElementById("button_nav_berita_terkini")
+let button_nav_berita = document.getElementById("button_nav_berita_terkini");
 
 button_right.addEventListener("click", function () {
   paging_1.style.display = "none";
@@ -113,11 +113,12 @@ button_nav_berita.addEventListener("click", function () {
   home.style.fontWeight = "normal";
   home.style.color = "#717d96";
   tentang.style.fontWeight = "normal";
-  tentang.style.color = "#717d96k";
+  tentang.style.color = "#717d96";
   jenis.style.fontWeight = "normal";
   jenis.style.color = "#717d96";
   galeri.style.fontWeight = "normal";
   galeri.style.color = "#717d96";
+  
 });
 
 paging_1.addEventListener("click", function () {
