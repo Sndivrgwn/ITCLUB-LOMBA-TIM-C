@@ -8,3 +8,11 @@ Indonesia memiliki kekayaan alam yang melimpah, termasuk hutan yang sangat berag
 - Berita kerusakan hutan
 - Galeri Foto
 - Responsif HD dan Full HD
+
+## Library
+
+- Animate On Scroll (AOS)
+- Boostrap
+- CounterUp
+- Jquery
+- Waypoints
