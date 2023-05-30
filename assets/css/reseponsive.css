@@ -436,14 +436,34 @@
     font-size: 16px !important;
     margin-top: -1.7rem;
   }
+
+  .background_landing_page {
+    height: 100vh;
+  }
   
   .hal_1 h1 {
-    font-size: 36px;
-    padding: 2rem;
+    font-size: 42px;
+    padding: 1rem;
   }
   .hal_1 h5 {
-    font-size: 24px;
-  }
+    font-size: 20px;
+    font-weight: 600;
+    padding: 0;
+    font-family: "Raleway", sans-serif;
+}
+
+.hal_1 button {
+  color: #fff;
+  background-color: #eaa51b;
+  border-radius: 24px;
+  font-size: 22px;
+  width: 234px;
+  height: 49px;
+  font-weight: 500px;
+  border: #eaa51b;
+  margin-top: 1rem;
+  font-family: "Assistant", sans-serif;
+}
 
   .hal_2 {
     padding-top: 3rem;
@@ -840,6 +860,9 @@
 
 @media only screen and (max-width: 415px) {
 
+
+
+
   .hal_2 {
     height: 250vh;
   }
@@ -927,12 +950,12 @@
 
 @media only screen and (max-width: 393px) {
   .hal_1 h1 {
-    font-size: 31px;
+    font-size: 39px;
   }
 
   .hal_1 h5 {
-    font-size: 20px;
-  }
+    font-size: 18px;
+}
 
   .hal_1 button {
     font-size: 20px;
@@ -978,8 +1001,9 @@
   height: 264vh;
 }
 
-.hal_3 {
-  height: 135vh !important;
+
+.hal_3 p {
+  font-size: 19px;
 }
 
 .hal_4 .awal {
@@ -1052,12 +1076,13 @@
 
 @media only screen and (max-width: 376px) {
   .hal_2_bagian_dua .image_bagian_dua {
-    left: 7%;
+    left: 2%;
+    width: 333px;
 }
 
 .hal_2_bagian_dua .image_bagian_dua_123 {
   height: 200px;
-  width: 310px;
+  width: 325px;
 }
 .hal_2 {
   height: 300vh !important;
@@ -1098,6 +1123,10 @@
 
 .hal_3 {
   height: 145vh !important;
+}
+
+.hal_3 p {
+  font-size: 18px;
 }
 
 .card {
