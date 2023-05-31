@@ -45,6 +45,6 @@ Kami ingin berterima kasih kepada sumber daya berikut pada proyek ini:
 
 ## Kontak
 
-Untuk pertanyaan, saran, atau umpan balik, jangan ragu untuk menghubungi kami di [email protected]
+Untuk pertanyaan, saran, atau umpan balik, jangan ragu untuk menghubungi kami di [itclubsmkn5bdg@gmail.com]
 
 Mari kita melindungi dan melestarikan hutan kita untuk masa depan yang berkelanjutan!
