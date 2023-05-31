@@ -20,6 +20,12 @@ let card_9 = document.getElementById("hilang_9");
 let card_10 = document.getElementById("hilang_10");
 let card_11 = document.getElementById("hilang_11");
 let card_12 = document.getElementById("hilang_12");
+let card_13 = document.getElementById("hilang_13");
+let card_14 = document.getElementById("hilang_14");
+let card_15 = document.getElementById("hilang_15");
+let card_16 = document.getElementById("hilang_16");
+let card_17 = document.getElementById("hilang_17");
+let card_18 = document.getElementById("hilang_18");
 let button_left = document.getElementById("button_left_berita");
 let button_right = document.getElementById("button_right_berita");
 let button_nav_berita = document.getElementById("button_nav_berita_terkini");
@@ -129,9 +135,9 @@ paging_1.addEventListener("click", function () {
   paging_3.style.backgroundColor = "white";
   paging_4.style.backgroundColor = "white";
   paging_5.style.backgroundColor = "white";
-  card_1.style.display = "flex";
-  card_2.style.display = "flex";
-  card_3.style.display = "flex";
+  card_1.style.setProperty("display", "flex", "important");
+  card_2.style.setProperty("display", "flex", "important");
+  card_3.style.setProperty("display", "flex", "important");
   card_4.style.setProperty("display", "flex", "important");
   card_5.style.setProperty("display", "flex", "important");
   card_6.style.setProperty("display", "flex", "important");
@@ -141,6 +147,12 @@ paging_1.addEventListener("click", function () {
   card_10.style.display = "none";
   card_11.style.display = "none";
   card_12.style.display = "none";
+  card_13.style.display = "none";
+  card_14.style.display = "none";
+  card_15.style.display = "none";
+  card_16.style.display = "none";
+  card_17.style.display = "none";
+  card_18.style.display = "none";
 });
 
 paging_2.addEventListener("click", function () {
@@ -149,18 +161,24 @@ paging_2.addEventListener("click", function () {
   paging_3.style.backgroundColor = "white";
   paging_4.style.backgroundColor = "white";
   paging_5.style.backgroundColor = "white";
+  card_7.style.setProperty("display", "flex", "important");
+  card_8.style.setProperty("display", "flex", "important");
+  card_9.style.setProperty("display", "flex", "important");
+  card_10.style.setProperty("display", "flex", "important");
+  card_11.style.setProperty("display", "flex", "important");
+  card_12.style.setProperty("display", "flex", "important");
   card_1.style.display = "none";
   card_2.style.display = "none";
   card_3.style.display = "none";
   card_4.style.display = "none";
   card_5.style.display = "none";
   card_6.style.display = "none";
-  card_10.style.setProperty("display", "flex", "important");
-  card_11.style.setProperty("display", "flex", "important");
-  card_12.style.setProperty("display", "flex", "important");
-  card_7.style.setProperty("display", "flex", "important");
-  card_8.style.setProperty("display", "flex", "important");
-  card_9.style.setProperty("display", "flex", "important");
+  card_13.style.display = "none";
+  card_14.style.display = "none";
+  card_15.style.display = "none";
+  card_16.style.display = "none";
+  card_17.style.display = "none";
+  card_18.style.display = "none";
 });
 
 paging_3.addEventListener("click", function () {
@@ -195,9 +213,9 @@ paging_4.addEventListener("click", function () {
   paging_3.style.backgroundColor = "white";
   paging_1.style.backgroundColor = "white";
   paging_5.style.backgroundColor = "white";
-  card_1.style.display = "flex";
-  card_2.style.display = "flex";
-  card_3.style.display = "flex";
+  card_1.style.setProperty("display", "flex", "important");
+  card_2.style.setProperty("display", "flex", "important");
+  card_3.style.setProperty("display", "flex", "important");
   card_4.style.setProperty("display", "flex", "important");
   card_5.style.setProperty("display", "flex", "important");
   card_6.style.setProperty("display", "flex", "important");
@@ -207,6 +225,12 @@ paging_4.addEventListener("click", function () {
   card_10.style.display = "none";
   card_11.style.display = "none";
   card_12.style.display = "none";
+  card_13.style.display = "none";
+  card_14.style.display = "none";
+  card_15.style.display = "none";
+  card_16.style.display = "none";
+  card_17.style.display = "none";
+  card_18.style.display = "none";
 });
 paging_5.addEventListener("click", function () {
   paging_5.style.backgroundColor = "#eaa51b";
@@ -214,18 +238,24 @@ paging_5.addEventListener("click", function () {
   paging_3.style.backgroundColor = "white";
   paging_1.style.backgroundColor = "white";
   paging_4.style.backgroundColor = "white";
-  card_1.style.display = "flex";
-  card_2.style.display = "flex";
-  card_3.style.display = "flex";
-  card_4.style.setProperty("display", "flex", "important");
-  card_5.style.setProperty("display", "flex", "important");
-  card_6.style.setProperty("display", "flex", "important");
-  card_7.style.display = "none";
-  card_8.style.display = "none";
-  card_9.style.display = "none";
-  card_10.style.display = "none";
-  card_11.style.display = "none";
-  card_12.style.display = "none";
+  card_7.style.setProperty("display", "flex", "important");
+  card_8.style.setProperty("display", "flex", "important");
+  card_9.style.setProperty("display", "flex", "important");
+  card_10.style.setProperty("display", "flex", "important");
+  card_11.style.setProperty("display", "flex", "important");
+  card_12.style.setProperty("display", "flex", "important");
+  card_1.style.display = "none";
+  card_2.style.display = "none";
+  card_3.style.display = "none";
+  card_4.style.display = "none";
+  card_5.style.display = "none";
+  card_6.style.display = "none";
+  card_13.style.display = "none";
+  card_14.style.display = "none";
+  card_15.style.display = "none";
+  card_16.style.display = "none";
+  card_17.style.display = "none";
+  card_18.style.display = "none";
 });
 
 function searchBerita() {
@@ -253,4 +283,3 @@ function searchBerita() {
 
 var inputCari = document.querySelector('.input_berita_terkini');
 inputCari.addEventListener('input', searchBerita);
-
