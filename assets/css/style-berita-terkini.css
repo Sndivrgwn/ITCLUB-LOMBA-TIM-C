@@ -109,8 +109,14 @@ body {
 #hilang_9,
 #hilang_10,
 #hilang_11,
-#hilang_12 {
-  display: none;
+#hilang_12,
+#hilang_13,
+#hilang_14,
+#hilang_15,
+#hilang_16,
+#hilang_17,
+#hilang_18 {
+  display: none !important;
 }
 
 .card_berita_terkini img {
@@ -313,6 +319,30 @@ body {
     width: 100% !important;
     margin: 0;
   }
+
+  #hilang_1,
+  #hilang_2,
+  #hilang_3,
+  #hilang_4,
+  #hilang_5,
+  #hilang_6,
+  #hilang_7,
+  #hilang_8,
+  #hilang_9,
+  #hilang_10,
+  #hilang_11,
+  #hilang_12,
+  #hilang_13,
+  #hilang_14,
+  #hilang_15,
+  #hilang_16,
+  #hilang_17,
+  #hilang_18 {
+    display: none !important;
+  }
+  .page_gambar_galeri {
+    padding: 1rem;
+  }
 }
 
 @media only screen and (max-width: 429px) {
@@ -340,16 +370,27 @@ body {
     gap: 2rem;
   }
 
-  #hilang_7,
-  #hilang_8,
-  #hilang_9 {
-    display: none !important;
-  }
+  #hilang_1,
+  #hilang_2,
+  #hilang_3,
   #hilang_4,
   #hilang_5,
-  #hilang_6 {
+  #hilang_6,
+  #hilang_7,
+  #hilang_8,
+  #hilang_9,
+  #hilang_10,
+  #hilang_11,
+  #hilang_12,
+  #hilang_13,
+  #hilang_14,
+  #hilang_15,
+  #hilang_16,
+  #hilang_17,
+  #hilang_18 {
     display: none !important;
   }
+
   .page_gambar_galeri {
     padding: 1rem;
   }
