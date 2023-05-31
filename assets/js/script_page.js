@@ -163,25 +163,25 @@ paging_2.addEventListener("click", function () {
   card_9.style.setProperty("display", "flex", "important");
 });
 
-paging_3.addEventListener("click", function () {
-  paging_3.style.backgroundColor = "#eaa51b";
-  paging_1.style.backgroundColor = "white";
-  paging_2.style.backgroundColor = "white";
-  paging_4.style.backgroundColor = "white";
-  paging_5.style.backgroundColor = "white";
-  card_1.style.display = "none";
-  card_2.style.display = "none";
-  card_3.style.display = "none";
-  card_4.style.display = "none";
-  card_5.style.display = "none";
-  card_6.style.display = "none";
-  card_7.style.setProperty("display", "flex", "important");
-  card_8.style.setProperty("display", "flex", "important");
-  card_9.style.setProperty("display", "flex", "important");
-  card_10.style.display = "none";
-  card_11.style.display = "none";
-  card_12.style.display = "none";
-});
+  paging_3.addEventListener("click", function () {
+    paging_3.style.backgroundColor = "#eaa51b";
+    paging_1.style.backgroundColor = "white";
+    paging_2.style.backgroundColor = "white";
+    paging_4.style.backgroundColor = "white";
+    paging_5.style.backgroundColor = "white";
+    card_1.style.display = "none";
+    card_2.style.display = "none";
+    card_3.style.display = "none";
+    card_4.style.display = "none";
+    card_5.style.display = "none";
+    card_6.style.display = "none";
+    card_7.style.setProperty("display", "flex", "important");
+    card_8.style.setProperty("display", "flex", "important");
+    card_9.style.setProperty("display", "flex", "important");
+    card_10.style.display = "none";
+    card_11.style.display = "none";
+    card_12.style.display = "none";
+  });
 
 paging_4.addEventListener("click", function () {
   paging_4.style.backgroundColor = "#eaa51b";
