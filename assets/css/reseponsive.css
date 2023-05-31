@@ -670,6 +670,7 @@
     margin-left: 1rem;
     width: auto;
     height: 48px;
+    padding: 0 0.5rem;
   }
 
   .hal_4 {
@@ -977,10 +978,10 @@
 }
 
 .hal_2 .hal_2_bagian_satu .hal_2_visimisi .btn_visi_misi .btn_1 {
-  padding: 1rem 2rem;
+  padding: 1rem 2.5rem;
   font-size: 13px;
 }.hal_2 .hal_2_bagian_satu .hal_2_visimisi .btn_visi_misi .btn_2 {
-  padding: 1rem 2rem;
+  padding: 1rem 2.5rem;
   font-size: 13px;
 }
 

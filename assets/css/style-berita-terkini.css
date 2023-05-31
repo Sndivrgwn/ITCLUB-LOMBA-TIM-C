@@ -264,7 +264,7 @@ body {
 }
 
 @media only screen and (max-width: 1367px) {
-  .card_kerusakan_hutan {
+  .card_berita_terkini {
     display: grid;
     grid-template-columns: auto auto auto;
     justify-content: center;
@@ -311,8 +311,7 @@ body {
 @media only screen and (max-width: 600px) {
   .card_berita_terkini {
     display: block;
-    padding: 2rem;
-    margin: 0;
+    margin: 1rem;
     width: 100%;
   }
   .card {
@@ -320,9 +319,6 @@ body {
     margin: 0;
   }
 
-  #hilang_1,
-  #hilang_2,
-  #hilang_3,
   #hilang_4,
   #hilang_5,
   #hilang_6,
@@ -349,30 +345,35 @@ body {
   .card_berita_terkini {
     grid-template-columns: auto;
     padding: 0;
-    margin: 0;
+    margin: 1rem !important;
+    gap: 1rem;
   }
   .card {
-    width: 100% !important;
+    width: 92% !important;
+    margin: 0;
+    margin-top: 1.3rem;
+
+  }
+
+  .card-tittle {
+    font-size: 23px;
   }
   .banner p {
     font-size: 16px;
     padding-top: 2rem;
   }
   .banner h1 {
-    margin-top: 2rem;
-    font-size: 32px;
-  }
+    margin-top: 1rem;
+    font-size: 30px;
+    padding: 0.5rem;
+}
   .input_berita_terkini {
     width: 100%;
   }
   .card_berita_terkini {
-    margin: 1rem;
     gap: 2rem;
   }
 
-  #hilang_1,
-  #hilang_2,
-  #hilang_3,
   #hilang_4,
   #hilang_5,
   #hilang_6,
@@ -391,7 +392,4 @@ body {
     display: none !important;
   }
 
-  .page_gambar_galeri {
-    padding: 1rem;
-  }
 }

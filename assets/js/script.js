@@ -1,145 +1,182 @@
-let home = document.getElementById("nav__home");
-let tentang = document.getElementById("nav__tentang");
-let jenis = document.getElementById("nav__jenis");
-let konservasi = document.getElementById("nav__konservasi");
-let galeri = document.getElementById("nav__galeri");
+const getElementById = (id) => document.getElementById(id);
 
-home.addEventListener("click", function () {
-  home.style.fontWeight = "bold";
-  home.style.color = "#eaa51b";
-  konservasi.style.fontWeight = "normal";
-  konservasi.style.color = "white";
-  tentang.style.fontWeight = "normal";
-  tentang.style.color = "white";
-  jenis.style.fontWeight = "normal";
-  jenis.style.color = "white";
-  galeri.style.fontWeight = "normal";
-  galeri.style.color = "white";
+let [home, tentang, jenis, konservasi, galeri] = [
+  
+  "nav__home", 
+  "nav__tentang", 
+  "nav__jenis", 
+  "nav__konservasi", 
+  "nav__galeri"
+
+].map(getElementById);
+
+home.addEventListener("click", function() {
+  const styles = {
+    fontWeight: "bold",
+    color: "#eaa51b"
+  };
+
+  const elements = [home, konservasi, tentang, jenis, galeri];
+
+  elements.forEach(element => {
+    Object.assign(element.style, styles);
+  });
+
+  elements.splice(0, 1); // Remove home element from the list
+
+  elements.forEach(element => {
+    element.style.fontWeight = "normal";
+    element.style.color = "white";
+  });
 });
 
-tentang.addEventListener("click", function () {
-  tentang.style.fontWeight = "bold";
-  tentang.style.color = "#eaa51b";
-  home.style.fontWeight = "normal";
-  home.style.color = "white";
-  konservasi.style.fontWeight = "normal";
-  konservasi.style.color = "white";
-  jenis.style.fontWeight = "normal";
-  jenis.style.color = "white";
-  galeri.style.fontWeight = "normal";
-  galeri.style.color = "white";
+tentang.addEventListener("click", function() {
+  const styles = {
+    fontWeight: "bold",
+    color: "#eaa51b"
+  };
+
+  const elements = [tentang, home, konservasi, jenis, galeri];
+
+  elements.forEach(element => {
+    Object.assign(element.style, styles);
+  });
+
+  elements.splice(1, 1); // Remove tentang element from the list
+
+  elements.forEach(element => {
+    element.style.fontWeight = "normal";
+    element.style.color = "white";
+  });
 });
 
-jenis.addEventListener("click", function () {
-  jenis.style.fontWeight = "bold";
-  jenis.style.color = "#eaa51b";
-  home.style.fontWeight = "normal";
-  home.style.color = "white";
-  tentang.style.fontWeight = "normal";
-  tentang.style.color = "white";
-  konservasi.style.fontWeight = "normal";
-  konservasi.style.color = "white";
-  galeri.style.fontWeight = "normal";
-  galeri.style.color = "white";
+jenis.addEventListener("click", function() {
+  const styles = {
+    fontWeight: "bold",
+    color: "#eaa51b"
+  };
+
+  const elements = [jenis, home, tentang, konservasi, galeri];
+
+  elements.forEach(element => {
+    Object.assign(element.style, styles);
+  });
+
+  elements.splice(1, 1); // Remove jenis element from the list
+
+  elements.forEach(element => {
+    element.style.fontWeight = "normal";
+    element.style.color = "white";
+  });
 });
 
-galeri.addEventListener("click", function () {
-  galeri.style.fontWeight = "bold";
-  galeri.style.color = "#eaa51b";
-  home.style.fontWeight = "normal";
-  home.style.color = "white";
-  tentang.style.fontWeight = "normal";
-  tentang.style.color = "white";
-  jenis.style.fontWeight = "normal";
-  jenis.style.color = "white";
-  konservasi.style.fontWeight = "normal";
-  konservasi.style.color = "white";
+galeri.addEventListener("click", function() {
+  const styles = {
+    fontWeight: "bold",
+    color: "#eaa51b"
+  };
+
+  const elements = [galeri, home, tentang, jenis, konservasi];
+
+  elements.forEach(element => {
+    Object.assign(element.style, styles);
+  });
+
+  elements.splice(1, 1); // Remove galeri element from the list
+
+  elements.forEach(element => {
+    element.style.fontWeight = "normal";
+    element.style.color = "white";
+  });
 });
 
-konservasi.addEventListener("click", function () {
-  konservasi.style.fontWeight = "bold";
-  konservasi.style.color = "#eaa51b";
-  home.style.fontWeight = "normal";
-  home.style.color = "white";
-  tentang.style.fontWeight = "normal";
-  tentang.style.color = "white";
-  jenis.style.fontWeight = "normal";
-  jenis.style.color = "white";
-  galeri.style.fontWeight = "normal";
-  galeri.style.color = "white";
+konservasi.addEventListener("click", function() {
+  const styles = {
+    fontWeight: "bold",
+    color: "#eaa51b"
+  };
+
+  const elements = [konservasi, home, tentang, jenis, galeri];
+
+  elements.forEach(element => {
+    Object.assign(element.style, styles);
+  });
+
+  elements.splice(1, 1); // Remove konservasi element from the list
+
+  elements.forEach(element => {
+    element.style.fontWeight = "normal";
+    element.style.color = "white";
+  });
 });
 
-let btnVisi = document.getElementById("visi_btn");
-let btnMisi = document.getElementById("misi_btn");
-let visi = document.getElementById("visi");
-let misi = document.getElementById("misi");
 
-btnVisi.addEventListener("click", function () {
-  btnMisi.style.border = 'none';
-  btnVisi.style.border = 'none';
-  btnVisi.style.backgroundColor = "#eaa51b";
-  btnVisi.style.color = "#fff";
-  visi.style.display = "block";
-  btnMisi.style.backgroundColor = "#E2E7F0";
-  btnMisi.style.color = "#1A202C";
-  misi.style.display = "none";
-  btnVisi.style.transition = 'linear 0.3s';
-  visi.style.transition = 'linear 0.3s';
+let [btnVisi, btnMisi, visi, misi] = ["visi_btn", "misi_btn", "visi", "misi"].map(getElementById);
+
+const handleClick = (selectedBtn, selectedContent) => {
+  const btns = [btnVisi, btnMisi];
+  const contents = [visi, misi];
+
+  btns.forEach(btn => {
+    btn.style.border = 'none';
+    btn.style.backgroundColor = selectedBtn === btn ? '#eaa51b' : '#E2E7F0';
+    btn.style.color = selectedBtn === btn ? '#fff' : '#1A202C';
+    btn.style.transition = 'linear 0.3s';
+  });
+
+  contents.forEach(content => {
+    content.style.display = selectedContent === content ? 'block' : 'none';
+    content.style.transition = 'linear 0.3s';
+  });
+};
+
+btnVisi.addEventListener("click", function() {
+  handleClick(btnVisi, visi);
 });
 
-btnMisi.addEventListener("click", function () {
-  btnMisi.style.border = 'none';
-  btnVisi.style.border = 'none';
-  btnVisi.style.backgroundColor = "#E2E7F0";
-  btnVisi.style.color = "#1A202C";
-  visi.style.display = "none";
-  btnMisi.style.backgroundColor = "#eaa51b";
-  btnMisi.style.color = "#fff";
-  misi.style.display = "block";
-  btnMisi.style.transition = 'linear 0.3s';
-  misi.style.transition = 'linear 0.3s';
-
+btnMisi.addEventListener("click", function() {
+  handleClick(btnMisi, misi);
 });
 
-let btnKerusakan_1 = document.getElementById("btn_1");
-let btnKerusakan_2 = document.getElementById("btn_2");
-let btnKerusakan_3 = document.getElementById("btn_3");
-let imgKerusakan_1 = document.getElementById("img_1");
-let imgKerusakan_2 = document.getElementById("img_2");
-let imgKerusakan_3 = document.getElementById("img_3");
 
-btnKerusakan_1.addEventListener("click", function () {
-  imgKerusakan_1.style.display = "block";
-  imgKerusakan_2.style.display = "none";
-  imgKerusakan_3.style.display = "none";
-  btnKerusakan_1.style.border = "1px solid #eaa51b";
-  btnKerusakan_2.style.border = "1px solid #D9D9D9";
-  btnKerusakan_3.style.border = "1px solid #D9D9D9";
-  btnKerusakan_1.style.backgroundColor = "#eaa51b";
-  btnKerusakan_2.style.backgroundColor = "#D9D9D9";
-  btnKerusakan_3.style.backgroundColor = "#D9D9D9";
+let [btnKerusakan_1, btnKerusakan_2, btnKerusakan_3, imgKerusakan_1, imgKerusakan_2, imgKerusakan_3] =
+  ["btn_1", "btn_2", "btn_3", "img_1", "img_2", "img_3"].map(getElementById);
+
+const handleKerusakanClick = (selectedBtn, selectedImg) => {
+  const btns = [btnKerusakan_1, btnKerusakan_2, btnKerusakan_3];
+  const imgs = [imgKerusakan_1, imgKerusakan_2, imgKerusakan_3];
+
+  btns.forEach(btn => {
+    if (selectedBtn === btn) {
+      btn.style.border = "1px solid #eaa51b";
+      btn.style.backgroundColor = "#eaa51b";
+    } else {
+      btn.style.border = "1px solid #D9D9D9";
+      btn.style.backgroundColor = "#D9D9D9";
+    }
+  });
+
+  imgs.forEach(img => {
+    if (selectedImg === img) {
+      img.style.display = "block";
+      img.classList.add("fade-in");
+    } else {
+      img.style.display = "none";
+      img.classList.remove("fade-in");
+    }
+  });
+};
+
+btnKerusakan_1.addEventListener("click", function() {
+  handleKerusakanClick(btnKerusakan_1, imgKerusakan_1);
 });
-btnKerusakan_2.addEventListener("click", function () {
-  imgKerusakan_2.style.display = "block";
-  imgKerusakan_1.style.display = "none";
-  imgKerusakan_3.style.display = "none";
-  btnKerusakan_2.style.border = "1px solid #eaa51b";
-  btnKerusakan_1.style.border = "1px solid #D9D9D9";
-  btnKerusakan_3.style.border = "1px solid #D9D9D9";
-  btnKerusakan_2.style.backgroundColor = "#eaa51b";
-  btnKerusakan_1.style.backgroundColor = "#D9D9D9";
-  btnKerusakan_3.style.backgroundColor = "#D9D9D9";
+
+btnKerusakan_2.addEventListener("click", function() {
+  handleKerusakanClick(btnKerusakan_2, imgKerusakan_2);
 });
-btnKerusakan_3.addEventListener("click", function () {
-  imgKerusakan_3.style.display = "block";
-  imgKerusakan_1.style.display = "none";
-  imgKerusakan_2.style.display = "none";
-  btnKerusakan_3.style.border = "1px solid #eaa51b";
-  btnKerusakan_2.style.border = "1px solid #D9D9D9";
-  btnKerusakan_1.style.border = "1px solid #D9D9D9";
-  btnKerusakan_3.style.backgroundColor = "#eaa51b";
-  btnKerusakan_2.style.backgroundColor = "#D9D9D9";
-  btnKerusakan_1.style.backgroundColor = "#D9D9D9";
+
+btnKerusakan_3.addEventListener("click", function() {
+  handleKerusakanClick(btnKerusakan_3, imgKerusakan_3);
 });
 
 

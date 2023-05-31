@@ -210,9 +210,10 @@ hr {
   }
 
   .banner h1 {
-    font-size: 32px;
+    font-size: 29 k px;
   }
   .page_berita_terkini h1 {
     font-size: 32px;
+    margin-top: 1rem;
   }
 }
