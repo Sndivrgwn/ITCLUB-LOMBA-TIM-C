@@ -192,6 +192,9 @@ body {
     padding-left: 2rem;
     padding-bottom: 2rem;
   }
+  .text_img_galeri h2{
+    font-size: 24px;
+  }
 }
 
 @media only screen and (max-width: 1290px) {
@@ -266,7 +269,6 @@ body {
 
 @media only screen and (max-width: 600px) {
   .page_gambar_galeri {
-    display: flex;
     grid-template-columns: auto;
   }
   .page_gambar_galeri .gambar_text.tengah {

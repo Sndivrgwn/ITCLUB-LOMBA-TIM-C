@@ -341,6 +341,9 @@ footer .footer__3 p {
   .galeri {
     grid-template-columns: auto auto !important;
   }
+  .conts{
+    margin: 3rem !important;
+  }
 }
 
 @media only screen and (max-width: 889px) {
@@ -384,8 +387,6 @@ footer .footer__3 p {
     font-size: 32px;
   }
 }
-
-
 
 @media only screen and (max-width: 600px) {
   .galeri_1 img {

@@ -106,7 +106,10 @@ body {
 
 #hilang_7,
 #hilang_8,
-#hilang_9 {
+#hilang_9,
+#hilang_10,
+#hilang_11,
+#hilang_12 {
   display: none;
 }
 
@@ -172,7 +175,6 @@ body {
 /* paging berita terkini start */
 .paging_berita_terkini {
   display: flex;
-  gap: 0.5rem;
   justify-content: center;
   margin-bottom: 150px;
   margin-top: 60px;
@@ -182,7 +184,7 @@ body {
   background-color: #eaa51b;
 }
 
-.button_paging_berita a {
+.paging_berita_terkini a {
   text-decoration: none;
   color: #1a202c;
   font-family: "Inter", sans-serif;
@@ -195,6 +197,8 @@ body {
   height: 38px;
   background-color: white;
   border: 1px solid #cbd2e0;
+  margin-left: 2px;
+  font-weight: 400; 
 }
 
 .paging_berita_terkini button:hover {
@@ -260,16 +264,15 @@ body {
     justify-content: center;
     gap: 2rem;
   }
+  .card {
+    width: 100%;
+  }
+
+  .card-tittle {
+    font-size: 24px;
+  }
 }
 
-@media only screen and (max-width: 1280px) {
-  .card {
-    width: 300px !important;
-  }
-  .card_berita_terkini {
-    gap: 1rem !important;
-  }
-}
 
 @media only screen and (max-width: 1233px) {
   .card {
@@ -294,49 +297,21 @@ body {
     grid-template-columns: auto auto;
   }
   .card {
-    width: 430px !important;
-  }
-}
-
-@media only screen and (max-width: 904px) {
-  .card {
-    width: 400px !important;
-  }
-}
-
-@media only screen and (max-width: 835px) {
-  .card {
-    width: 350px !important;
-  }
-}
-
-@media only screen and (max-width: 708px) {
-  .card {
-    width: 300px !important;
-  }
-}
-
-@media only screen and (max-width: 644px) {
-  .card {
-    width: 280px !important;
+    width: 100% !important;
+    margin: 0;
   }
 }
 
 @media only screen and (max-width: 600px) {
-  .card {
-    width: 250px !important;
+  .card_berita_terkini {
+    display: block;
+    padding: 2rem;
+    margin: 0;
+    width: 100%;
   }
-}
-
-@media only screen and (max-width: 555px) {
   .card {
-    width: 230px !important;
-  }
-}
-
-@media only screen and (max-width: 510px) {
-  .card {
-    width: 200px !important;
+    width: 100% !important;
+    margin: 0;
   }
 }
 

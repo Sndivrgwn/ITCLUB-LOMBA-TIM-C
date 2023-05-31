@@ -200,7 +200,7 @@ footer .footer__3 p {
     align-items: start;
   }
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 991px) {
   footer .footer__1 {
     flex-direction: column;
     justify-content: start;
