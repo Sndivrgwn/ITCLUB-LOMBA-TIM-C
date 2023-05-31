@@ -33,9 +33,9 @@ Untuk menggunakan atau berkontribusi pada proyek Desain Web Life On Land, ikuti 
 
 Proyek Desain Web Life On Land dirilis di bawah [Lisensi IT Club](LICENSE). Anda bebas menggunakan, mengubah, dan mendistribusikan kode sesuai dengan ketentuan lisensi.
 
-## Penghargaan
+## Terima Kasih
 
-Kami ingin berterima kasih kepada sumber daya berikut atas kontribusi berharganya pada proyek ini:
+Kami ingin berterima kasih kepada sumber daya berikut pada proyek ini:
 
 - [Animate On Scroll (AOS)](https://michalsnik.github.io/aos/) - Dokumentasi Resmi
 - [Bootstrap](https://getbootstrap.com/) - Situs Web dan Dokumentasi Resmi
