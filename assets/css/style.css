@@ -517,6 +517,7 @@ body {
   border-radius: 8px !important;
   height: 52px;
   font-family: "Inter", sans-serif;
+  border: 1px solid #eaa51b;
 }
 .subimage_1 button a {
   text-decoration: none;
