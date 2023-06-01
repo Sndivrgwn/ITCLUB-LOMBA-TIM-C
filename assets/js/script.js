@@ -1,152 +1,159 @@
 const getElementById = (id) => document.getElementById(id);
 
 let [home, tentang, jenis, konservasi, galeri] = [
-  
-  "nav__home", 
-  "nav__tentang", 
-  "nav__jenis", 
-  "nav__konservasi", 
-  "nav__galeri"
-
+  "nav__home",
+  "nav__tentang",
+  "nav__jenis",
+  "nav__konservasi",
+  "nav__galeri",
 ].map(getElementById);
 
-home.addEventListener("click", function() {
+home.addEventListener("click", function () {
   const styles = {
     fontWeight: "bold",
-    color: "#eaa51b"
+    color: "#eaa51b",
   };
 
   const elements = [home, konservasi, tentang, jenis, galeri];
 
-  elements.forEach(element => {
+  elements.forEach((element) => {
     Object.assign(element.style, styles);
   });
 
-  elements.splice(0, 1); // Remove home element from the list
+  elements.splice(0, 1);
 
-  elements.forEach(element => {
+  elements.forEach((element) => {
     element.style.fontWeight = "normal";
     element.style.color = "white";
   });
 });
 
-tentang.addEventListener("click", function() {
+tentang.addEventListener("click", function () {
   const styles = {
     fontWeight: "bold",
-    color: "#eaa51b"
+    color: "#eaa51b",
   };
 
   const elements = [tentang, home, konservasi, jenis, galeri];
 
-  elements.forEach(element => {
+  elements.forEach((element) => {
     Object.assign(element.style, styles);
   });
 
-  elements.splice(1, 1); // Remove tentang element from the list
+  elements.splice(1, 1);
 
-  elements.forEach(element => {
+  elements.forEach((element) => {
     element.style.fontWeight = "normal";
     element.style.color = "white";
   });
 });
 
-jenis.addEventListener("click", function() {
+jenis.addEventListener("click", function () {
   const styles = {
     fontWeight: "bold",
-    color: "#eaa51b"
+    color: "#eaa51b",
   };
 
   const elements = [jenis, home, tentang, konservasi, galeri];
 
-  elements.forEach(element => {
+  elements.forEach((element) => {
     Object.assign(element.style, styles);
   });
 
-  elements.splice(1, 1); // Remove jenis element from the list
+  elements.splice(1, 1);
 
-  elements.forEach(element => {
+  elements.forEach((element) => {
     element.style.fontWeight = "normal";
     element.style.color = "white";
   });
 });
 
-galeri.addEventListener("click", function() {
+galeri.addEventListener("click", function () {
   const styles = {
     fontWeight: "bold",
-    color: "#eaa51b"
+    color: "#eaa51b",
   };
 
   const elements = [galeri, home, tentang, jenis, konservasi];
 
-  elements.forEach(element => {
+  elements.forEach((element) => {
     Object.assign(element.style, styles);
   });
 
-  elements.splice(1, 1); // Remove galeri element from the list
+  elements.splice(1, 1);
 
-  elements.forEach(element => {
+  elements.forEach((element) => {
     element.style.fontWeight = "normal";
     element.style.color = "white";
   });
 });
 
-konservasi.addEventListener("click", function() {
+konservasi.addEventListener("click", function () {
   const styles = {
     fontWeight: "bold",
-    color: "#eaa51b"
+    color: "#eaa51b",
   };
 
   const elements = [konservasi, home, tentang, jenis, galeri];
 
-  elements.forEach(element => {
+  elements.forEach((element) => {
     Object.assign(element.style, styles);
   });
 
-  elements.splice(1, 1); // Remove konservasi element from the list
+  elements.splice(1, 1);
 
-  elements.forEach(element => {
+  elements.forEach((element) => {
     element.style.fontWeight = "normal";
     element.style.color = "white";
   });
 });
 
-
-let [btnVisi, btnMisi, visi, misi] = ["visi_btn", "misi_btn", "visi", "misi"].map(getElementById);
+let [btnVisi, btnMisi, visi, misi] = [
+  "visi_btn",
+  "misi_btn",
+  "visi",
+  "misi",
+].map(getElementById);
 
 const handleClick = (selectedBtn, selectedContent) => {
   const btns = [btnVisi, btnMisi];
   const contents = [visi, misi];
 
-  btns.forEach(btn => {
-    btn.style.border = 'none';
-    btn.style.backgroundColor = selectedBtn === btn ? '#eaa51b' : '#E2E7F0';
-    btn.style.color = selectedBtn === btn ? '#fff' : '#1A202C';
-    btn.style.transition = 'linear 0.3s';
+  btns.forEach((btn) => {
+    btn.style.border = "none";
+    btn.style.backgroundColor = selectedBtn === btn ? "#eaa51b" : "#E2E7F0";
+    btn.style.color = selectedBtn === btn ? "#fff" : "#1A202C";
+    btn.style.transition = "linear 0.3s";
   });
 
-  contents.forEach(content => {
-    content.style.display = selectedContent === content ? 'block' : 'none';
-    content.style.transition = 'linear 0.3s';
+  contents.forEach((content) => {
+    content.style.display = selectedContent === content ? "block" : "none";
+    content.style.transition = "linear 0.3s";
   });
 };
 
-btnVisi.addEventListener("click", function() {
+btnVisi.addEventListener("click", function () {
   handleClick(btnVisi, visi);
 });
 
-btnMisi.addEventListener("click", function() {
+btnMisi.addEventListener("click", function () {
   handleClick(btnMisi, misi);
 });
 
-
-let [btnKerusakan_1, btnKerusakan_2, btnKerusakan_3, imgKerusakan_1, imgKerusakan_2, imgKerusakan_3] =
-  ["btn_1", "btn_2", "btn_3", "img_1", "img_2", "img_3"].map(getElementById);
+let [
+  btnKerusakan_1,
+  btnKerusakan_2,
+  btnKerusakan_3,
+  imgKerusakan_1,
+  imgKerusakan_2,
+  imgKerusakan_3,
+] = ["btn_1", "btn_2", "btn_3", "img_1", "img_2", "img_3"].map(getElementById);
 
 const handleKerusakanClick = (selectedBtn, selectedImg) => {
   const btns = [btnKerusakan_1, btnKerusakan_2, btnKerusakan_3];
   const imgs = [imgKerusakan_1, imgKerusakan_2, imgKerusakan_3];
 
-  btns.forEach(btn => {
+  btns.forEach((btn) => {
     if (selectedBtn === btn) {
       btn.style.border = "1px solid #eaa51b";
       btn.style.backgroundColor = "#eaa51b";
@@ -156,7 +163,7 @@ const handleKerusakanClick = (selectedBtn, selectedImg) => {
     }
   });
 
-  imgs.forEach(img => {
+  imgs.forEach((img) => {
     if (selectedImg === img) {
       img.style.display = "block";
       img.classList.add("fade-in");
@@ -167,18 +174,17 @@ const handleKerusakanClick = (selectedBtn, selectedImg) => {
   });
 };
 
-btnKerusakan_1.addEventListener("click", function() {
+btnKerusakan_1.addEventListener("click", function () {
   handleKerusakanClick(btnKerusakan_1, imgKerusakan_1);
 });
 
-btnKerusakan_2.addEventListener("click", function() {
+btnKerusakan_2.addEventListener("click", function () {
   handleKerusakanClick(btnKerusakan_2, imgKerusakan_2);
 });
 
-btnKerusakan_3.addEventListener("click", function() {
+btnKerusakan_3.addEventListener("click", function () {
   handleKerusakanClick(btnKerusakan_3, imgKerusakan_3);
 });
-
 
 // var btn = document.getElementById("btn");
 let button_left = document.getElementById("button_left_hal_4");
