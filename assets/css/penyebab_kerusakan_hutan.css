@@ -401,6 +401,17 @@ footer .footer__3 p {
   .conts {
     margin: 1rem !important;
   }
+
+  .background_pembabatan {
+    background-image: url(../img/img_penyebab_dampak/image\ 3\ \(1\).png);
+    height: 20rem;
+    background-size: cover;
+}
+
+  .banner {
+    height: 100%;
+    padding-top: 6rem;
+  }
 }
 @media only screen and (max-width: 425px) {
   .galeri_1 img {

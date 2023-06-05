@@ -270,7 +270,7 @@ function searchBerita() {
 
     if (title.includes(keyword)) {
       if (count < 6) {
-        card.style.display = 'block';
+        card.style.setProperty("display", "block", "important");
         count++;
       } else {
         card.style.display = 'none';

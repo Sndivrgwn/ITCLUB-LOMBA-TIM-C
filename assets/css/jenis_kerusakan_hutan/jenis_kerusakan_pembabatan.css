@@ -274,4 +274,9 @@ footer .footer__3 p {
   .artikel h1 {
     font-size: 32px;
   }
+
+  .banner {
+    width: 100%;
+    padding-top: 6rem;
+}
 }

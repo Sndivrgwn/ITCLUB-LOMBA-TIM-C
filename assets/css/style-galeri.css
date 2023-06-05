@@ -295,6 +295,21 @@ body {
   .banner p {
     font-size: 16px !important;
   }
+
+  .background__banner {
+    background-image: url(../img/img_berita_terkini/image3.png);
+    color: #fff;
+    height: 17rem;
+    padding-top: 0rem;
+    background-size: cover;
+} 
+
+.banner {
+  background: #25594699 60%;
+  text-align: center;
+  height: 100%;
+  padding-top: 5rem;
+}
 }
 @media only screen and (max-width: 425px) {
   .page_gambar_galeri {
@@ -316,7 +331,7 @@ body {
     width: 100%;
   }
   .banner h1 {
-    margin-top: 2rem !important;
+    margin-top: 1rem !important;
     font-size: 36px !important;
 }
   .banner p span a {

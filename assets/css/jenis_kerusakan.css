@@ -363,7 +363,7 @@ footer .footer__3 p {
     padding-top: 2rem;
   }
   .banner h1 {
-    margin-top: 2rem;
+    margin-top: 1rem;
     font-size: 32px;
   }
   .card_kerusakan_hutan {
@@ -375,6 +375,20 @@ footer .footer__3 p {
   .card {
     width: 100% !important;
   }
+
+  .background__banner {
+    background-image: url(../img/img_jenis_kerusakan_hutan/banner_jenis_kerusakan.jpg);
+    color: #fff;
+    height: 18rem;
+    background-size: cover;
+}
+
+.banner {
+  background: #25594699 60%;
+  text-align: center;
+  height: 100%;
+  padding-top: 5rem;
+}
 }
 
 

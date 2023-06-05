@@ -314,14 +314,17 @@ body {
     margin: 1rem;
     width: 100%;
   }
+  .cari_berita_terkini {
+    margin: 20px;
+    margin-right: 25px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+  }
   .card {
     width: 100% !important;
     margin: 0;
   }
 
-  #hilang_4,
-  #hilang_5,
-  #hilang_6,
   #hilang_7,
   #hilang_8,
   #hilang_9,
@@ -339,6 +342,20 @@ body {
   .page_gambar_galeri {
     padding: 1rem;
   }
+
+  .background__banner {
+    background-image: url(../img/img_berita_terkini/image3.png);
+    color: #fff;
+    height: 20rem;
+    padding-top: 0rem;
+    background-size: cover;
+}
+.banner {
+  background: #25594699 60%;
+  text-align: center;
+  height: 100%;
+  padding-top: 5rem !important;
+}
 }
 
 @media only screen and (max-width: 429px) {
@@ -374,9 +391,6 @@ body {
     gap: 2rem;
   }
 
-  #hilang_4,
-  #hilang_5,
-  #hilang_6,
   #hilang_7,
   #hilang_8,
   #hilang_9,
