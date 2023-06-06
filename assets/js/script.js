@@ -215,3 +215,22 @@ button_right.addEventListener("click", function () {
   kotak2.style.display = "none";
   kotak1.style.display = "flex";
 });
+
+window.addEventListener("scroll", function(){
+  var header = document.querySelector("nav");
+  header.classList.toggle("sticky", window.scrollY > 0);
+});
+
+window.addEventListener("scroll", function(){
+  var logo_1 = document.getElementById("logo");
+  logo_1.classList.toggle("sticky", window.scrollY > 0);
+});
+
+window.addEventListener("scroll", function() {
+  var logos = document.querySelectorAll(".navbar .navbar-nav .logo");
+  
+  for (var i = 0; i < logos.length; i++) {
+    var logo = logos[i];
+    logo.classList.toggle("sticky", window.scrollY > 0);
+  }
+});

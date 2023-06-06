@@ -86,6 +86,31 @@ body {
 .navbar button {
   font-size: 22px;
 }
+.navbar-brand {
+  transition: 0.3s ease;
+}
+
+.navbar .navbar-brand.sticky {
+  color: #1a202c !important;
+  transition: 0.3s ease;
+}
+.navbar .navbar-nav .nav-link.sticky {
+  color: #1a202c !important;
+  transition: 0.3s ease;
+}
+.navbar .navbar-nav .nav-link.active.sticky {
+  color: #eaa51b !important;
+  font-weight: bold;
+}
+.navbar {
+  transition: 0.3s ease;
+}
+.navbar.sticky {
+  background-color: white !important; 
+  padding-bottom: 1rem !important;
+  transition: 0.3s ease;
+}
+
 /* navbar end */
 
 /* responsive */

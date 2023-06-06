@@ -3,6 +3,25 @@
     justify-content: center;
     gap: 26% !important;
   }
+  .navbar-brand {
+    transition: 0.3s ease;
+  }
+  .navbar-brand.sticky {
+    color: #1a202c !important;
+    transition: 0.3s ease;
+  }
+  .navbar .navbar-nav .nav-link.sticky {
+    color: #1a202c !important;
+    transition: 0.3s ease;
+  }
+  .navbar {
+    transition: 0.3s ease;
+  }
+  .navbar.sticky {
+    background-color: white !important; 
+    padding-bottom: 1rem !important;
+    transition: 0.3s ease;
+  }
 
   footer .footer__2 {
     gap: 10% !important;
@@ -174,6 +193,21 @@
   }
 }
 @media only screen and (max-width: 1680px) {
+  .navbar-brand {
+    transition: 0.3s ease;
+  }
+  .navbar-brand.sticky {
+    color: #1a202c !important;
+    transition: 0.3s ease;
+  }
+  .navbar {
+    transition: 0.3s ease;
+  }
+  .navbar.sticky {
+    background-color: white !important; 
+    padding-bottom: 1rem !important;
+    transition: 0.3s ease;
+  }
   .konten_hal_4_bagian_2 .kotak {
     width: 450px !important;
     height: 350px !important;
@@ -441,6 +475,21 @@
     margin-top: -1.7rem;
   }
 
+  .navbar-brand {
+    transition: 0.3s ease;
+  }
+  .navbar-brand.sticky {
+    color: #1a202c !important;
+    transition: 0.3s ease;
+  }
+  .navbar {
+    transition: 0.3s ease;
+  }
+  .navbar.sticky {
+    background-color: white !important; 
+    padding-bottom: 1rem !important;
+    transition: 0.3s ease;
+  }
   .background_landing_page {
     height: 100vh;
   }

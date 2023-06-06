@@ -16,10 +16,10 @@
 
 <body>
   <!-- navbar start -->
-  <div class="background_landing_page">
-    <nav class="navbar navbar-expand-lg bg-body-tertiary animate__animated animate__fadeInDown ">
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary animate__animated animate__fadeInDown" style="position: fixed; background-color: transparent; z-index: 999; width: 100%;">
       <div class="container-fluid">
-        <a class="navbar-brand fw-bold text-white" href="#"><span style="color: #eaa51b">Hutan</span>Lestari</a>
+        <a class="navbar-brand fw-bold text-white" id="logo" href="#"><span style="color: #eaa51b">Hutan</span>Lestari</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -27,27 +27,27 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-end ms-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" id="nav__home" aria-current="page" href="#">Beranda</a>
+              <a class="nav-link active logo" id="nav__home" aria-current="page" href="#">Beranda</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#tentang" id="nav__tentang">Tentang Hutan</a>
+              <a class="nav-link logo" href="#tentang" id="nav__tentang">Tentang Hutan</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#konservasi" id="nav__konservasi">Konservasi</a>
+              <a class="nav-link logo" href="#konservasi" id="nav__konservasi">Konservasi</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="page/jenis_kerusakan.html" id="nav__jenis">Jenis Kerusakan</a>
+              <a class="nav-link logo" href="page/jenis_kerusakan.html" id="nav__jenis">Jenis Kerusakan</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="page/page_galeri.html" id="nav__galeri">Galeri</a>
+              <a class="nav-link logo" href="page/page_galeri.html" id="nav__galeri">Galeri</a>
             </li>
           </ul>
-          <button class="rounded-2" type="submit"><a href="page/page_berita_terkini.html">Berita Kegiatan</a></button>
+          <button class="rounded-2" type="submit"><a href="page/page_berita_terkini.html" class="logo">Berita Kegiatan</a></button>
         </div>
       </div>
     </nav>
     <!-- navbar end -->
-
+  <div class="background_landing_page">
     <div class="hal_1">
       <div>
         <h1 id="tulisan_hal1" class="tulisan_hal1">
