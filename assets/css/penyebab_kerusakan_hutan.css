@@ -28,8 +28,9 @@ body {
 
 .background_pembabatan {
   background-image: url(../img/img_penyebab_dampak/image\ 3\ \(1\).png);
-  height: 232px;
+  height: 350px;
   background-size: cover;
+  padding-top: 7.3rem;
 }
 
 .cont {
@@ -44,7 +45,7 @@ body {
 
 .banner {
   background: #25594699 60%;
-  height: 232px;
+  height: 100%;
 }
 
 .banner h1 {

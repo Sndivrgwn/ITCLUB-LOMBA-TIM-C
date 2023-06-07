@@ -68,3 +68,23 @@ konservasi.addEventListener("click", function () {
   galeri.style.fontWeight = "normal";
   galeri.style.color = "#717D96";
 });
+
+const links = document.querySelectorAll("tentang");
+
+links.forEach(link => {
+  link.addEventListener("click", function(event) {
+    event.preventDefault(); // Mencegah perilaku default link
+    
+    // Tambahkan class "active" pada link saat ini
+    link.classList.add("active");
+    
+    // Dapatkan URL halaman tujuan dari href atribut
+    const targetUrl = link.href;
+    
+    // Tunggu sebentar sebelum berpindah halaman untuk memberikan waktu untuk class "active" ditambahkan
+    setTimeout(() => {
+      window.location.href = targetUrl; // Berpindah ke halaman tujuan
+    }, 300); // Ubah angka ini sesuai kebutuhan Anda (dalam milidetik)
+  });
+});
+

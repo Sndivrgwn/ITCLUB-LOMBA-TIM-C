@@ -283,3 +283,5 @@ function searchBerita() {
 
 var inputCari = document.querySelector('.input_berita_terkini');
 inputCari.addEventListener('input', searchBerita);
+
+

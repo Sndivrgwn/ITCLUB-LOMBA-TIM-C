@@ -204,10 +204,11 @@
     transition: 0.3s ease;
   }
   .navbar.sticky {
-    background-color: white !important; 
-    padding-bottom: 1rem !important;
+    background-color: white !important;
+    padding-bottom: 1.5rem !important;
     transition: 0.3s ease;
-  }
+    padding-top: 1.5rem !important;
+}
   .konten_hal_4_bagian_2 .kotak {
     width: 450px !important;
     height: 350px !important;

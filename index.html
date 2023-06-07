@@ -17,10 +17,10 @@
 <body>
   <!-- navbar start -->
 
-    <nav class="navbar navbar-expand-lg bg-body-tertiary animate__animated animate__fadeInDown" style="position: fixed; background-color: transparent; z-index: 999; width: 100%;">
-      <div class="container-fluid">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary animate__animated animate__fadeInDown" id="nabar" style="position: fixed; background-color: transparent; z-index: 999; width: 100%;">
+      <div class="container-fluid navbar-bg">
         <a class="navbar-brand fw-bold text-white" id="logo" href="#"><span style="color: #eaa51b">Hutan</span>Lestari</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        <button class="navbar-toggler" id="toggle" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -65,7 +65,7 @@
 
   <!-- hal 2 start -->
   <div class="background">
-    <div class="hal_2">
+    <div class="hal_2 "  id="tentang">
       <div class="hal_2_bagian_satu position-relative">
         <div class="hal_2_image_satu position-relative" data-aos="fade-up" data-aos-duration="1000"
           >
@@ -75,7 +75,7 @@
           >
           <img src="assets/img/img_landing_page/image_depan.png" alt="" />
         </div>
-        <div class="hal_2_visimisi position-absolute"  id="tentang" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400"
+        <div class="hal_2_visimisi position-absolute"  data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400"
           >
           <p class="paragraf_awal">SELAMAT DATANG DI HUTAN LESTARI</p>
           <h1>

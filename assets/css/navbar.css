@@ -20,6 +20,10 @@ body {
 
 .navbar {
   padding: 2rem !important;
+  position: fixed !important;
+  z-index: 22;
+  width: 100%;
+  background-color: white;
 }
 .navbar .navbar-nav a.active {
   color: #eaa51b;
@@ -84,6 +88,12 @@ body {
 .navbar button {
   font-size: 22px;
 }
+
+.background__banner {
+  padding-top: 7.5rem;
+  height: 360px;
+}
+
 /* navbar end */
 
 /* responsive */
@@ -162,7 +172,6 @@ body {
     padding-left: 1rem !important;
     padding-right: 1rem !important;
   }
-
 }
 
 @media screen and (max-width: 375px) {

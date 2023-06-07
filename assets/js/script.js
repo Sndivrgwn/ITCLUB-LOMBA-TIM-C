@@ -9,104 +9,73 @@ let [home, tentang, jenis, konservasi, galeri] = [
 ].map(getElementById);
 
 home.addEventListener("click", function () {
-  const styles = {
-    fontWeight: "bold",
-    color: "#eaa51b",
-  };
+  home.classList.add("active");
+  tentang.classList.remove("active");
+  konservasi.classList.remove("active");
 
-  const elements = [home, konservasi, tentang, jenis, galeri];
-
-  elements.forEach((element) => {
-    Object.assign(element.style, styles);
-  });
-
-  elements.splice(0, 1);
-
-  elements.forEach((element) => {
-    element.style.fontWeight = "normal";
-    element.style.color = "white";
+  // Navigasi ke ID "tentang"
+  window.scrollTo({
+    top: document.getElementById("tentang").offsetTop,
+    behavior: "smooth"
   });
 });
 
-tentang.addEventListener("click", function () {
-  const styles = {
-    fontWeight: "bold",
-    color: "#eaa51b",
-  };
+window.addEventListener("scroll", function() {
+  const scrollPosition = window.scrollY;
 
-  const elements = [tentang, home, konservasi, jenis, galeri];
-
-  elements.forEach((element) => {
-    Object.assign(element.style, styles);
-  });
-
-  elements.splice(1, 1);
-
-  elements.forEach((element) => {
-    element.style.fontWeight = "normal";
-    element.style.color = "white";
-  });
+  if (scrollPosition > 4500 && scrollPosition < 5500) {
+    home.classList.remove("active");
+    tentang.classList.remove("active");
+    konservasi.classList.add("active");
+  } else if (scrollPosition > 800 && scrollPosition < 1500) {
+    home.classList.remove("active");
+    tentang.classList.add("active");
+    konservasi.classList.remove("active");
+  } else {
+    home.classList.add("active");
+    tentang.classList.remove("active");
+    konservasi.classList.remove("active");
+  }
 });
 
-jenis.addEventListener("click", function () {
-  const styles = {
-    fontWeight: "bold",
-    color: "#eaa51b",
-  };
+window.addEventListener("scroll", function() {
+  const scrollPosition = window.scrollY;
+  const isMobile = window.matchMedia("(max-width: 430px)").matches;
 
-  const elements = [jenis, home, tentang, konservasi, galeri];
-
-  elements.forEach((element) => {
-    Object.assign(element.style, styles);
-  });
-
-  elements.splice(1, 1);
-
-  elements.forEach((element) => {
-    element.style.fontWeight = "normal";
-    element.style.color = "white";
-  });
+  if (isMobile) {
+    if (scrollPosition > 6000 && scrollPosition < 7300) {
+      home.classList.remove("active");
+      tentang.classList.remove("active");
+      konservasi.classList.add("active");
+    } else if (scrollPosition > 800 && scrollPosition < 1500) {
+      home.classList.remove("active");
+      tentang.classList.add("active");
+      konservasi.classList.remove("active");
+    } else {
+      home.classList.add("active");
+      tentang.classList.remove("active");
+      konservasi.classList.remove("active");
+    }
+  }
 });
 
-galeri.addEventListener("click", function () {
-  const styles = {
-    fontWeight: "bold",
-    color: "#eaa51b",
-  };
 
-  const elements = [galeri, home, tentang, jenis, konservasi];
 
-  elements.forEach((element) => {
-    Object.assign(element.style, styles);
-  });
+let navbar = document.getElementById("nabar");
+let toggle = document.getElementById("toggle");
+let logo = document.getElementById("logo");
 
-  elements.splice(1, 1);
-
-  elements.forEach((element) => {
-    element.style.fontWeight = "normal";
-    element.style.color = "white";
-  });
+toggle.addEventListener("click", function() {
+  if (navbar.style.backgroundColor === "white") {
+    navbar.style.backgroundColor = "transparent";
+    logo.style.color = "#eaa51b";
+  } else {
+    navbar.style.backgroundColor = "white";
+    logo.style.setProperty("color","black", "important");
+  }
 });
 
-konservasi.addEventListener("click", function () {
-  const styles = {
-    fontWeight: "bold",
-    color: "#eaa51b",
-  };
 
-  const elements = [konservasi, home, tentang, jenis, galeri];
-
-  elements.forEach((element) => {
-    Object.assign(element.style, styles);
-  });
-
-  elements.splice(1, 1);
-
-  elements.forEach((element) => {
-    element.style.fontWeight = "normal";
-    element.style.color = "white";
-  });
-});
 
 let [btnVisi, btnMisi, visi, misi] = [
   "visi_btn",
@@ -234,3 +203,5 @@ window.addEventListener("scroll", function() {
     logo.classList.toggle("sticky", window.scrollY > 0);
   }
 });
+
+
