@@ -91,7 +91,7 @@ body {
 
 .background__banner {
   padding-top: 7.5rem;
-  height: 360px;
+  height: 350px;
 }
 
 /* navbar end */
@@ -164,13 +164,18 @@ body {
 
   .navbar {
     padding: 2rem !important;
-    padding-bottom: 0.4rem !important;
+    padding-bottom: 1.4rem !important;
     position: fixed !important;
     z-index: 3;
     background-color: white;
     width: 100%;
     padding-left: 1rem !important;
     padding-right: 1rem !important;
+  }
+
+  .background__banner {
+    padding-top: 1.5rem;
+    height: 320px;
   }
 }
 

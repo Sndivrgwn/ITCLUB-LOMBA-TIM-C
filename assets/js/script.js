@@ -14,10 +14,6 @@ home.addEventListener("click", function () {
   konservasi.classList.remove("active");
 
   // Navigasi ke ID "tentang"
-  window.scrollTo({
-    top: document.getElementById("tentang").offsetTop,
-    behavior: "smooth"
-  });
 });
 
 window.addEventListener("scroll", function() {
